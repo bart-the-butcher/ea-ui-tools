@@ -1,0 +1,42 @@
+shape main{
+	noshadow="true";
+	layoutType="leftright";
+
+	defSize(100,18);
+
+	addsubshape("navbar", 100, 100);
+	addsubshape("option", 72, 92, -96, 6);
+
+	shape navbar {
+
+		setfillcolor(255, 255, 255);
+		rectangle(0, 0, 100, 100);			
+			
+	}
+
+	shape option {
+		h_align="center";
+		v_align="center";
+			
+		print("#tag:Default Option#");
+		
+	}
+		
+}
+
+decoration selector {
+	orientation="E";
+	
+	// separate line
+	moveto(0,0);
+	lineto(0,100);
+
+	startpath();
+		moveto(20,26);
+		lineto(100,26);
+		lineto(60,74);
+		lineto(20,26);
+	endpath();
+    setfillcolor(0,0,255);
+    fillandstrokepath();	
+}

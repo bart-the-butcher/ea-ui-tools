@@ -1,0 +1,19 @@
+shape main{
+	noShadow="true";
+		
+	defSize(18,18);
+	
+    setfillcolor(255,255,255);
+	rectangle(0,0,100,100);
+
+	startpath();
+		moveto(20,26);
+		lineto(80,26);
+		lineto(50,74);
+		lineto(20,26);
+	endpath();
+    setfillcolor(0,0,255);
+    fillandstrokepath();		
+}
+
+

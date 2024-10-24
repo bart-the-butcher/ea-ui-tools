@@ -1,0 +1,89 @@
+shape main{
+	noshadow="true";
+	layoutType="leftright";
+
+	defSize(100,18);
+		
+	addsubshape("input", 100,100);
+
+	shape input {
+		layoutType="leftright";
+
+		setfillcolor(255,255,255);
+		rectangle(0,0,100,100);			
+	
+		addsubshape("padding", 2, 100);
+		addsubshape("fieldName",96, 100);
+
+	}
+
+	shape padding {
+		print("");
+	}
+
+	shape fieldInfo {
+		if (HasTag("Field Mode", "Visible")) {
+			if (HasTag("Field")) {
+				print("#tag:Field#");
+			} else {
+				print("dataName");
+			}
+		}
+	}
+
+	shape fieldName {	
+		layoutType="topdown";
+
+		addsubshape("padding", 100, 6);
+		addsubshape("fieldInfo",100, 90);		
+	}
+
+}
+
+
+shape label {		
+	setOrigin("W", -6, 0);	
+
+	if (HasTag("Label Mode", "Visible")) {
+		if (HasTag("Label")) {
+			print("#tag:Label#");
+		} else {
+			print("#name#");
+		}
+
+		print(": ");
+	}	
+
+}
+
+decoration calendar {
+	orientation="E";
+	
+	// separate line
+	moveto(0,0);
+	lineto(0,100);
+
+	// calendar net
+	moveto(30,20);
+	lineto(30,80);
+	lineto(90,80);
+	lineto(90,20);
+	lineto(30,20);
+	
+	moveto(30,40);
+	lineto(90,40);
+
+	moveto(30,60);
+	lineto(90,60);
+	
+	moveto(50,20);
+	lineto(50,80);
+
+	moveto(70,20);
+	lineto(70,80);
+	
+	//
+    arc(40,10,60,30,60,20,40,20);
+	arc(60,10,80,30,80,20,60,20);
+	
+}

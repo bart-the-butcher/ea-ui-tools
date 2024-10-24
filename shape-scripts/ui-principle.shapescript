@@ -1,0 +1,53 @@
+shape main
+{
+	layouttype = "border";
+	h_align = "left";
+	v_align = "center";
+ 
+	DefSize(150,35);
+	Addsubshape("borderBlock","W");
+
+	SetFillColor(GetDefaultFillColor());
+	SetPenColor(GetDefaultFillColor());	
+	AddSubShape("nameCompartment","CENTER");	
+	
+	shape borderBlock
+	{
+		layouttype = "leftright";
+		preferredWidth=30;
+
+		
+		SetFillColor(GetStatusColor());
+		SetPenColor(GetUserBorderColor());	
+		rectangle(0,0,100,100);
+		addsubshape("principle",50,50,25,25);
+		
+				
+		shape principle {
+			SetFillColor(0, 0, 255);
+			SetPenColor(0,0,255);
+			Polygon(96,69,4,15,22.5);
+			Polygon(69,96,4,15,67.5);
+			Polygon(31,96,4,15,112.5);
+			Polygon(4,69,4,15,157.5);
+			Polygon(4,31,4,15,202.5);
+			Polygon(31,4,4,15,247.5);
+			Polygon(69,4,4,15,292.5);
+			Polygon(96,31,4,15,337.5);
+			Ellipse(4, 4, 96, 96);	
+		}
+	}
+	
+	shape nameCompartment
+	{
+		h_align = "left";
+		v_align = "center";
+		editablefield = "name";
+
+		SetPenColor(GetUserBorderColor());
+		Rectangle(0,0,100,100);
+		SetFontColor(0,0,0);
+		println("#name#");
+	}
+
+}

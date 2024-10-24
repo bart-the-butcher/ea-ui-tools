@@ -1,0 +1,14 @@
+shape main{
+	layoutType="topDown";
+	setfillcolor(255,255,255);
+	rectangle(0,0,100,100);
+	
+}
+
+shape label {
+	setOrigin("N",0,0);	
+	if (HasTag("Showing Name Mode", "Visible")) {
+		println("#NAME#");			
+	}
+}
+

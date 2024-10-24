@@ -1,0 +1,58 @@
+shape main{
+
+	noshadow="true";
+	
+	defSize(14,14);
+	setfillcolor(255,255,255);
+	rectangle(0,0,100,100);
+
+	if (HasTag("Checked", "true")) {
+		setpen(0,0,255);
+		setfillcolor(0,0,255);
+		startpath();
+		moveto(2,2);
+		lineto(98,2);
+		lineto(98,98);
+		lineto(2,98);
+		endpath();
+		fillandstrokepath();
+
+		setpen(255,255,255);
+		setfillcolor(255,255,255);	
+		startpath();
+		moveto(25,50);
+		lineto(50,75);
+		lineto(75,25);
+		lineto(70,20);
+		lineto(48,64);
+		lineto(28,44);
+		endpath();
+		fillandstrokepath();
+
+	}
+}
+
+shape label {	
+	
+	if (HasTag("Label Mode", "Visible")) {
+		
+		if (HasTag("Label Position", "left")) {	
+			setOrigin("W", -6, 0);	
+		}
+
+		if (HasTag("Label Position", "right")) {	
+			setOrigin("E", 6, 0);	
+		}
+		
+	
+		if (HasTag("Label")) {
+			print("#tag:Label#");
+		} else {
+			print("#name#");
+		}
+		
+		if (HasTag("Label Position", "left")) {	
+			print(": ");
+		}
+	}	
+}

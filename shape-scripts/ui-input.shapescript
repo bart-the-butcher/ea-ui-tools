@@ -1,0 +1,48 @@
+shape main{
+	noshadow="true";
+	layoutType="leftright";
+	
+	defSize(200,18);
+
+	setfillcolor(255,255,255);
+	rectangle(0,0,100,100);			
+
+	addsubshape("padding", 2, 100);
+	addsubshape("fieldName",96, 100);
+
+	shape padding {
+		print("");
+	}
+
+	shape fieldInfo {
+		if (HasTag("Field Mode", "Visible")) {
+			if (HasTag("Field")) {
+				print("#tag:Field#");
+			} else {
+				print("dataName");
+			}
+		}
+	}
+	
+	shape fieldName {	
+		layoutType="topdown";
+		
+		addsubshape("padding", 100, 6);
+		addsubshape("fieldInfo",100, 90);		
+	}	
+}
+
+shape label {		
+	setOrigin("W", -6, 0);	
+
+	if (HasTag("Label Mode", "Visible")) {
+	
+		if (HasTag("Label")) {
+			print("#tag:Label#");
+		} else {
+			print("#name#");
+		}
+		
+		print(": ");
+	}	
+}

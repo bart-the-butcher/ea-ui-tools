@@ -1,0 +1,33 @@
+shape main{
+	layoutType="border";
+	
+	defSize(100,18);
+
+	if (HasTag("Align", "Left")) {
+		addsubshape("statixText","W");
+	}
+	
+	if (HasTag("Align", "Right")) {
+		addsubshape("staticText","E");
+	}
+
+	if (HasTag("Align", "Center")) {
+		addsubshape("staticText","center");
+	}
+	
+
+	shape staticText {
+		if (HasTag("Show Mode", "Static Text")) {		
+			printWrapped("#tag:Text#");
+		}	
+		
+		if (HasTag("Show Mode", "UI Field")) {
+			print("[#tag:Field#]");
+		}
+
+		if (HasTag("Show Mode", "UI Label")) {
+			print("#tag:Text#:");
+		}
+	}
+	
+}

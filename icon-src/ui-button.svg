@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="ui-button.svg"
+   inkscape:export-filename="ui-panel.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="36.65625"
+     inkscape:cx="6.3563512"
+     inkscape:cy="5.1287298"
+     inkscape:window-width="1435"
+     inkscape:window-height="1212"
+     inkscape:window-x="4372"
+     inkscape:window-y="86"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b2b2b2;stroke:#b2b2b2;stroke-width:1.07834;stroke-opacity:1;fill-opacity:1"
+       id="rect4"
+       width="14.080232"
+       height="13.370937"
+       x="0.96670455"
+       y="1.375912" />
+    <rect
+       style="fill:#fefefe;fill-opacity:1;stroke:none;stroke-width:1.06325;stroke-opacity:1"
+       id="rect10"
+       width="12.930946"
+       height="12.276216"
+       x="1.5822676"
+       y="1.9096333" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#a7a7a7;stroke-width:1.66523;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="10.137837"
+       height="8.1463623"
+       x="2.9788222"
+       y="3.9609199"
+       ry="0.68520802" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.35749px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.147;stroke-dasharray:none"
+       x="5.9631605"
+       y="7.4083829"
+       id="text3"
+       transform="scale(0.81901122,1.2209845)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="5.9631605"
+         y="7.4083829"
+         style="stroke-width:0.147;stroke-dasharray:none">Button</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.0" notes="User Interface Modeling Tools"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
+					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
+					<Tag name="User Interface Modeling Tools::UI Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
+					<Tag name="User Interface Modeling Tools::UI Image(UML::Class)" type="" description="" unit="" values="" default="Image"/>
+					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
+					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
+					<Tag name="User Interface Modeling Tools::UI Navbar Select Button(UML::Class)" type="" description="" unit="" values="" default="Navbar Button"/>
+					<Tag name="User Interface Modeling Tools::UI Navbar(UML::Class)" type="" description="" unit="" values="" default="Navbar"/>
+					<Tag name="User Interface Modeling Tools::UI Panel(UML::Class)" type="" description="" unit="" values="" default="Panel"/>
+					<Tag name="User Interface Modeling Tools::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
+					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
+					<Tag name="User Interface Modeling Tools::UI Select(UML::Class)" type="" description="" unit="" values="" default="Select"/>
+					<Tag name="User Interface Modeling Tools::UI Static Text(UML::Class)" type="" description="" unit="" values="" default="Static Text"/>
+					<Tag name="User Interface Modeling Tools::UI Tab(UML::Class)" type="" description="" unit="" values="" default="Tab"/>
+					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Principles" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
+					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
+					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Relationships" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
+					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
+					<Tag name="User Interface Modeling Tools::UI Show In Dialog(UML::Dependency)" type="" description="" unit="" values="" default="Show In Dialog"/>
+					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
+					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

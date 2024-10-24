@@ -1,0 +1,28 @@
+shape main{
+	h_align="center";
+	v_align="center";
+	noshadow="true";
+
+	defSize(70,18);
+
+	if (HasTag("Tab Mode", "Active")) {
+		setfillcolor(255,255,255);
+	} else {
+		setfillcolor(220,220,220);
+	}
+	rectangle(0,0,100,100);
+	
+	
+	if (HasTag("Show Mode", "Static Text")) {
+		print("#tag:Label#");
+	}
+	
+	if (HasTag("Show Mode", "UI Field")) {
+		print("[#tag:Field#]");
+	}
+	
+	setpencolor(255,255,255);
+	moveto(0,100);
+	lineto(100,100);
+	
+}
