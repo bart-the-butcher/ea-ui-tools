@@ -1,25 +1,25 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="FDC7B05C18" name="User Interface Modeling Tools" version="1.0" notes="User Interface Modeling Tools"/>
+	<Documentation id="FDC7B05C18" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="UI Principles List" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="Diagram_Custom">
-						<Property name="diagramID" value="Principles"/>
-						<Property name="alias" value="UI Principle List Diagram"/>
-						<Property name="pdata" value="UseAlias=1;"/>
-						<Property name="toolbox" value="User Interface Principle List"/>
-					</Apply>
-				</AppliesTo>
-			</Stereotype>
-			<Stereotype name="User Interface Component Diagram" notes="A diagram that allows the representation of the structure and operating principles of user interface components." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Component Diagram" notes="A diagram that allows the representation of the structure and operating principles of user interface components." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Logical">
 						<Property name="alias" value="UI Component Diagram"/>
 						<Property name="diagramID" value="User Interface"/>
 						<Property name="pdata" value="UseAlias=1;"/>
 						<Property name="toolbox" value="User Interface Modeling Tools"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="UI Principles List" notes="The diagram outlines the operating principles of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="diagramID" value="Principles"/>
+						<Property name="alias" value="UI Principle List Diagram"/>
+						<Property name="pdata" value="UseAlias=1;"/>
+						<Property name="toolbox" value="User Interface Principle List"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>

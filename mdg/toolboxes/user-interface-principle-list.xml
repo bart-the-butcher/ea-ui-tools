@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="6C3004E9D8" name="User Interface Principle List" version="1.0" notes="User Interface Principle List"/>
+	<Documentation id="6C3004E9D8" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Principles" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -8,7 +8,6 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
 					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
 					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>

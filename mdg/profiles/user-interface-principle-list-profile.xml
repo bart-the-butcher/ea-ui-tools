@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="6374C01B5F" name="User Interface Principle List" version="1.0" notes="User Interface Principle List"/>
+	<Documentation id="6374C01B5F" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Data Processing Principle" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">

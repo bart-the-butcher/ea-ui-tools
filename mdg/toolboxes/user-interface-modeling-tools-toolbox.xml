@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.0" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -8,7 +8,6 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
 					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
 					<Tag name="User Interface Modeling Tools::UI Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
@@ -31,7 +30,6 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
 					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
 					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
@@ -42,12 +40,11 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
 					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
-					<Tag name="User Interface Modeling Tools::UI Show In Dialog(UML::Dependency)" type="" description="" unit="" values="" default="Show In Dialog"/>
 					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
+					<Tag name="User Interface Modeling Tools::UI Show In Modal(UML::Dependency)" type="" description="" unit="" values="" default="Show In Modal"/>
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
 				</TaggedValues>
 			</Stereotype>
