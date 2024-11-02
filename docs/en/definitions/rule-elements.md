@@ -20,7 +20,7 @@ These elements are connected with a realization relationship to the component, p
 
 Their use is shown in the following diagram:
 
-![Principles](../../img/ui-principles.png)
+![Principles](../../img/ui-rules.png)
 
 ## Input Data Processing Rule
 

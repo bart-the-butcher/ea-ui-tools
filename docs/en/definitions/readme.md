@@ -10,4 +10,4 @@ This article describes and defines the elements provided for user interface mode
 * [Panel](./panel.md)
 * [Basic UI Elements](./basic-elements.md)
 * [Relationships](./relationships.md)
-* [Requirements](./principle-elements.md)
+* [Requirements](./rule-elements.md)

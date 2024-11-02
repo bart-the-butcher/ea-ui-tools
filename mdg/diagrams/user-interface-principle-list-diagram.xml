@@ -1,15 +1,15 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="26A149E34B" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
+	<Documentation id="26A149E34B" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="UI Principles List" notes="The diagram outlines the operating principles of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rules List" notes="The diagram outlines the operating rules of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Custom">
-						<Property name="alias" value="UI Principle List Diagram"/>
+						<Property name="alias" value="UI Rules List Diagram"/>
 						<Property name="diagramID" value="Principles"/>
 						<Property name="pdata" value="UseAlias=1;"/>
-						<Property name="toolbox" value="User Interface Principle List"/>
+						<Property name="toolbox" value="User Interface Rules List"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>

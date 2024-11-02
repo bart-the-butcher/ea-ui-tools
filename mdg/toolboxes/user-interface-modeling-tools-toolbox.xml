@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -25,16 +25,6 @@
 					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="UI Principles" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="ToolboxPage"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
-				</TaggedValues>
-			</Stereotype>
 			<Stereotype name="UI Relationships" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
@@ -47,6 +37,16 @@
 					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
 					<Tag name="User Interface Modeling Tools::UI Show In Modal(UML::Dependency)" type="" description="" unit="" values="" default="Show In Modal"/>
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Rules" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>

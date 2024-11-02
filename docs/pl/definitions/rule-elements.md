@@ -20,7 +20,7 @@ Elementy te łączą się relacją realizacji z komponentem, panelem i elementam
 
 Ich użycie pokazane zostało na poniższym schemacie:
 
-![Zasady](../../img/ui-principles.png)
+![Zasady](../../img/ui-rules.png)
 
 ## Zasada przetwarzania danych wejściowych
 
