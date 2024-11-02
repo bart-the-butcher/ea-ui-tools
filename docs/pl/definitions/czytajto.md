@@ -10,4 +10,4 @@ Niniejszy artykuł opisuje i definiuje elementy udostępniane do modelowania int
 * [Panel](./panel.md)
 * [Podstawowe elementy interfejsu użytkownika](./basic-elements.md)
 * [Relacje](./relationships.md)
-* [Wymagania](./principle-elements.md)
+* [Wymagania/zasady obsługi](./principle-elements.md)
