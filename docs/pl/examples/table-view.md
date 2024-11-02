@@ -24,7 +24,7 @@ Dane wyszukiwania to prosty formularz obejmujący:
 * pole do wprowadzania danych tekstowych
 * przycisk obsługujący odświeżanie danych zestawienia przy wykorzystaniu wprowadzonego kryterium wyszukiwania
 
-Naciśnięcie przycisku `Search` skutkuje wywołanie operacji `getSomething`, która czyta dane i odświeża zestawienie. Zasady obsługi wywołania operacji opisane zostały w `Search principles`.
+Naciśnięcie przycisku `Search` skutkuje wywołanie operacji `getSomething`, która czyta dane i odświeża zestawienie. Zasady obsługi wywołania operacji opisane zostały w `Search rules`.
 
 Operacja `getSomething` jest powiązany z przyciskiem relacją `UI Call`.
 

@@ -24,7 +24,7 @@ The search data is a simple form that includes:
 * a field for entering text data,
 * a button that refreshes the list data based on the entered search criteria.
 
-Pressing the `Search` button triggers the `getSomething` operation, which reads the data and refreshes the list. The handling rules for this operation are described in `Search principles`.
+Pressing the `Search` button triggers the `getSomething` operation, which reads the data and refreshes the list. The handling rules for this operation are described in `Search rules`.
 
 The `getSomething` operation is linked to the button by the `UI Call` relationship.
 
