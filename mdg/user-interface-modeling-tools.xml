@@ -1,8 +1,8 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <MDG.Technology version="1.0"><Documentation id="ui-20241015" name="UI Modeling Tools" version="1.2" notes="Tools supporting user interface design."/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KwAAAAAAAAIoAAAB8AAAAgAAAAIAAAAABABgAAAAAAADAAADXDQAA1w0A
-AAAAAAAAAAAAZQAgAHAAcgBvAGYAaQBsAGUAdAB5AHAAZQA9ACIAdQBtAGwA
-MgAiAD4ACgAJADwARABvAGMAdQBtAGUAbgB0AGEAdABpAG8AbgAgAGkAZAA9
-ACIA////////////////////////////////////////////Y2NjZGRkZGRk
+AAAAAAAAAAAAOMV+CZgBAAA+AAAAAGVsZWN0aW9ucwAAAABlbGluZy10b29s
+cy10b29sYm94LnhtbCx1c2VyLWludGVyZmFjZS1wcmluY2lwbGUtbGlzdC54
+bWwA////////////////////////////////////////////Y2NjZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
@@ -1101,6 +1101,7 @@ ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZWVlY2Nj////////////////////////
 		<Stereotypes>
 			<Stereotype name="UI Button" notes="" cx="70" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Call" constraint="Activity"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Button"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
@@ -1154,6 +1155,14 @@ AAB2AQAAAAA=
 					<Tag name="Show Mode" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 					<Tag name="Type" type="enumeration" description="" unit="" values="Button,Link" default="Button"/>
 				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Call" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="orthogonalS"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="UI Checkbox" notes="Pole wyboru typu checkbox" cx="14" cy="14" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
@@ -1213,6 +1222,7 @@ PgAAAP8BAAAAAA==
 			</Stereotype>
 			<Stereotype name="UI Component" notes="Komponent. Definiuje interfejs u&#x17C;ytkownika uruchamiany w aplikacji" cx="200" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Call" constraint="Activity"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
@@ -1331,9 +1341,9 @@ AEgBAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Input"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAZQAzADoAOgBBAHIAYwBoAGkATQBhAHQAZQBfAEIAdQBzAGkA
-bgBlAHMAcwBGAHUAbgBjAHQAaQBvAG4AOwBBAHIAYwBoAGkATQBhAHQAZQAz
-ADoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f+Pj47e3t/Pz8/v7+/v7+/v7+/v7++vr63Nzc29vb
 /v7+/v7+5ubms7Ozs7Oz39/f6urqFxcXhYWF/v7+/v7+/v7+/v7+ZmZmWFhY
@@ -1550,6 +1560,7 @@ LmRhdFVUBQAHlLcLZ1BLBQYAAAAAAQABAD4AAAAKAQAAAAA=
 			</Stereotype>
 			<Stereotype name="UI Panel" notes="Definiuje element komponentu grupuj&#x105;cy r&amp;#243;&#x17C;ne elementy. Panel mo&#x17C;e by&#x107; wykorzystany do definiowania w&#x142;asnych element&amp;#243;w interfejsu u&#x17C;ytkownika. " cx="100" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Call" constraint="Activity"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Panel"/>
@@ -1695,6 +1706,16 @@ AAAAAAEAAQA+AAAAjgIAAAAA
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Show" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALq2XFmhVXuk9gAAABYCAAAHABEAc3RyLmRhdFVUDQAH+RUg
+Z/kVIGf5FSBnbZHBasJAFEXvNoL/EJpNBBfttuLC4sKFglB/wGLUQJpIMq2I
+5Iv6Cf25nnljbSUyTObOu+/dd9+k0V5rHZQp1jsoV6mz+uopAlVqjN+AjhrL
+qdYHuaNLxivYaW5VGTenkwpQqgdNNSEyAw2u+Qt0PuFXnKkeNWT/sb86gX2C
+u81o2f4MnoLnBTUblu/6Qp1jVUwyJ+ONWEFOmCf0yLUlkuJrjc6SeSpTqs27
+992A/D0ztZOxfoaBKUUXnYh4bX4dPUqr/FJytzrR980rtFeNe55WfHemt7T3
+z9HJQeU/F10PPv/cqYj5ZzH9nWk+d/gEL11nrX4AUEsBAhcLFAAAAAgAurZc
+WaFVe6T2AAAAFgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB/kV
+IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
+</Image>
 				<AppliesTo>
 					<Apply type="Dependency">
 						<Property name="_lineStyle" value="orthogonalS"/>
@@ -1714,6 +1735,16 @@ AAAAAAEAAQA+AAAAjgIAAAAA
 				</AppliesTo>
 			</Stereotype>
 			<Stereotype name="UI Show In Modal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALS2XFmhVXuk9gAAABYCAAAHABEAc3RyLmRhdFVUDQAH1hUg
+Z9YVIGfWFSBnbZHBasJAFEXvNoL/EJpNBBfttuLC4sKFglB/wGLUQJpIMq2I
+5Iv6Cf25nnljbSUyTObOu+/dd9+k0V5rHZQp1jsoV6mz+uopAlVqjN+AjhrL
+qdYHuaNLxivYaW5VGTenkwpQqgdNNSEyAw2u+Qt0PuFXnKkeNWT/sb86gX2C
+u81o2f4MnoLnBTUblu/6Qp1jVUwyJ+ONWEFOmCf0yLUlkuJrjc6SeSpTqs27
+992A/D0ztZOxfoaBKUUXnYh4bX4dPUqr/FJytzrR980rtFeNe55WfHemt7T3
+z9HJQeU/F10PPv/cqYj5ZzH9nWk+d/gEL11nrX4AUEsBAhcLFAAAAAgAtLZc
+WaFVe6T2AAAAFgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9YV
+IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
+</Image>
 				<AppliesTo>
 					<Apply type="Dependency">
 						<Property name="_lineStyle" value="orthogonalS"/>
@@ -2057,6 +2088,7 @@ AQABAD4AAABdAgAAAAA=
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="User Interface Modeling Tools::UI Call(UML::Dependency)" type="" description="" unit="" values="" default="Call"/>
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
 					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>

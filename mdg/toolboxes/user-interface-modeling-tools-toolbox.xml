@@ -40,6 +40,7 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="User Interface Modeling Tools::UI Call(UML::Dependency)" type="" description="" unit="" values="" default="Call"/>
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
 					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
