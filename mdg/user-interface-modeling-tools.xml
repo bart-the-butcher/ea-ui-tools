@@ -1,8 +1,8 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
-<MDG.Technology version="1.0"><Documentation id="ui-20241015" name="UI Modeling Tools" version="1.2" notes="Tools supporting user interface design."/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KwAAAAAAAAIoAAAB8AAAAgAAAAIAAAAABABgAAAAAAADAAADXDQAA1w0A
-AAAAAAAAAAAAOMV+CZgBAAA+AAAAAGVsZWN0aW9ucwAAAABlbGluZy10b29s
-cy10b29sYm94LnhtbCx1c2VyLWludGVyZmFjZS1wcmluY2lwbGUtbGlzdC54
-bWwA////////////////////////////////////////////Y2NjZGRkZGRk
+<MDG.Technology version="1.0"><Documentation id="ui-20241015" name="UI Modeling Tools" version="1.3" notes="Tools supporting user interface design."/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KwAAAAAAAAIoAAAB8AAAAgAAAAIAAAAABABgAAAAAAADAAADXDQAA1w0A
+AAAAAAAAAAAACgAJAAkACQAAAGUW9QIAAACALD/1AgAAAPwRcvx/AAAw72UW
+9QIAAOgyEnL8fwAAoDQScvx/AADANBJy/H8AACDvZRb1AgAAGE4sP/UCAAAI
+BGUW////////////////////////////////////////////Y2NjZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
@@ -1096,7 +1096,7 @@ ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZWVlY2Nj////////////////////////
 ////////////////////
 </Image></Logo><UMLProfiles><UMLProfile profiletype="uml2">
-	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
+	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Button" notes="" cx="70" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -1169,9 +1169,9 @@ AAB2AQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Checkbox"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
+AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
+KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+5ubms7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
@@ -1460,9 +1460,9 @@ ALACAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Navbar"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
+AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
+KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -1926,10 +1926,10 @@ AgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="6374C01B5F" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
+	<Documentation id="6374C01B5F" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="UI Data Processing Principle" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Data Processing Rule" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMaRUlnGn/b+HQIAAOQHAAAHABEAc3RyLmRhdFVUDQAHe6US
 Z3ulEmd7pRJnrVVNS8NAEJ1rBf9D0UsLHmpFUKQHrdWbSKN4lLRRW0wTSaNQ
 pf/dN7OZ7m6T1CoS9iObN2/nzcxu5jShkN7oiZo0w2xKCe3SDn1J36AYawtK
@@ -1951,7 +1951,7 @@ AAAAAA==
 					<Apply type="Requirement"/>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="UI Input Args Processing Principle" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Input Args Processing Rule" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKKbUlnvIruBEwIAAH4HAAAHABEAc3RyLmRhdFVUDQAHHbcS
 Zx23EmcdtxJnnVXLTuNAEKxrVuIfLLgYKUKELC8hDsDC3lYIL+KIHALEwklW
 xiAFxL9v9fR0PHZweMia7sm4qt/jPGKEFP9wiwhj7jJMsIIfeHWyg5xnM0zx
@@ -1972,7 +1972,7 @@ AHN0ci5kYXRVVAUABx23EmdQSwUGAAAAAAEAAQA+AAAASQIAAAAA
 					<Apply type="Requirement"/>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="UI Principle" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rule" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAqQUlnku3VJJwIAAGYIAAAHABEAc3RyLmRhdFVUDQAHNaIS
 ZzWiEmc1ohJnnVVNTyJBEH1XTPY/TPSCCTEgijEbD36tt41hNB7NALtCHMCM
 4ya48b/7qmvK7gEGR9Pp6qap9+qze54xRoIn/EGEKXcTzPADW/jvZAMpzxaY
@@ -2000,7 +2000,7 @@ AQABAD4AAABdAgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile></UMLProfiles><DiagramProfile><UMLProfile profiletype="uml2">
-	<Documentation id="FDC7B05C18" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
+	<Documentation id="FDC7B05C18" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Component Diagram" notes="A diagram that allows the representation of the structure and operating principles of user interface components." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -2029,16 +2029,16 @@ AQABAD4AAABdAgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="26A149E34B" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
+	<Documentation id="26A149E34B" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="UI Principles List" notes="The diagram outlines the operating principles of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rules List" notes="The diagram outlines the operating rules of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Custom">
-						<Property name="alias" value="UI Principle List Diagram"/>
+						<Property name="alias" value="UI Rules List Diagram"/>
 						<Property name="diagramID" value="Principles"/>
 						<Property name="pdata" value="UseAlias=1;"/>
-						<Property name="toolbox" value="User Interface Principle List"/>
+						<Property name="toolbox" value="User Interface Rules List"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
@@ -2048,7 +2048,7 @@ AQABAD4AAABdAgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile></DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.2" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -2073,16 +2073,6 @@ AQABAD4AAABdAgAAAAA=
 					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="UI Principles" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<AppliesTo>
-					<Apply type="ToolboxPage"/>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
-				</TaggedValues>
-			</Stereotype>
 			<Stereotype name="UI Relationships" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
@@ -2097,23 +2087,33 @@ AQABAD4AAABdAgAAAAA=
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
 				</TaggedValues>
 			</Stereotype>
+			<Stereotype name="UI Rules" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+				</TaggedValues>
+			</Stereotype>
 		</Stereotypes>
 		<TaggedValueTypes/>
 		<ViewDefinitions/>
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="6C3004E9D8" name="User Interface Principle List" version="1.2" notes="User Interface Principle List"/>
+	<Documentation id="6C3004E9D8" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="UI Principles" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rules" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Principle List::UI Data Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Input Args Processing Principle(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Principle"/>
-					<Tag name="User Interface Principle List::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
+					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
