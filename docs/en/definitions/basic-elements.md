@@ -1,19 +1,23 @@
-# Opis podstawowych elementów modelowania interfejsów użytkownika
+# Description of Basic User Interface Modeling Elements
 
-## Podstawowe elementy interfejsu użytkownika
+## Basic User Interface Elements
 
-Zaliczamy do nich:
+These include:
 
-* przycisk (`button`)
-* opcja wyboru wielokrotnego (`checkbox`)
-* opcja wyboru jednokrotnego (`radio`)
-* obrazek (`image`)
-* pole edycyjne do wprowadzania daty (`input with date picker`)
-* pole edycyjne (`input`)
-* pole nawigacyjne (`navbar`)
-* lista rozwijana (`select`)
-* pole statycznego tekstu (`static text`)
-* zakładka (`tab`)
-* pole edycyjne do wprowadzania tekstu (`textarea`)
+* button
+* checkbox (multiple-choice option)
+* radio (single-choice option)
+* image
+* input with date picker
+* input (text field)
+* navbar (navigation bar)
+* select (dropdown list)
+* static text field
+* tab
+* textarea (multi-line text field)
 
-Stanowią atomowe elementy konstrukcji modeli. Układane powinny być jako części składowe komponentów lub paneli.
+These are atomic elements for constructing models. They should be arranged as components or panel parts.
+
+The above elements are shown in the following image:
+
+![Basic Elements](../../img/ui-basic-elements.png)

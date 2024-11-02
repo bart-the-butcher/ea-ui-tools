@@ -17,3 +17,7 @@ Zaliczamy do nich:
 * pole edycyjne do wprowadzania tekstu (`textarea`)
 
 Stanowią atomowe elementy konstrukcji modeli. Układane powinny być jako części składowe komponentów lub paneli.
+
+Powyższe elementy zostały pokazane na poniższym rysunku:
+
+![Podstawowe elementy](../../img/ui-basic-elements.png)
