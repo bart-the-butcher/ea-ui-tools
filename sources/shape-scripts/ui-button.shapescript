@@ -23,5 +23,4 @@ shape main{
 		moveto(0,100);
 		lineto(100,100);
 	}
-	
 }

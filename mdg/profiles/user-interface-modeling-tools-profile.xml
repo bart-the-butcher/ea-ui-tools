@@ -9,8 +9,8 @@
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Button"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
 AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
@@ -34,17 +34,18 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAACVW1k7YokaQAEAAIwDAAAHABEAc3RyLmRhdFVUDQAHIIke
-ZyCJHmcgiR5nnZNLS8NAFIXPNoL/ISSbCl1UQRTFjQtRqKvUlYi0aRqLaVKS
-WF/kv/vNpGlKfZUyzNx5nHPuyZ1JoScNNVckVzNmU6X61L725HDyyE7CXszu
-hTyF4FKVjDmr8yVusSUuVabC5hsze7XIEsQLuBZVj1NNcNTRNehCA8aYlcfs
-3br11OXc0yXskpah7umA5q78O+SJ0AlQ+2DW0Yl68A51Cq7J56AfoTABldBC
-tBJ6Dv5Ix7TuRlzn5nBD2EPyx/BMFpOjztNbiy2rwmME1uTdxm3NbSpT2fh3
-lQKqbCrs6pZodJt6BdZrCTNkPeDkjdX3ys35MvMWSqvnW1asM/WJI+vet6z2
-mxrmrs7udEO8gmnUx/96ul9z1bJ8Pezka/Nd9W2m5x9czPC9sC8mW9715v06
-9l9IV5jf30EdzVjRvwBQSwECFwsUAAAACAAAlVtZO2KJGkABAACMAwAABwAJ
-AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHIIkeZ1BLBQYAAAAAAQABAD4A
-AAB2AQAAAAA=
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABpRY1nLtlnOagEAAGoGAAAHABEAc3RyLmRhdFVUDQAHrUsn
+Z61LJ2etSydn7ZPLSsNAFIb/bQTfoaSbCl1UQRTFjQuxUFetKxGpaRuLaSpp
+rDf67n4zMcmgjaRduJIhOXP5L2dyThZ60FBPGquhGbOpYn1oVzvyOLljJ2Iv
+ZPdMvgJwsVLeCavTL9yyJi7WXAvrN2L2YpEpiGdwJSp7TzUho5YuQS804B2y
+8pm92Wx9tTn3dQ47ZcxR97XHaBT551oefmP0+qi+M2vpSB34+zoGn/t6+IxR
+moCKGAGaEU8C/kCHjPa36HITuAHsIXmE8IyL8ch8Ok7MWTmz6qZ9vpT5Sg1d
+Ec0N8jv3rU8KM2A94OSV1c/be3ypxFY0tYpNywt1oh7xHl7EnuGV91g57O0z
+vFaXeAHTeIxq5HbjZFfymrqtzC+LK1S36Zuure82PZNVsMT9bdcY1gz9pXWd
+F3j33PyJcXFeVyfH/aa1XievhImbVaFn1R83qIJxd6vgYqtcq/v0/09a3wvr
+61y3r9x+yFYrnk9QSwECFwsUAAAACAAaUWNZy7ZZzmoBAABqBgAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHrUsnZ1BLBQYAAAAAAQABAD4AAACg
+AQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -57,7 +58,7 @@ AAB2AQAAAAA=
 					<Tag name="Field" type="" description="" unit="" values="" default="Field"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Show Mode" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
-					<Tag name="Type" type="enumeration" description="" unit="" values="Button,Link" default="Button"/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Button,Link,Icon" default="Button"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Call" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -73,9 +74,9 @@ AAB2AQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Checkbox"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
-AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
-KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+5ubms7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
@@ -131,8 +132,8 @@ PgAAAP8BAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Component"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Component"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADBDwAAwQ8A
 AAAAAAAAAAAA////VVVVSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpK
@@ -364,9 +365,9 @@ ALACAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Navbar"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
-AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
-KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -468,8 +469,8 @@ LmRhdFVUBQAHlLcLZ1BLBQYAAAAAAQABAD4AAAAKAQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Panel"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADCDgAAwg4A
 AAAAAAAAAAAA8/Pz6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp
@@ -554,9 +555,9 @@ ZGF0VVQFAAclnAlnUEsFBgAAAAABAAEAPgAAAL0BAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Select"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAFAh8pvXAQAAsCgXzdcBAAABAAwg
+AggBAP////8AAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA0EDym9cBAACw
+KBfNtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -627,7 +628,29 @@ IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="Position" type="enumeration" description="" unit="" values="Below,Above,Right,Left" default=""/>
+					<Tag name="Position" type="enumeration" description="" unit="" values="Below,Above,Right,Left,In Place" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Show As" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFpnY1moS46RCQEAAJoCAAAHABEAc3RyLmRhdFVUDQAHhXMn
+Z4VzJ2eFcydnlZLBSsNAFEXvNoL/EMwmBRd1a3GhuHDRQqH5gUpTDdREklEp
+JV/kJ/hznnkTI026UMJk7rx33333TdLoWWu9KlesF1ChUged60wRqFJj+Q3o
+QzdyqvUGd9YxVmCnuVXlnJz22oFSXehet0QeQJOev0DnnXzGnmqqS9Zv9kcn
+ZK/IHTNalt+Dp+B5Qc2Gx3e9o87xVEwyh/FIbAcnzBN6FNoSSfG1RmfJPJUp
+1ebd+25A/pyb2t6yfoaJKUWdTkS8Nr+OHqVVfio5WZ3o6+gW2m4/5Sjj/WRq
+2aj3uLPnHXpmzBeK6eZM47qPJ3SMOwe+/j8ulvYPFGgWoPIPboYVQ1fDvHc3
+vp1W31BLAQIXCxQAAAAIAFpnY1moS46RCQEAAJoCAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAeFcydnUEsFBgAAAAABAAEAPgAAAD8BAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="orthogonalS"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Position" type="enumeration" description="" unit="" values="Left,Right,Center,Top,Bottom,Top Left,Top Right,Top Center,Bottom Left,Bottom Right,Bottom Center" default=""/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Modal,Overlay" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Show In Left Panel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -637,27 +660,6 @@ IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
 						<Property name="direction" value="Source -&gt; Destination"/>
 					</Apply>
 				</AppliesTo>
-			</Stereotype>
-			<Stereotype name="UI Show In Modal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALS2XFmhVXuk9gAAABYCAAAHABEAc3RyLmRhdFVUDQAH1hUg
-Z9YVIGfWFSBnbZHBasJAFEXvNoL/EJpNBBfttuLC4sKFglB/wGLUQJpIMq2I
-5Iv6Cf25nnljbSUyTObOu+/dd9+k0V5rHZQp1jsoV6mz+uopAlVqjN+AjhrL
-qdYHuaNLxivYaW5VGTenkwpQqgdNNSEyAw2u+Qt0PuFXnKkeNWT/sb86gX2C
-u81o2f4MnoLnBTUblu/6Qp1jVUwyJ+ONWEFOmCf0yLUlkuJrjc6SeSpTqs27
-992A/D0ztZOxfoaBKUUXnYh4bX4dPUqr/FJytzrR980rtFeNe55WfHemt7T3
-z9HJQeU/F10PPv/cqYj5ZzH9nWk+d/gEL11nrX4AUEsBAhcLFAAAAAgAtLZc
-WaFVe6T2AAAAFgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9YV
-IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
-</Image>
-				<AppliesTo>
-					<Apply type="Dependency">
-						<Property name="_lineStyle" value="orthogonalS"/>
-						<Property name="direction" value="Source -&gt; Destination"/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Position" type="enumeration" description="" unit="" values="Left,Right,Center,Top,Bottom" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Static Text" notes="Pole wy&#x15B;wietlania statycznego tekstu, lub wy&#x15B;wietlania tekstowej etykiety lub wy&#x15B;wietlania etykiety opartej na danych." cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>

@@ -1,0 +1,21 @@
+shape main{
+	noshadow=true;
+	SetLineStyle("DASH");
+	MoveTo(0,0);
+	LineTo(100,0);
+}
+
+shape MiddleBottomLabel {
+
+	if (HasProperty("stereotype")) {	
+		println("«#stereotype#»");
+	}
+	
+	if (HasTag("Type")) {
+		print("{Type = #tag:Type#} ");		
+	}
+	
+	if (HasTag("Position")) {
+		print("{Position = #tag:Position#}");
+	}
+}

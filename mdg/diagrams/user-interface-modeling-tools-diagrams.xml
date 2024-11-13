@@ -13,13 +13,13 @@
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="UI Principles List" notes="The diagram outlines the operating principles of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rules List" notes="The diagram outlines the operating rules of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Custom">
-						<Property name="diagramID" value="Principles"/>
-						<Property name="alias" value="UI Principle List Diagram"/>
+						<Property name="diagramID" value="Rules"/>
+						<Property name="alias" value="UI Rules List Diagram"/>
 						<Property name="pdata" value="UseAlias=1;"/>
-						<Property name="toolbox" value="User Interface Principle List"/>
+						<Property name="toolbox" value="User Interface Rules List"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>

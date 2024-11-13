@@ -8,3 +8,4 @@ W niniejszym artykule zestawiono przykłady modelowania przy wykorzystywaniu opi
 
 * [Zestawienie tabelaryczne z filtrem](./table-view.md)
 * [Formularz modyfikacji danych](./form-data.md)
+* [Wyszukiwarka Google](./google-search.md)

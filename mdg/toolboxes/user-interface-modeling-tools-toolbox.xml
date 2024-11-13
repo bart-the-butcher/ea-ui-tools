@@ -34,8 +34,8 @@
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
 					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
+					<Tag name="User Interface Modeling Tools::UI Show As(UML::Dependency)" type="" description="" unit="" values="" default="Show As"/>
 					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
-					<Tag name="User Interface Modeling Tools::UI Show In Modal(UML::Dependency)" type="" description="" unit="" values="" default="Show In Modal"/>
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
 				</TaggedValues>
 			</Stereotype>
@@ -44,9 +44,9 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>

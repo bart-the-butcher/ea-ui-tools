@@ -8,9 +8,9 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>

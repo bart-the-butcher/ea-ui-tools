@@ -1,8 +1,8 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <MDG.Technology version="1.0"><Documentation id="ui-20241015" name="UI Modeling Tools" version="1.3" notes="Tools supporting user interface design."/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KwAAAAAAAAIoAAAB8AAAAgAAAAIAAAAABABgAAAAAAADAAADXDQAA1w0A
-AAAAAAAAAAAACgAJAAkACQAAAGUW9QIAAACALD/1AgAAAPwRcvx/AAAw72UW
-9QIAAOgyEnL8fwAAoDQScvx/AADANBJy/H8AACDvZRb1AgAAGE4sP/UCAAAI
-BGUW////////////////////////////////////////////Y2NjZGRkZGRk
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA////////////////////////////////////////////Y2NjZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
@@ -1105,8 +1105,8 @@ ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZWVlY2Nj////////////////////////
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Button"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
 AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
@@ -1130,17 +1130,18 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAACVW1k7YokaQAEAAIwDAAAHABEAc3RyLmRhdFVUDQAHIIke
-ZyCJHmcgiR5nnZNLS8NAFIXPNoL/ISSbCl1UQRTFjQtRqKvUlYi0aRqLaVKS
-WF/kv/vNpGlKfZUyzNx5nHPuyZ1JoScNNVckVzNmU6X61L725HDyyE7CXszu
-hTyF4FKVjDmr8yVusSUuVabC5hsze7XIEsQLuBZVj1NNcNTRNehCA8aYlcfs
-3br11OXc0yXskpah7umA5q78O+SJ0AlQ+2DW0Yl68A51Cq7J56AfoTABldBC
-tBJ6Dv5Ix7TuRlzn5nBD2EPyx/BMFpOjztNbiy2rwmME1uTdxm3NbSpT2fh3
-lQKqbCrs6pZodJt6BdZrCTNkPeDkjdX3ys35MvMWSqvnW1asM/WJI+vet6z2
-mxrmrs7udEO8gmnUx/96ul9z1bJ8Pezka/Nd9W2m5x9czPC9sC8mW9715v06
-9l9IV5jf30EdzVjRvwBQSwECFwsUAAAACAAAlVtZO2KJGkABAACMAwAABwAJ
-AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHIIkeZ1BLBQYAAAAAAQABAD4A
-AAB2AQAAAAA=
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABpRY1nLtlnOagEAAGoGAAAHABEAc3RyLmRhdFVUDQAHrUsn
+Z61LJ2etSydn7ZPLSsNAFIb/bQTfoaSbCl1UQRTFjQuxUFetKxGpaRuLaSpp
+rDf67n4zMcmgjaRduJIhOXP5L2dyThZ60FBPGquhGbOpYn1oVzvyOLljJ2Iv
+ZPdMvgJwsVLeCavTL9yyJi7WXAvrN2L2YpEpiGdwJSp7TzUho5YuQS804B2y
+8pm92Wx9tTn3dQ47ZcxR97XHaBT551oefmP0+qi+M2vpSB34+zoGn/t6+IxR
+moCKGAGaEU8C/kCHjPa36HITuAHsIXmE8IyL8ch8Ok7MWTmz6qZ9vpT5Sg1d
+Ec0N8jv3rU8KM2A94OSV1c/be3ypxFY0tYpNywt1oh7xHl7EnuGV91g57O0z
+vFaXeAHTeIxq5HbjZFfymrqtzC+LK1S36Zuure82PZNVsMT9bdcY1gz9pXWd
+F3j33PyJcXFeVyfH/aa1XievhImbVaFn1R83qIJxd6vgYqtcq/v0/09a3wvr
+61y3r9x+yFYrnk9QSwECFwsUAAAACAAaUWNZy7ZZzmoBAABqBgAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHrUsnZ1BLBQYAAAAAAQABAD4AAACg
+AQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -1153,7 +1154,7 @@ AAB2AQAAAAA=
 					<Tag name="Field" type="" description="" unit="" values="" default="Field"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Show Mode" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
-					<Tag name="Type" type="enumeration" description="" unit="" values="Button,Link" default="Button"/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Button,Link,Icon" default="Button"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Call" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -1169,9 +1170,9 @@ AAB2AQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Checkbox"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
-AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
-KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+5ubms7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
@@ -1227,8 +1228,8 @@ PgAAAP8BAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Component"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Component"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADBDwAAwQ8A
 AAAAAAAAAAAA////VVVVSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpK
@@ -1460,9 +1461,9 @@ ALACAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Navbar"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAJDR7E1mAgAAsCnjemYCAAABAAwg
-AggAAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAANDsTWYCAACw
-KeN6tLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -1564,8 +1565,8 @@ LmRhdFVUBQAHlLcLZ1BLBQYAAAAAAQABAD4AAAAKAQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Panel"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Modal" constraint="User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADCDgAAwg4A
 AAAAAAAAAAAA8/Pz6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp
@@ -1650,9 +1651,9 @@ ZGF0VVQFAAclnAlnUEsFBgAAAAABAAEAPgAAAL0BAAAAAA==
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Select"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAFAh8pvXAQAAsCgXzdcBAAABAAwg
+AggBAP////8AAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA0EDym9cBAACw
+KBfNtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -1723,7 +1724,29 @@ IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="Position" type="enumeration" description="" unit="" values="Below,Above,Right,Left" default=""/>
+					<Tag name="Position" type="enumeration" description="" unit="" values="Below,Above,Right,Left,In Place" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Show As" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFpnY1moS46RCQEAAJoCAAAHABEAc3RyLmRhdFVUDQAHhXMn
+Z4VzJ2eFcydnlZLBSsNAFEXvNoL/EMwmBRd1a3GhuHDRQqH5gUpTDdREklEp
+JV/kJ/hznnkTI026UMJk7rx33333TdLoWWu9KlesF1ChUged60wRqFJj+Q3o
+QzdyqvUGd9YxVmCnuVXlnJz22oFSXehet0QeQJOev0DnnXzGnmqqS9Zv9kcn
+ZK/IHTNalt+Dp+B5Qc2Gx3e9o87xVEwyh/FIbAcnzBN6FNoSSfG1RmfJPJUp
+1ebd+25A/pyb2t6yfoaJKUWdTkS8Nr+OHqVVfio5WZ3o6+gW2m4/5Sjj/WRq
+2aj3uLPnHXpmzBeK6eZM47qPJ3SMOwe+/j8ulvYPFGgWoPIPboYVQ1fDvHc3
+vp1W31BLAQIXCxQAAAAIAFpnY1moS46RCQEAAJoCAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAeFcydnUEsFBgAAAAABAAEAPgAAAD8BAAAAAA==
+</Image>
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="_lineStyle" value="orthogonalS"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Position" type="enumeration" description="" unit="" values="Left,Right,Center,Top,Bottom,Top Left,Top Right,Top Center,Bottom Left,Bottom Right,Bottom Center" default=""/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Modal,Overlay" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Show In Left Panel" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -1733,27 +1756,6 @@ IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
 						<Property name="direction" value="Source -&gt; Destination"/>
 					</Apply>
 				</AppliesTo>
-			</Stereotype>
-			<Stereotype name="UI Show In Modal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALS2XFmhVXuk9gAAABYCAAAHABEAc3RyLmRhdFVUDQAH1hUg
-Z9YVIGfWFSBnbZHBasJAFEXvNoL/EJpNBBfttuLC4sKFglB/wGLUQJpIMq2I
-5Iv6Cf25nnljbSUyTObOu+/dd9+k0V5rHZQp1jsoV6mz+uopAlVqjN+AjhrL
-qdYHuaNLxivYaW5VGTenkwpQqgdNNSEyAw2u+Qt0PuFXnKkeNWT/sb86gX2C
-u81o2f4MnoLnBTUblu/6Qp1jVUwyJ+ONWEFOmCf0yLUlkuJrjc6SeSpTqs27
-992A/D0ztZOxfoaBKUUXnYh4bX4dPUqr/FJytzrR980rtFeNe55WfHemt7T3
-z9HJQeU/F10PPv/cqYj5ZzH9nWk+d/gEL11nrX4AUEsBAhcLFAAAAAgAtLZc
-WaFVe6T2AAAAFgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9YV
-IGdQSwUGAAAAAAEAAQA+AAAALAEAAAAA
-</Image>
-				<AppliesTo>
-					<Apply type="Dependency">
-						<Property name="_lineStyle" value="orthogonalS"/>
-						<Property name="direction" value="Source -&gt; Destination"/>
-					</Apply>
-				</AppliesTo>
-				<TaggedValues>
-					<Tag name="Position" type="enumeration" description="" unit="" values="Left,Right,Center,Top,Bottom" default=""/>
-				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Static Text" notes="Pole wy&#x15B;wietlania statycznego tekstu, lub wy&#x15B;wietlania tekstowej etykiety lub wy&#x15B;wietlania etykiety opartej na danych." cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
@@ -1926,7 +1928,7 @@ AgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="6374C01B5F" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
+	<Documentation id="6374C01B5F" name="User Interface Rules List" version="1.3" notes="User Interface Rules List"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Data Processing Rule" notes="" cx="150" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -2013,13 +2015,13 @@ AQABAD4AAABdAgAAAAA=
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="UI Principles List" notes="The diagram outlines the operating principles of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Rules List" notes="The diagram outlines the operating rules of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<AppliesTo>
 					<Apply type="Diagram_Custom">
-						<Property name="diagramID" value="Principles"/>
-						<Property name="alias" value="UI Principle List Diagram"/>
+						<Property name="diagramID" value="Rules"/>
+						<Property name="alias" value="UI Rules List Diagram"/>
 						<Property name="pdata" value="UseAlias=1;"/>
-						<Property name="toolbox" value="User Interface Principle List"/>
+						<Property name="toolbox" value="User Interface Rules List"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
@@ -2029,7 +2031,7 @@ AQABAD4AAABdAgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="26A149E34B" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
+	<Documentation id="26A149E34B" name="User Interface Rules List" version="1.3" notes="User Interface Rules List"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Rules List" notes="The diagram outlines the operating rules of the user interface component." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -2082,8 +2084,8 @@ AQABAD4AAABdAgAAAAA=
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
 					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
 					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
+					<Tag name="User Interface Modeling Tools::UI Show As(UML::Dependency)" type="" description="" unit="" values="" default="Show As"/>
 					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
-					<Tag name="User Interface Modeling Tools::UI Show In Modal(UML::Dependency)" type="" description="" unit="" values="" default="Show In Modal"/>
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
 				</TaggedValues>
 			</Stereotype>
@@ -2092,9 +2094,9 @@ AQABAD4AAABdAgAAAAA=
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
@@ -2103,7 +2105,7 @@ AQABAD4AAABdAgAAAAA=
 		<Metamodel/>
 	</Content>
 </UMLProfile><UMLProfile profiletype="uml2">
-	<Documentation id="6C3004E9D8" name="User Interface Principle List" version="1.3" notes="User Interface Principle List"/>
+	<Documentation id="6C3004E9D8" name="User Interface Rules List" version="1.3" notes="User Interface Rules List"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Rules" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -2111,9 +2113,9 @@ AQABAD4AAABdAgAAAAA=
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Rule List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
-					<Tag name="User Interface Rule List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
