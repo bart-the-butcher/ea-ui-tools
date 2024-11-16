@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2024-11-16 14:51:16">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_37B088D8_9C48_4858_AD5D_0ACEF599D236">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="Question Dialog" xmi.id="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Component"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:16:15"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 11:10:23"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Component"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="842"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F3A50024-CD8F-4375-9817-6109269FE620}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Showing Name Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={2B73A39D-549D-4c9b-BFAD-4B8E80AB3765}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={FB8A2D50-6BF4-4b50-ABB3-F03C7044A1B4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Component;FQName=User Interface Modeling Tools::UI Component;@ENDSTEREO;$DES;$CLT={2B73A39D-549D-4c9b-BFAD-4B8E80AB3765}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="Actions" xmi.id="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Panel"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:16:41"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 10:20:04"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Panel"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="843"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EBE77521-E9BD-4f41-B0C6-8216FCF23B1A}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Showing Name Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={056A0651-58C7-4803-BD9D-C808C9CE0096}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={01351B24-F538-476c-BA8C-D4AA1BB3BE2F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Panel;FQName=User Interface Modeling Tools::UI Panel;@ENDSTEREO;$DES;$CLT={056A0651-58C7-4803-BD9D-C808C9CE0096}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="YesButton" xmi.id="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Button"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:16:54"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 10:19:05"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Button"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="844"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F65E242C-D058-45cd-B50C-29A5553E3374}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Label=Input Args;Field=Input Args;Type=Input Args;Show Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Input Args,Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={20AA5E7E-CE5B-4023-A2DC-7E935F3431D9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={03A52DA2-A532-48c3-BCDD-591F263F7A61}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Button;FQName=User Interface Modeling Tools::UI Button;@ENDSTEREO;$DES;$CLT={20AA5E7E-CE5B-4023-A2DC-7E935F3431D9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="NoButton" xmi.id="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Button"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:17:07"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 10:19:05"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Button"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="845"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CC8E92FD-FCA6-4e69-AD22-B8B787DD7F58}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Label=Input Args;Field=Input Args;Type=Input Args;Show Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Input Args,Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={AC0B619B-4DC4-471e-A735-DDEA7FBC2DD7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={4C29AE51-FA75-47e7-8A43-BF6854007941}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Button;FQName=User Interface Modeling Tools::UI Button;@ENDSTEREO;$DES;$CLT={AC0B619B-4DC4-471e-A735-DDEA7FBC2DD7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="Message" xmi.id="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Panel"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:19:05"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 10:23:38"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Panel"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="846"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7F4CFE4E-8923-4712-9045-F83824732152}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Showing Name Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={5D57596C-0702-47e1-BFD2-22AB90050D93}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={857B58C6-5884-4bf5-BC90-A240C35F28E1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Panel;FQName=User Interface Modeling Tools::UI Panel;@ENDSTEREO;$DES;$CLT={5D57596C-0702-47e1-BFD2-22AB90050D93}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="Question" xmi.id="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Static Text"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:20:04"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 11:08:34"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Static Text"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="847"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7861B1BD-526A-46b9-BAFC-C9AC30C4EAEE}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Text=Input Args;Field=Input Args;Align=Input Args;Show Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Input Args,Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={23AFBCF3-961A-4c67-8AC6-FFFB6DA1DEF8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={243CF370-6A9C-4ae5-8A35-D2D3A05C5522}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Static Text;FQName=User Interface Modeling Tools::UI Static Text;@ENDSTEREO;$DES;$CLT={23AFBCF3-961A-4c67-8AC6-FFFB6DA1DEF8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="Message" xmi.id="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9" visibility="public" namespace="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="UI Static Text"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+						<UML:TaggedValue tag="owner" value="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93"/>
+						<UML:TaggedValue tag="date_created" value="2024-11-16 10:20:45"/>
+						<UML:TaggedValue tag="date_modified" value="2024-11-16 11:08:39"/>
+						<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Question Dialog"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="UI Static Text"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="ea_localid" value="848"/>
+						<UML:TaggedValue tag="ea_eleType" value="element"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+						<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B56D9E05-9146-46b2-B7D9-04326F2CCAF1}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Text=Input Args;Field=Input Args;Align=Input Args;Show Mode=Control Properties;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Input Args,Control Properties@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={06FF7C67-17F4-4848-BBA2-3ECB65ADCEF9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={5F404349-14AB-44d6-8072-03C0F46CAA71}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=UI Static Text;FQName=User Interface Modeling Tools::UI Static Text;@ENDSTEREO;$DES;$CLT={06FF7C67-17F4-4848-BBA2-3ECB65ADCEF9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="Showing Name Mode" xmi.id="EAID_4B873985_CB6E_58cb_ADF8_B3823A8523FF" value="Hidden#NOTES#Values: Hidden,Visible&#xA;Default: Hidden&#xA;" modelElement="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765"/>
+		<UML:TaggedValue tag="Showing Name Mode" xmi.id="EAID_4B873985_B26B_3ab2_A26D_CC7C1657A9EB" value="Hidden#NOTES#Values: Hidden,Visible&#xA;Default: Hidden&#xA;" modelElement="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096"/>
+		<UML:TaggedValue tag="Field" xmi.id="EAID_07711324_A436_03a4_90FC_8234DA4DE846" value="Field#NOTES#Default: Field&#xA;" modelElement="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9"/>
+		<UML:TaggedValue tag="Label" xmi.id="EAID_07D93580_C692_6bc6_8204_9E258F0C1D5F" value="Yes#NOTES#Default: Label&#xA;" modelElement="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9"/>
+		<UML:TaggedValue tag="Show Mode" xmi.id="EAID_C73C3446_7238_e372_82FD_A6F018A434B0" value="Static Text#NOTES#Values: Static Text,UI Field&#xA;Default: Static Text&#xA;" modelElement="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9"/>
+		<UML:TaggedValue tag="Type" xmi.id="EAID_0041AD82_6454_5d64_BA6D_E749A5499FE0" value="Button#NOTES#Values: Button,Link,Icon&#xA;Default: Button&#xA;" modelElement="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9"/>
+		<UML:TaggedValue tag="Field" xmi.id="EAID_07711324_A436_03a4_9757_625D6935D15C" value="Field#NOTES#Default: Field&#xA;" modelElement="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7"/>
+		<UML:TaggedValue tag="Label" xmi.id="EAID_07D93580_C692_6bc6_84EC_A8255787F71E" value="No#NOTES#Default: Label&#xA;" modelElement="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7"/>
+		<UML:TaggedValue tag="Show Mode" xmi.id="EAID_C73C3446_7238_e372_9E56_14EC90434AA4" value="Static Text#NOTES#Values: Static Text,UI Field&#xA;Default: Static Text&#xA;" modelElement="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7"/>
+		<UML:TaggedValue tag="Type" xmi.id="EAID_0041AD82_6454_5d64_A7E0_3736A4EBFF97" value="Button#NOTES#Values: Button,Link,Icon&#xA;Default: Button&#xA;" modelElement="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7"/>
+		<UML:TaggedValue tag="Showing Name Mode" xmi.id="EAID_4B873985_B26B_3ab2_853E_D034B7965039" value="Hidden#NOTES#Values: Hidden,Visible&#xA;Default: Hidden&#xA;" modelElement="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93"/>
+		<UML:TaggedValue tag="Align" xmi.id="EAID_07184E2B_D40E_13d4_8BDF_78498207340D" value="Left#NOTES#Values: Left,Right,Center&#xA;Default: Left&#xA;" modelElement="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8"/>
+		<UML:TaggedValue tag="Field" xmi.id="EAID_07711324_9907_6c99_926D_016924E20F12" value="questionText#NOTES#Default: Field&#xA;" modelElement="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8"/>
+		<UML:TaggedValue tag="Show Mode" xmi.id="EAID_C73C3446_6789_6c67_9BF2_29C7B5C1AB92" value="Static Text#NOTES#Values: Static Text,UI Field,UI Label&#xA;Default: Static Text&#xA;" modelElement="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8"/>
+		<UML:TaggedValue tag="Text" xmi.id="EAID_00415985_2F08_222f_A3AF_2B7DF324FDE3" value="Question Text#NOTES#Default: Static text&#xA;" modelElement="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8"/>
+		<UML:TaggedValue tag="Align" xmi.id="EAID_07184E2B_D40E_13d4_8F08_6BF52BC673B6" value="Left#NOTES#Values: Left,Right,Center&#xA;Default: Left&#xA;" modelElement="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9"/>
+		<UML:TaggedValue tag="Field" xmi.id="EAID_07711324_9907_6c99_9FA3_735556B83590" value="messageText#NOTES#Default: Field&#xA;" modelElement="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9"/>
+		<UML:TaggedValue tag="Show Mode" xmi.id="EAID_C73C3446_6789_6c67_BED3_8AB84D4AEF77" value="Static Text#NOTES#Values: Static Text,UI Field,UI Label&#xA;Default: Static Text&#xA;" modelElement="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9"/>
+		<UML:TaggedValue tag="Text" xmi.id="EAID_00415985_2F08_222f_8719_401673FDDFE4" value="Message Text#NOTES#Default: Static text&#xA;" modelElement="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9"/>
+		<UML:Diagram name="Question Dialog" xmi.id="EAID_F051F837_80C8_4891_9065_E689BD564033" diagramType="ClassDiagram" owner="EAPK_F051F837_80C8_4891_9065_E689BD564033" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Bartosz Balcer"/>
+				<UML:TaggedValue tag="created_date" value="2024-11-16 10:16:10"/>
+				<UML:TaggedValue tag="modified_date" value="2024-11-16 12:25:07"/>
+				<UML:TaggedValue tag="package" value="EAPK_37B088D8_9C48_4858_AD5D_0ACEF599D236"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=16777215;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=1;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="83"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=795;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=1;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=B060C2FD;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=User Interface Modeling Tools::UI Component Diagram;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="persistentstyle" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=134;Top=99;Right=290;Bottom=135;imgL=22;imgT=44;imgR=178;imgB=80;" subject="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9" seqno="1" style="DUID=4F620658;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=134;Top=76;Right=290;Bottom=94;imgL=22;imgT=21;imgR=178;imgB=39;" subject="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8" seqno="2" style="DUID=FF6AE6DF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=124;Top=66;Right=296;Bottom=143;imgL=12;imgT=11;imgR=184;imgB=88;" subject="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93" seqno="3" style="DUID=7FCD0DC2;HideIcon=0;NSL=0;LBL=CX=172:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=211;Top=154;Right=281;Bottom=172;imgL=99;imgT=99;imgR=169;imgB=117;" subject="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7" seqno="4" style="DUID=D98F64E0;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=136;Top=154;Right=206;Bottom=172;imgL=24;imgT=99;imgR=94;imgB=117;" subject="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9" seqno="5" style="DUID=512EA92C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=124;Top=148;Right=296;Bottom=178;imgL=12;imgT=93;imgR=184;imgB=123;" subject="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096" seqno="6" style="DUID=A306E59A;HideIcon=0;NSL=0;LBL=CX=172:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=117;Top=60;Right=303;Bottom=184;imgL=5;imgT=5;imgR=191;imgB=129;" subject="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765" seqno="7" style="DUID=A34021B8;HideIcon=0;NSL=0;LBL=CX=186:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:ALT=0:ROT=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<UMLPattern name="Question Dialog" category="Basic Patterns" version="1.0" notes="A dialog containing a question and detailed information for the user.">
+			<UMLPattern.PromptList>
+				<Element name="Message:Class" guid="EAID_06FF7C67_17F4_4848_BBA2_3ECB65ADCEF9" id="848" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="Question:Class" guid="EAID_23AFBCF3_961A_4c67_8AC6_FFFB6DA1DEF8" id="847" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="Message:Class" guid="EAID_5D57596C_0702_47e1_BFD2_22AB90050D93" id="846" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="NoButton:Class" guid="EAID_AC0B619B_4DC4_471e_A735_DDEA7FBC2DD7" id="845" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="YesButton:Class" guid="EAID_20AA5E7E_CE5B_4023_A2DC_7E935F3431D9" id="844" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="Actions:Class" guid="EAID_056A0651_58C7_4803_BD9D_C808C9CE0096" id="843" prompt="yes" link="yes" classifier="no" type="no"/>
+				<Element name="Question Dialog:Class" guid="EAID_2B73A39D_549D_4c9b_BFAD_4B8E80AB3765" id="842" prompt="yes" link="yes" classifier="no" type="no"/>
+			</UMLPattern.PromptList>
+			<UMLPattern.PreviewImage xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64" cx="6617" cy="3126">AQAAAGwAAAABAAAAAQAAAMkAAACLAAAAAAAAAAAAAADZGQAANgwAACBFTUYA
+AAEAbCUAAIkBAAAEAAAAAAAAAAAAAAAAAAAAABQAAKAFAACpBAAAUAEAAAAA
+AAAAAAAAAAAAACg0EgCAIAUARgAAACwAAAAgAAAARU1GKwFAAQAcAAAAEAAA
+AAIQwNsBAAAAYAAAAGAAAABGAAAA4AAAANQAAABFTUYrHkAFAAwAAAAAAAAA
+KkAAACQAAAAYAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAKkAAACQAAAAY
+AAAAAACAPwAAAAAAAAAAAACAvwAA4MIAAFzCCEAAAWAAAABUAAAAAhDA2wQA
+AAAEAAAAAAAAAAAA8EIAADvDAAA7QwAA+kKTk5P/o6Oj/5OTk/+jo6P/BAAA
+AAAAAADMzEw+pHB9PwAAgD+jo6P/o6Oj/5OTk/+Tk5P/CkAAQBwAAAAQAAAA
+AAAAAAEAAAB4AEX/ugB8ACEAAAAIAAAAYgAAAAwAAAABAAAAJQAAAAwAAAAI
+AACAJwAAABgAAAABAAAAAAAAAKOjowAAAAAAJQAAAAwAAAABAAAAJQAAAAwA
+AAAIAACAVgAAADAAAAAIAAAACAAAADwAAACEAAAABQAAAAgACAAIAIQAPACE
+ADwACAAIAAgAJQAAAAwAAAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAA
+JwAAABgAAAABAAAAAAAAAKGhoQAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAI
+AACAVgAAADAAAAA8AAAACAAAAE0AAACEAAAABQAAADwACAA8AIQATQCEAE0A
+CAA8AAgAJQAAAAwAAAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAA
+ABgAAAABAAAAAAAAAJ+fnwAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACA
+VgAAADAAAABNAAAACAAAAGIAAACEAAAABQAAAE0ACABNAIQAYgCEAGIACABN
+AAgAJQAAAAwAAAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgA
+AAABAAAAAAAAAJ2dnQAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAA
+ADAAAABiAAAACAAAAHMAAACEAAAABQAAAGIACABiAIQAcwCEAHMACABiAAgA
+JQAAAAwAAAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgAAAAB
+AAAAAAAAAJubmwAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAAADAA
+AABzAAAACAAAAIUAAACEAAAABQAAAHMACABzAIQAhQCEAIUACABzAAgAJQAA
+AAwAAAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAA
+AAAAAJmZmQAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAAADAAAACF
+AAAACAAAAJkAAACEAAAABQAAAIUACACFAIQAmQCEAJkACACFAAgAJQAAAAwA
+AAAIAACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAA
+AJeXlwAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAAADAAAACZAAAA
+CAAAAKsAAACEAAAABQAAAJkACACZAIQAqwCEAKsACACZAAgAJQAAAAwAAAAI
+AACAJQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAJWV
+lQAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAAADAAAACrAAAACAAA
+ALwAAACEAAAABQAAAKsACACrAIQAvACEALwACACrAAgAJQAAAAwAAAAIAACA
+JQAAAAwAAAAAAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAJOTkwAA
+AAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAVgAAADAAAAC8AAAACAAAAMIA
+AACEAAAABQAAALwACAC8AIQAwgCEAMIACAC8AAgAJQAAAAwAAAAIAACAJQAA
+AAwAAAAAAACAKAAAAAwAAAABAAAAJQAAAAwAAAAHAACARgAAAIQAAAB4AAAA
+RU1GKwhAAQIwAAAAJAAAAAIQwNsAAAAAgAAAAAAAAAAAAIA/AAAAAAIQwNsA
+AAAAAAAA/whAAgM0AAAAKAAAAAIQwNsFAAAAAEAAAHgAwf8yAcH/MgFF/3gA
+Rf94AMH/AAEBAYEAAAAVQAIAEAAAAAQAAAABAAAAJAAAACQAAAAAAIA9AAAA
+AAAAAAAAAIA9AAAAAAAAAAACAAAAXwAAADgAAAABAAAAOAAAAAAAAAA4AAAA
+AAAAAAASAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAAAADAAAAAEAAAAn
+AAAAGAAAAAIAAAAAAAAAAAAAAAAAAAAlAAAADAAAAAIAAAATAAAADAAAAAIA
+AABbAAAAYAAAAAYAAAAGAAAAxAAAAIYAAAACAAAADgAAAAUAAAAJAAAAeAB4
+ACgMeAAoDEgIeABICHgAeACIAEAIgAA4CCAMOAgYDEAIGAyAACAMiACAAIgA
+iACAAIgAQAgTAAAADAAAAAEAAAAlAAAADAAAAAAAAIAlAAAADAAAAAcAAIAk
+AAAAJAAAAAAAgEEAAAAAAAAAAAAAgEEAAAAAAAAAAAIAAAAoAAAADAAAAAEA
+AABGAAAAjAAAAIAAAABFTUYrCEAAAWAAAABUAAAAAhDA2wQAAAAEAAAAAAAA
+AAAA6kIAADjDAAA7QwAA+kLv7+///////+/v7///////BAAAAAAAAADMzEw+
+pHB9PwAAgD///////////+/v7//v7+//CkAAQBwAAAAQAAAAAAAAAAEAAAB1
+AEj/ugB8ACUAAAAMAAAACAAAgCcAAAAYAAAAAQAAAAAAAAD///8AAAAAACUA
+AAAMAAAAAQAAACUAAAAMAAAACAAAgFYAAAAwAAAABQAAAAUAAAA5AAAAgQAA
+AAUAAAAFAAUABQCBADkAgQA5AAUABQAFACUAAAAMAAAACAAAgCUAAAAMAAAA
+AAAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD9/f0AAAAAACUAAAAM
+AAAAAQAAACUAAAAMAAAACAAAgFYAAAAwAAAAOQAAAAUAAABKAAAAgQAAAAUA
+AAA5AAUAOQCBAEoAgQBKAAUAOQAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAA
+gCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD7+/sAAAAAACUAAAAMAAAA
+AQAAACUAAAAMAAAACAAAgFYAAAAwAAAASgAAAAUAAABfAAAAgQAAAAUAAABK
+AAUASgCBAF8AgQBfAAUASgAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgA
+AAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD5+fkAAAAAACUAAAAMAAAAAQAA
+ACUAAAAMAAAACAAAgFYAAAAwAAAAXwAAAAUAAABwAAAAgQAAAAUAAABfAAUA
+XwCBAHAAgQBwAAUAXwAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAM
+AAAAAQAAACcAAAAYAAAAAQAAAAAAAAD39/cAAAAAACUAAAAMAAAAAQAAACUA
+AAAMAAAACAAAgFYAAAAwAAAAcAAAAAUAAACCAAAAgQAAAAUAAABwAAUAcACB
+AIIAgQCCAAUAcAAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAMAAAA
+AQAAACcAAAAYAAAAAQAAAAAAAAD19fUAAAAAACUAAAAMAAAAAQAAACUAAAAM
+AAAACAAAgFYAAAAwAAAAggAAAAUAAACWAAAAgQAAAAUAAACCAAUAggCBAJYA
+gQCWAAUAggAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAMAAAAAQAA
+ACcAAAAYAAAAAQAAAAAAAADz8/MAAAAAACUAAAAMAAAAAQAAACUAAAAMAAAA
+CAAAgFYAAAAwAAAAlgAAAAUAAACoAAAAgQAAAAUAAACWAAUAlgCBAKgAgQCo
+AAUAlgAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAMAAAAAQAAACcA
+AAAYAAAAAQAAAAAAAADx8fEAAAAAACUAAAAMAAAAAQAAACUAAAAMAAAACAAA
+gFYAAAAwAAAAqAAAAAUAAAC5AAAAgQAAAAUAAACoAAUAqACBALkAgQC5AAUA
+qAAFACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAMAAAAAQAAACcAAAAY
+AAAAAQAAAAAAAADv7+8AAAAAACUAAAAMAAAAAQAAACUAAAAMAAAACAAAgFYA
+AAAwAAAAuQAAAAUAAAC/AAAAgQAAAAUAAAC5AAUAuQCBAL8AgQC/AAUAuQAF
+ACUAAAAMAAAACAAAgCUAAAAMAAAAAAAAgCgAAAAMAAAAAQAAACUAAAAMAAAA
+BwAAgEYAAACQAAAAhAAAAEVNRisIQAECPAAAADAAAAACEMDbAAAAAI4AAAAA
+AAAAAACAPwIAAAACAAAAAQAAAAAAAAACEMDbAAAAAISEmv8IQAIDNAAAACgA
+AAACEMDbBQAAAABAAAB1AMT/LwHE/y8BSP91AEj/dQDE/wABAQGBAAAAFUAC
+ABAAAAAEAAAAAQAAACQAAAAkAAAAAACAPQAAAAAAAAAAAACAPQAAAAAAAAAA
+AgAAAF8AAAA4AAAAAQAAADgAAAAAAAAAOAAAAAAAAAAAEAEAEAAAAAAAAACa
+hIQAAAAAAAAAAAAAAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAFAACAVgAAADAA
+AAADAAAAAwAAAMEAAACDAAAABQAAAFAAUADwC1AA8AsQCFAAEAhQAFAAJQAA
+AAwAAAAHAACAJQAAAAwAAAAAAACAJAAAACQAAAAAAIBBAAAAAAAAAAAAAIBB
+AAAAAAAAAAACAAAAKAAAAAwAAAABAAAARgAAACwAAAAgAAAARU1GKwpAAMAc
+AAAAEAAAAP////8BAAAAfABO/6wAHgAoAAAADAAAAAIAAAAkAAAAJAAAAAAA
+gD0AAAAAAAAAAAAAgD0AAAAAAAAAAAIAAAAnAAAAGAAAAAIAAAAAAAAA////
+AAAAAAAlAAAADAAAAAIAAAAlAAAADAAAAAgAAIBWAAAAMAAAAAwAAABdAAAA
+uAAAAHsAAAAFAAAAwADQBcAAsAeAC7AHgAvQBcAA0AUlAAAADAAAAAcAAIAl
+AAAADAAAAAAAAIAkAAAAJAAAAAAAgEEAAAAAAAAAAAAAgEEAAAAAAAAAAAIA
+AABGAAAAkAAAAIQAAABFTUYrCEABAjwAAAAwAAAAAhDA2wAAAACOAAAAAAAA
+AAAAgD8CAAAAAgAAAAEAAAAAAAAAAhDA2wAAAACEhJr/CEACAzQAAAAoAAAA
+AhDA2wUAAAAAQAAAfABs/ygBbP8oAU7/fABO/3wAbP8AAQEBgQAAABVAAgAQ
+AAAABAAAAAEAAAAkAAAAJAAAAAAAgD0AAAAAAAAAAAAAgD0AAAAAAAAAAAIA
+AABfAAAAOAAAAAEAAAA4AAAAAAAAADgAAAAAAAAAABABABAAAAAAAAAAmoSE
+AAAAAAAAAAAAAAAAACUAAAAMAAAAAQAAACUAAAAMAAAABQAAgFYAAAAwAAAA
+CgAAAFsAAAC6AAAAfQAAAAUAAADAANAFgAvQBYALsAfAALAHwADQBSUAAAAM
+AAAABwAAgCUAAAAMAAAAAAAAgCQAAAAkAAAAAACAQQAAAAAAAAAAAACAQQAA
+AAAAAAAAAgAAACgAAAAMAAAAAQAAAEYAAAAsAAAAIAAAAEVNRisKQADAHAAA
+ABAAAAD/////AQAAAIgAVP9GABIAJAAAACQAAAAAAIA9AAAAAAAAAAAAAIA9
+AAAAAAAAAAACAAAAJQAAAAwAAAACAAAAJQAAAAwAAAAIAACAVgAAADAAAAAY
+AAAAYwAAAF4AAAB1AAAABQAAAIABMAaAAVAH4AVQB+AFMAaAATAGJQAAAAwA
+AAAHAACAJQAAAAwAAAAAAACAJAAAACQAAAAAAIBBAAAAAAAAAAAAAIBBAAAA
+AAAAAAACAAAARgAAAJAAAACEAAAARU1GKwhAAQI8AAAAMAAAAAIQwNsAAAAA
+jgAAAAAAAAAAAIA/AgAAAAIAAAABAAAAAAAAAAIQwNsAAAAAhISa/whAAgM0
+AAAAKAAAAAIQwNsFAAAAAEAAAIgAZv/OAGb/zgBU/4gAVP+IAGb/AAEBAYEA
+AAAVQAIAEAAAAAQAAAABAAAAJAAAACQAAAAAAIA9AAAAAAAAAAAAAIA9AAAA
+AAAAAAACAAAAXwAAADgAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAQAQAQAAAA
+AAAAAJqEhAAAAAAAAAAAAAAAAAAlAAAADAAAAAEAAAAlAAAADAAAAAUAAIBW
+AAAAMAAAABYAAABhAAAAYAAAAHcAAAAFAAAAgAEwBuAFMAbgBVAHgAFQB4AB
+MAYlAAAADAAAAAcAAIAlAAAADAAAAAAAAIAkAAAAJAAAAAAAgEEAAAAAAAAA
+AAAAgEEAAAAAAAAAAAIAAAAoAAAADAAAAAEAAAAiAAAADAAAAP////9GAAAA
+HAAAABAAAABFTUYrBEAAAAwAAAAAAAAACgAAABAAAAAAAAAAAAAAAAwAAAAQ
+AAAAAAAAAAAAAAARAAAADAAAAAgAAAAJAAAAEAAAABsDAABuBAAACQAAABAA
+AABgAAAAYAAAAAsAAAAQAAAAYAAAAKD///8fAAAAGAAAAGQAAABkAAAAZAAA
+AGQAAAAMAAAAEAAAAJD////J////EgAAAAwAAAABAAAAGQAAAAwAAAD///8A
+UgAAAHABAAABAAAA9v///wAAAAAAAAAAAAAAAAAAAAAAAAABAAACAEMAYQBs
+AGkAYgByAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ZHYACAAAAAAlAAAADAAAAAEAAAAYAAAADAAAAFlZWQAeAAAAGAAAAIgAAABm
+////zgAAAFT///9LAAAAEAAAAAAAAAAFAAAACgAAABAAAABwAAAAyf///wwA
+AAAQAAAAAAAAAAAAAABGAAAAHAAAABAAAABFTUYrBEAAAAwAAAAAAAAACgAA
+ABAAAAAAAAAAAAAAABEAAAAMAAAAAQAAAAwAAAAQAAAAAAAAAAAAAAARAAAA
+DAAAAAgAAAAJAAAAEAAAABsDAABuBAAACQAAABAAAABgAAAAYAAAAAsAAAAQ
+AAAAYAAAAKD///8fAAAAGAAAAGQAAABkAAAAZAAAAGQAAAAMAAAAEAAAAJD/
+///J////EgAAAAwAAAABAAAAGQAAAAwAAAD///8AJQAAAAwAAAABAAAAGAAA
+AAwAAABZWVkAVAAAAGAAAAA0AAAAZQAAAEIAAABxAAAAAQAAAABoukGrqrrB
+pAAAAGT///8DAAAATAAAAAAAAAAAAAAAAAAAAP//////////VAAAAFkAZQBz
+AAAABQAAAAUAAAAEAAAACgAAABAAAABwAAAAyf///wwAAAAQAAAAAAAAAAAA
+AABGAAAALAAAACAAAABFTUYrCkAAwBwAAAAQAAAA/////wEAAADTAFT/RgAS
+ACEAAAAIAAAAYgAAAAwAAAABAAAAEQAAAAwAAAABAAAACgAAABAAAAAAAAAA
+AAAAACQAAAAkAAAAAACAPQAAAAAAAAAAAACAPQAAAAAAAAAAAgAAACUAAAAM
+AAAAAgAAACUAAAAMAAAACAAAgFYAAAAwAAAAYwAAAGMAAACpAAAAdQAAAAUA
+AAAwBjAGMAZQB5AKUAeQCjAGMAYwBiUAAAAMAAAABwAAgCUAAAAMAAAAAAAA
+gCQAAAAkAAAAAACAQQAAAAAAAAAAAACAQQAAAAAAAAAAAgAAAEYAAACQAAAA
+hAAAAEVNRisIQAECPAAAADAAAAACEMDbAAAAAI4AAAAAAAAAAACAPwIAAAAC
+AAAAAQAAAAAAAAACEMDbAAAAAISEmv8IQAIDNAAAACgAAAACEMDbBQAAAABA
+AADTAGb/GQFm/xkBVP/TAFT/0wBm/wABAQGBAAAAFUACABAAAAAEAAAAAQAA
+ACQAAAAkAAAAAACAPQAAAAAAAAAAAACAPQAAAAAAAAAAAgAAAF8AAAA4AAAA
+AwAAADgAAAAAAAAAOAAAAAAAAAAAEAEAEAAAAAAAAACahIQAAAAAAAAAAAAA
+AAAAJQAAAAwAAAADAAAAJQAAAAwAAAAFAACAVgAAADAAAABhAAAAYQAAAKsA
+AAB3AAAABQAAADAGMAaQCjAGkApQBzAGUAcwBjAGJQAAAAwAAAAHAACAJQAA
+AAwAAAAAAACAJAAAACQAAAAAAIBBAAAAAAAAAAAAAIBBAAAAAAAAAAACAAAA
+KAAAAAwAAAADAAAAIgAAAAwAAAD/////RgAAABwAAAAQAAAARU1GKwRAAAAM
+AAAAAAAAAAoAAAAQAAAAAAAAAAAAAAARAAAADAAAAAEAAAAMAAAAEAAAAAAA
+AAAAAAAAEQAAAAwAAAAIAAAACQAAABAAAAAbAwAAbgQAAAkAAAAQAAAAYAAA
+AGAAAAALAAAAEAAAAGAAAACg////HwAAABgAAABkAAAAZAAAAGQAAABkAAAA
+DAAAABAAAACQ////yf///xIAAAAMAAAAAQAAABkAAAAMAAAA////ACUAAAAM
+AAAAAQAAABgAAAAMAAAAWVlZAB4AAAAYAAAA0wAAAGb///8ZAQAAVP///0sA
+AAAQAAAAAAAAAAUAAAAKAAAAEAAAAHAAAADJ////DAAAABAAAAAAAAAAAAAA
+AEYAAAAcAAAAEAAAAEVNRisEQAAADAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAA
+EQAAAAwAAAABAAAADAAAABAAAAAAAAAAAAAAABEAAAAMAAAACAAAAAkAAAAQ
+AAAAGwMAAG4EAAAJAAAAEAAAAGAAAABgAAAACwAAABAAAABgAAAAoP///x8A
+AAAYAAAAZAAAAGQAAABkAAAAZAAAAAwAAAAQAAAAkP///8n///8SAAAADAAA
+AAEAAAAZAAAADAAAAP///wAlAAAADAAAAAEAAAAYAAAADAAAAFlZWQBUAAAA
+WAAAAIAAAABlAAAAiwAAAHEAAAABAAAAAGi6QauqusHwAAAAZP///wIAAABM
+AAAAAAAAAAAAAAAAAAAA//////////9QAAAATgBvAAYAAAAFAAAACgAAABAA
+AABwAAAAyf///wwAAAAQAAAAAAAAAAAAAABGAAAALAAAACAAAABFTUYrCkAA
+wBwAAAAQAAAA/////wEAAAB8AHH/rABNACEAAAAIAAAAYgAAAAwAAAABAAAA
+EQAAAAwAAAABAAAACgAAABAAAAAAAAAAAAAAACQAAAAkAAAAAACAPQAAAAAA
+AAAAAACAPQAAAAAAAAAAAgAAACUAAAAMAAAAAgAAACUAAAAMAAAACAAAgFYA
+AAAwAAAADAAAAAsAAAC4AAAAWAAAAAUAAADAALAAwACABYALgAWAC7AAwACw
+ACUAAAAMAAAABwAAgCUAAAAMAAAAAAAAgCQAAAAkAAAAAACAQQAAAAAAAAAA
+AACAQQAAAAAAAAAAAgAAAEYAAACQAAAAhAAAAEVNRisIQAECPAAAADAAAAAC
+EMDbAAAAAI4AAAAAAAAAAACAPwIAAAACAAAAAQAAAAAAAAACEMDbAAAAAISE
+mv8IQAIDNAAAACgAAAACEMDbBQAAAABAAAB8AL7/KAG+/ygBcf98AHH/fAC+
+/wABAQGBAAAAFUACABAAAAAEAAAAAQAAACQAAAAkAAAAAACAPQAAAAAAAAAA
+AACAPQAAAAAAAAAAAgAAAF8AAAA4AAAAAwAAADgAAAAAAAAAOAAAAAAAAAAA
+EAEAEAAAAAAAAACahIQAAAAAAAAAAAAAAAAAJQAAAAwAAAADAAAAJQAAAAwA
+AAAFAACAVgAAADAAAAAKAAAACQAAALoAAABaAAAABQAAAMAAsACAC7AAgAuA
+BcAAgAXAALAAJQAAAAwAAAAHAACAJQAAAAwAAAAAAACAJAAAACQAAAAAAIBB
+AAAAAAAAAAAAAIBBAAAAAAAAAAACAAAAKAAAAAwAAAADAAAAIgAAAAwAAAD/
+////RgAAABwAAAAQAAAARU1GKwRAAAAMAAAAAAAAAAoAAAAQAAAAAAAAAAAA
+AAARAAAADAAAAAEAAAAMAAAAEAAAAAAAAAAAAAAAEQAAAAwAAAAIAAAACQAA
+ABAAAAAbAwAAbgQAAAkAAAAQAAAAYAAAAGAAAAALAAAAEAAAAGAAAACg////
+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
+</UMLPattern.PreviewImage>
+		</UMLPattern>
+	</XMI.extensions>
+</XMI>

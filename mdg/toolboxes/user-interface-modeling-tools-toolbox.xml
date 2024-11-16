@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.5" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -8,21 +8,20 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
+					<Tag name="User Interface Modeling Tools::UI Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
+					<Tag name="User Interface Modeling Tools::UI Panel(UML::Class)" type="" description="" unit="" values="" default="Panel"/>
+					<Tag name="User Interface Modeling Tools::UI Static Text(UML::Class)" type="" description="" unit="" values="" default="Static Text"/>
+					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
+					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
+					<Tag name="User Interface Modeling Tools::UI Select(UML::Class)" type="" description="" unit="" values="" default="Select"/>
+					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
 					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
-					<Tag name="User Interface Modeling Tools::UI Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
-					<Tag name="User Interface Modeling Tools::UI Image(UML::Class)" type="" description="" unit="" values="" default="Image"/>
-					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
-					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
+					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar Select Button(UML::Class)" type="" description="" unit="" values="" default="Navbar Button"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar(UML::Class)" type="" description="" unit="" values="" default="Navbar"/>
-					<Tag name="User Interface Modeling Tools::UI Panel(UML::Class)" type="" description="" unit="" values="" default="Panel"/>
-					<Tag name="User Interface Modeling Tools::UI Principle(UML::Requirement)" type="" description="" unit="" values="" default="Principle"/>
-					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
-					<Tag name="User Interface Modeling Tools::UI Select(UML::Class)" type="" description="" unit="" values="" default="Select"/>
-					<Tag name="User Interface Modeling Tools::UI Static Text(UML::Class)" type="" description="" unit="" values="" default="Static Text"/>
+					<Tag name="User Interface Modeling Tools::UI Image(UML::Class)" type="" description="" unit="" values="" default="Image"/>
 					<Tag name="User Interface Modeling Tools::UI Tab(UML::Class)" type="" description="" unit="" values="" default="Tab"/>
-					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Relationships" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -32,11 +31,11 @@
 				<TaggedValues>
 					<Tag name="User Interface Modeling Tools::UI Call(UML::Dependency)" type="" description="" unit="" values="" default="Call"/>
 					<Tag name="User Interface Modeling Tools::UI Details(UML::Dependency)" type="" description="" unit="" values="" default="Details"/>
-					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
-					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
 					<Tag name="User Interface Modeling Tools::UI Show As(UML::Dependency)" type="" description="" unit="" values="" default="Show As"/>
-					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
 					<Tag name="User Interface Modeling Tools::UI Show(UML::Dependency)" type="" description="" unit="" values="" default="Show"/>
+					<Tag name="User Interface Modeling Tools::UI Navigate(UML::Dependency)" type="" description="" unit="" values="" default="Navigate"/>
+					<Tag name="User Interface Modeling Tools::UI Extend(UML::Generalization)" type="" description="" unit="" values="" default="Extend"/>
+					<Tag name="User Interface Modeling Tools::UI Show In Left Panel(UML::Dependency)" type="" description="" unit="" values="" default="Show In Left Panel"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Rules" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -44,9 +43,23 @@
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
-					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
 					<Tag name="User Interface Rules List::UI Rule(UML::Requirement)" type="" description="" unit="" values="" default="Rule"/>
+					<Tag name="User Interface Rules List::UI Input Args Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Input Processing Rules"/>
+					<Tag name="User Interface Rules List::UI Data Processing Rule(UML::Requirement)" type="" description="" unit="" values="" default="Data Processing Rules"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI  Patterns" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="ui-20241015::Info Dialog(UMLPattern)" type="" description="" unit="" values="" default="Ok Dialog"/>
+					<Tag name="ui-20241015::Question Dialog(UMLPattern)" type="" description="" unit="" values="" default="Yes/No Dialog"/>
+					<Tag name="ui-20241015::Simple Form With Bottom Buttons(UMLPattern)" type="" description="" unit="" values="" default="Simple Form Bottom Buttons"/>
+					<Tag name="ui-20241015::Simple Form With Top Buttons(UMLPattern)" type="" description="" unit="" values="" default="Simple Form Top Buttons"/>
+					<Tag name="ui-20241015::Form With Details And Bottom Buttons(UMLPattern)" type="" description="" unit="" values="" default="Form Bottom Buttons"/>
+					<Tag name="ui-20241015::Form With Details And Top Buttons(UMLPattern)" type="" description="" unit="" values="" default="Form Top Buttons"/>
 				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
