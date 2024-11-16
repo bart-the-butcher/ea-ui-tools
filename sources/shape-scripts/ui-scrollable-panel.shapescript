@@ -1,0 +1,53 @@
+shape main{
+	noshadow="true";
+	layoutType="border";
+
+	setfillcolor(255,255,255);
+	rectangle(0,0,100,100);
+
+	if (HasTag("Vertical Scroll Mode", "Visible")) {
+		addsubshape("leftScroll","E");
+	}
+	
+	if (HasTag("Horizontal Scroll Mode", "Visible")) {
+		addsubshape("bottomScroll","S");
+	}
+	
+	shape leftScroll {
+		preferredWidth=9;
+		setfillcolor(240,240,240);
+		StartPath();
+			moveto(0,1);
+			lineto(0,100);
+			lineto(99,100);
+			lineto(99,1);
+			lineto(0,1);
+		EndPath();
+		FillPath();
+		setfillcolor(0,0,255);
+		roundrect(40,20,80,80,60,5);
+	}
+	
+	shape bottomScroll {
+		preferredHeight=8;
+		setfillcolor(240,240,240);
+		StartPath();
+			moveto(1,0);
+			lineto(1,100);
+			lineto(100,100);
+			lineto(100,0);
+			lineto(1,0);
+		EndPath();
+		FillPath();
+		setfillcolor(0,0,255);
+		roundrect(20,40,80,80,5,60);
+	}
+	
+}
+
+shape label {
+	setOrigin("N",0,0);	
+	if (HasTag("Showing Name Mode", "Visible")) {
+		println("#NAME#");			
+	}
+}

@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.3" notes="User Interface Modeling Tools"/>
+	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.5" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Button" notes="" cx="70" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -13,9 +13,9 @@
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAMBCUHyCAgAAwJIvDYICAAABAAwg
+AggBAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAED5QfIICAADA
+ki8NtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -504,8 +504,8 @@ BQYAAAAAAQABAD4AAAAoAQAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Showing Name Mode=Control Properties;"/>
-						<Property name="_tagGroups" value="Control Properties"/>
+						<Property name="_tagGroupings" value="Showing Name Mode=Control Properties;Horizontal Scroll Mode=Input Properies;Vertical Scroll Mode=Input Properies;"/>
+						<Property name="_tagGroups" value="Control Properties,Input Properies"/>
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
@@ -550,14 +550,57 @@ CxQAAAAIAIqtS1m2TidwhwEAAJYFAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIu
 ZGF0VVQFAAclnAlnUEsFBgAAAAABAAEAPgAAAL0BAAAAAA==
 </Image>
 			</Stereotype>
+			<Stereotype name="UI Scrollable Panel" notes="" cx="100" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="UI Panel" baseStereotypes="UI%20Panel">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADCDgAAwg4A
+AAAAAAAAAAAA8/Pz6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp
+6enp6enp6enp8vLy09PTv7+/zc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N
+zc3Nzc3Nzc3NwcHB0tLS09PT6Ojo/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
+/v7+/v7+/v7+/v7+7Ozs0tLS09PT6Ojo/v7+/v7+/v7+/v7+/v7+/v7+/v7+
+/v7+/v7+/v7+/v7+/v7+7Ozs0tLS09PT6Ojo/v7+/v7+/v7+/v7+/v7+/v7+
+/v7+/v7+/v7+/v7+/v7+/v7+7Ozs0tLS09PT6Ojo/v7+/v7+/v7+/v7+/v7+
+/v7+/v7+/v7+/v7+/v7+/v7+/v7+7Ozs0tLS09PT6Ojo39/f2tra2tra2tra
+2tra2tra2tra2tra2tra2tra2tra2tra6enp0tLS09PT6Ojozs7O6Ojo7Ozs
+7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzszMzM6Ojo0tLS09PT6Ojozs7O7+/v
+9PT09PT09PT09PT09PT09PT09PT09PT09PT0zc3N6Ojo0tLS09PT6Ojo2dnZ
+0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS6enp0tLS09PT6Ojo
+0NDQzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM6urq0tLS09PT
+6OjoysrK+Pj4+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6ysrK6+vr0tLS
+09PT6OjoysrK5eXl5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubmycnJ6+vr
+0tLS09PT6Ojo4uLi4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
+6+vr0tLS09PTuLi4vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
+vr6+ubm50tLS+Pj48vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy
+8vLy8vLy8vLy+Pj4
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADiccFkDh8Qb8gEAAJoHAAAHABEAc3RyLmRhdFVUDQAHiPM4
+Z4jzOGeI8zhnxZVNT8JAEIbnion/gdQLJB7EqJEYDh4wXEQTjJ6R8tGkfASK
+Rg3/3WdmKbRQiiQas2F32HnnY2ffnc5kIG2ZSFeKMkQKZCRfcixHUkAay8z0
+PtK71MSTSKYyB+3JzRIVov9AP0f3hKS+FPnK3hTLLnOMdhYz9iLpEStkdMCF
+hi3JuVwyTjfW8irWFMsOtm1y62PVxeYMnP4qzOs1tnF2AdGKYBtYzsiyjXWJ
+rJ4tuwh9h70QTAtpahnpv3skPYGH36LhA+wDzqaxPaKU2Y/rVbBK+SDmIFzl
+tBoaSfE9IiX9q1dP6uYnPuFiuebn3bB6BfLJOrJ6/GXuepMRYwxDtvNv5eS/
+9lPMrEAy/sRut2c3opIvL2TrYzGAT9VVhHz+XBgH0us6uwLRtVp654+s6ruU
+0hc441jeLMJ4ya7KBiK0V5JGJDmXhaoyDsHlYbZzqqP1d5zoblmnbO3uWsbv
+avMN6ivU164R4/dYWtVb5+vEfGVz0n43Q3bxLJ8lDeaAdzHAskbUn5zt93lS
+sWrl3Zoi9t9/dhfLQ+5DbSL+nyuOJa7ySa5ox1e+ZHNlIa6bp3tKG9Z0Uxxx
+WT6I9se+1UJ7WNO61bpe+zpsiyj6zVP7PogmmqHFPLSvKmPVS4Te5XKCt1v8
+1JFc73Q3lzzzQr4BUEsBAhcLFAAAAAgAOJxwWQOHxBvyAQAAmgcAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB4jzOGdQSwUGAAAAAAEAAQA+AAAA
+KAIAAAAA
+</Image>
+				<TaggedValues>
+					<Tag name="Horizontal Scroll Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Showing Name Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
+					<Tag name="Vertical Scroll Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+				</TaggedValues>
+			</Stereotype>
 			<Stereotype name="UI Select" notes="&lt;b&gt;&lt;u&gt;Og&amp;#243;lny opis&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;Lista z pojedy&#x144;czym wyborem.&#xA;&#xA;Lista jest uzupe&#x142;niana opcj&#x105; `Wybierz` w sytuacjach gdy:&#xA;&#xA;&lt;b&gt;&lt;u&gt;Dane wej&#x15B;ciowe&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field&lt;/i&gt; - nazwa danych stanu kt&amp;#243;ra przekazuje identyfikator wybranej pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label&lt;/i&gt; - etykieta wy&#x15B;wietlana przy polu&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;List Mode&lt;/i&gt; - okre&#x15B;la tryb obs&#x142;ugi listy pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Require Mode&lt;/i&gt; - tryb wymagalno&#x15B;ci&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciwo&#x15B;ci kontroli&lt;/u&gt;&lt;/b&gt;&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach nazwy pola&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach na diagramie etykiety dla pola&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciewo&#x15B;ci walidacji&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Required&lt;/i&gt; - okre&#x15B;la wymagalno&#x15B;&#x107; pola&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Select"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAFAh8pvXAQAAsCgXzdcBAAABAAwg
-AggBAP////8AAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAA0EDym9cBAACw
-KBfNtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t

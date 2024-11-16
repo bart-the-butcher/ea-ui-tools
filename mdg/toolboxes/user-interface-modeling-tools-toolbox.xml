@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.5" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.6" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -10,6 +10,7 @@
 				<TaggedValues>
 					<Tag name="User Interface Modeling Tools::UI Component(UML::Class)" type="" description="" unit="" values="" default="Component"/>
 					<Tag name="User Interface Modeling Tools::UI Panel(UML::Class)" type="" description="" unit="" values="" default="Panel"/>
+					<Tag name="User Interface Modeling Tools::UI Scrollable Panel(UML::Class)" type="" description="" unit="" values="" default="Scrollable Panel"/>
 					<Tag name="User Interface Modeling Tools::UI Static Text(UML::Class)" type="" description="" unit="" values="" default="Static Text"/>
 					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
 					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
