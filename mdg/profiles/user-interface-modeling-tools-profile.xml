@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.5" notes="User Interface Modeling Tools"/>
+	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.6" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Button" notes="" cx="70" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -13,9 +13,9 @@
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAMBCUHyCAgAAwJIvDYICAAABAAwg
-AggBAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAED5QfIICAADA
-ki8NtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAFDoPKfKAQAAwGf5o8oBAAABAAwg
+AggBAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAYPY8p8oBAADA
+Z/mjtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -468,6 +468,7 @@ LmRhdFVUBQAHlLcLZ1BLBQYAAAAAAQABAD4AAAAKAQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Call" constraint="Activity"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show As" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Panel"/>

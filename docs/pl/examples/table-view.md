@@ -14,7 +14,7 @@ Zasady przechowywania i obsługi danych wewnątrz komponentu zostały opisane w 
 
 Komponent składa się z dwóch elementów:
 
-* zestawu pól umożliwiających wprowadzenie kryterium wyszukiwania,m
+* zestawu pól umożliwiających wprowadzenie kryterium wyszukiwania,
 * tabeli zestawiającej wyszukiwane dane.
 
 Oba wymienione wyżej elementy mają uszczegółowienia przedstawione w postaci paneli powiązanych relacją `UI Details`.
