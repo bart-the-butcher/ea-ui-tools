@@ -2,7 +2,7 @@
 
 ## Wprowadzenie
 
-W niniejszym artykule zestawiono przykłady modelowania przy wykorzystywaniu opisanej technologi typowych interfejsów użytkownika.
+W niniejszym artykule zestawiono przykłady modelowania przy wykorzystywaniu opisanej technologii typowych interfejsów użytkownika.
 
 ## Przykładowe modele interfejsów użytkownika zrealizowane przy wykorzystaniu MDG
 
