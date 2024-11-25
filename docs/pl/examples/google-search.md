@@ -10,7 +10,7 @@ Przedstawiony model nie pokazuje pełnej złożoności wyszukiwarki Google. Pewn
 
 Na poniższym rysunku pokazana została strona wyszukiwarki:
 
-![Wyszukiwarka Googla](../../img/google-search.png)
+![Wyszukiwarka Google](../../img/google-search.png)
 
 Interfejs użytkownika wyszukiwarki można podzielić na 3 obszary:
 
@@ -28,7 +28,7 @@ Panel stopki to obszar informacyjny zawierający wymagane prawem informacje regu
 
 ## Model
 
-Poniższy obrazek pokazuje wyszukiwarke Google w postaci modelu przy użyciu opisywanych narzędzi:
+Poniższy obrazek pokazuje wyszukiwarkę Google w postaci modelu przy użyciu opisywanych narzędzi:
 
 ![Model wyszukiwarki Google](../../img/google-search-model.png).
 

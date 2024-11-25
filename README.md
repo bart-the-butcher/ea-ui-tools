@@ -9,7 +9,7 @@ MDG for Sparx Enterprise Architect gathers a set of basic tools related to user 
 2. Refer to "[Import MDG Technologies to Model](https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_frameworks/importmdgtechnologies.html)" or "[Manage MDG Technologies](https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_frameworks/manage_mdg_technologies.html)"
 3. Import MDG Technology or add an MDG Technology directory
 
-## How to used it
+## How to use it
 
 1. [Manuals](./docs/en/definitions/readme.md)
 2. [Examples](./docs/en/examples/readme.md)

@@ -28,4 +28,4 @@ W panelu operacji wyświetlane są dwa przyciski:
 * `Modify`,
 * `Cancel`.
 
-Naciśnięcie przycisku `Modify` skutkuje wywołaniem, połączanej z nim relacją `UI Call` operacji `putSomething`, która zapisuje stan formularza. W sytuacjach nieoczywistych do opisu szczegółów wywołania operacji można użyć `elementu zasady`.
+Naciśnięcie przycisku `Modify` skutkuje wywołaniem połączonej z nim relacją `UI Call` operacji `putSomething`, która zapisuje stan formularza. W sytuacjach nieoczywistych do opisu szczegółów wywołania operacji można użyć `elementu zasady`.
