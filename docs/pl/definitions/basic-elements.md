@@ -4,7 +4,7 @@
 
 Zaliczamy do nich:
 
-* przycisk (`button`)
+* przycisk (`button`), panel nawigacyjny (`navbar`), przycisk rozwijania opcji w panelu nawigacyjnym (`navbar button`)
 * opcja wyboru wielokrotnego (`checkbox`)
 * opcja wyboru jednokrotnego (`radio`)
 * obrazek (`image`)
@@ -13,11 +13,13 @@ Zaliczamy do nich:
 * pole nawigacyjne (`navbar`)
 * lista rozwijana (`select`)
 * pole statycznego tekstu (`static text`)
-* zakładka (`tab`)
 * pole edycyjne do wprowadzania tekstu (`textarea`)
+* zakładka (`tab`)
 
 Stanowią atomowe elementy konstrukcji modeli. Układane powinny być jako części składowe komponentów lub paneli.
 
 Powyższe elementy zostały pokazane na poniższym rysunku:
 
 ![Podstawowe elementy](../../img/ui-basic-elements.png)
+
+Powyższa lista stanowi podstawowy zbiór elementów z których można konstruować interfejsy użytkownika.

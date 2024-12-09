@@ -15,4 +15,3 @@ lub:
 `Component ID` identyfikuje komponent i może być wykorzystany jako nazwa w kodach źródłowych przygotowywanych przez wykonawców.
 
 Komponent może zawierać panele lub podstawowe elementy interfejsu użytkownika.
-

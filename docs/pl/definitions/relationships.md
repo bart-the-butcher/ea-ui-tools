@@ -1,5 +1,13 @@
 # Opis relacji wykorzystywanych do modelowania zależności między elementami interfejsów użytkownika
 
+## Wprowadzenie
+
+Relacje łączą dwa elementy znajdujące się na diagramie reprezentowane przez:
+
+* [komponent](./component.md#komponent)
+* [panel](./panel.md#panel)
+* [elementy podstawowe](./basic-elements.md)
+
 ## Relacja uszczegółowienia
 
 Opisywana jest stereotypem `UI Details`. Określa uszczegółowienie elementu źródłowego przez element docelowy. Ułatwia:
@@ -15,8 +23,8 @@ Na poniższym schemacie przedstawione zostały przykłady uszczegółowienia:
 
 Przedstawione przykłady powinny być interpretowana w następujący sposób:
 
-* użytkownik ma dostępny `source`
-* opis i jego dekompozycja są dostępne udostępniane przez `source details`.
+* użytkownik koszysta z elementu identyfikowanego na rysunku jako `source`,
+* opis szczegółowy z dekompozycją przedstawiony jest na rysunku jako element identyfikowany jako `Source details`.
 
 ## Relacja rozszerzenia
 
@@ -77,4 +85,4 @@ Na poniższym schemacie zostały pokazane przykłady wykorzystania relacji wywo�
 
 Relację można wykorzystać do powiązania operacji API, opisanej w dokumentacji zespołu backendowego. Pozwala to na wybudowanie bazy wiedzy zależności pomiędzy elementami działającego systemu i podejmowanie bardziej świadomych decyzji w sytuacji konieczności wprowadzania zmian.
 
-Wywołanie operacji API może następować automatycznie przed, w trakcie, po wyświetleniu komponentu lub panelu.
+Wywołanie operacji API może następować automatycznie przed, w trakcie, po wyświetleniu komponentu lub panelu. Sposób obsługi wywołania może być uszczegółowiony opisem przy wykorzystaniu [elementu zasady](./rule-elements.md#zasada) lub [elementu reguły przetwarzania danych](./rule-elements.md#zasada-przetwarzania-danych).

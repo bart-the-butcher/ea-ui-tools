@@ -4,7 +4,7 @@
 
 These include:
 
-* button
+* button (`button`), navigation panel (`navbar`), button for expanding options in the navigation panel (`navbar button`)
 * checkbox (multiple-choice option)
 * radio (single-choice option)
 * image
@@ -21,3 +21,5 @@ These are atomic elements for constructing models. They should be arranged as co
 The above elements are shown in the following image:
 
 ![Basic Elements](../../img/ui-basic-elements.png)
+
+The list above represents the fundamental set of elements for constructing user interfaces.

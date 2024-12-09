@@ -4,7 +4,7 @@
 
 W niniejszym artykule omówiony został przykład wykorzystania modelowania interfejsów użytkownika w oparciu o wyszukiwarkę udostępnianą przez Google.
 
-Przedstawiony model nie pokazuje pełnej złożoności wyszukiwarki Google. Pewne jej elementy zostały celowo pominięte, żeby zmniejszyć złożoność modelu.
+Przedstawiony model nie pokazuje pełnej złożoności wyszukiwarki Google.
 
 ## Wyszukiwarka Google
 
@@ -18,7 +18,7 @@ Interfejs użytkownika wyszukiwarki można podzielić na 3 obszary:
 * panel wyszukiwarki (2)
 * panel stopki (3)
 
-Podział przedstawiono na poniższym rysunku:
+Powyższy podział przedstawiono na poniższym rysunku:
 
 ![Obszary wyszukiwarki Google](../../img/google-search-areas.png)
 
@@ -32,7 +32,9 @@ Poniższy obrazek pokazuje wyszukiwarkę Google w postaci modelu przy użyciu op
 
 ![Model wyszukiwarki Google](../../img/google-search-model.png).
 
-Wyszukiwarka została przedstawiona w postaci komponentu składającego się z 3 paneli. Każdy z paneli posiada uszczegółowienie. Panele obsługujące obszary 1 i 3 obsługują głównie linki albo do innych usług Google albo do informacji (regulamin, itp). Link w modelu przedstawiony jest w postaci przycisku. Kliknięcie w niego powoduje przejście do funkcjonalności opisanej w postaci komponentu. Do opisu przejścia wykorzystano relację `UI Navigate`. Na uwagę zasługuje opcja znajdująca się po lewej stronie przycisku `Sign in`. Opcja ta została przedstawiona przy pomocy przycisku, do którego dowiązany jest panel przy pomocy relacji `UI Show` z atrybutem `Position` ustawionym na `Below`. W ten sposób kliknięcie w przycisk skutkuje wyświetleniem powiązanego panelu w miejscu pod przyciskiem. Panel zestawia usługi Google. Usługi te zostały pokazane w postaci listy. W każdym wierszu listy wyświetlane są 3 panele. Każdy z nich reprezentuję dostępną dla użytkownika usługę Google. Kliknięcie w niego skutkuje uruchomienie wskazanej usługi. Na modelu wykorzystano uszczegółowienie `UI Details`. Powiązanie z usługą nie zostało pokazane.
+Wyszukiwarka została przedstawiona w postaci komponentu składającego się z 3 paneli. Każdy z paneli posiada powiązany panel uszczegóławiający. Panele obsługujące obszary 1 i 3 obsługują głównie linki albo do innych usług Google albo do informacji (regulamin, itp). Link w modelu przedstawiony jest w postaci przycisku. Kliknięcie w niego powoduje przejście do funkcjonalności opisanej w postaci komponentu. Do opisu przejścia wykorzystano relację `UI Navigate`.
+
+Na uwagę zasługuje opcja znajdująca się po lewej stronie przycisku `Sign in`. Opcja ta została przedstawiona, na diagramie, przy pomocy przycisku, do którego dowiązany jest panel przy pomocy relacji `UI Show` z atrybutem `Position` ustawionym na `Below`. Reprezentuje to funkcjonalność wyświetlania, po naciśnięciu przycisku `Sign in`, panelu zestawiającego dostępne usługi Google. Panel jest wyświetlany pod przyciskiem. Usługi są przedstawione w postaci listy. Zestawiane są w formie trzy-kolumnowej. Każda usługa widoczna jest w postaci obrazka ikony i jej nazwy. Na diagramie lista pokazywana jest w postaci panelu scrollowalnego. Usługi to kolejne panele, do których relacją `UI Details` dowiązywany jest panel uszczegółowienia.
 
 Obszar 2 opisuje podstawową funkcjonalność wyszukiwarki. Oprócz obrazka loga Google zawiera element umożliwiający wprowadzenie poszukiwanej frazy. Oprócz tego pokazywane są dodatkowe opcje. Wprowadzenie frazy w pole edycyjne lub naciśnięcie przycisku znajdującego się po lewej stronie pola edycyjnego skutkuje wyświetleniem panelu z podpowiedziami.
 

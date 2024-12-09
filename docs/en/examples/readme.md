@@ -8,3 +8,4 @@ This article compiles examples of modeling typical user interfaces using the des
 
 * [Tabular List with Filter](./table-view.md)
 * [Data Modification Form](./form-data.md)
+* [Google Search](./google-search.md)

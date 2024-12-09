@@ -46,3 +46,5 @@ lub:
 Panel scrollowalny powinien być wykorzystywany do budowy różnego rodzaju zestawień (zestawienia tabelarycznego, czy listy). Jego wykorzystanie informuje, że zawartość panelu będzie scrollowalna w sytuacjach, gdy przekroczy rozmiary panelu.
 
 Panel może zawierać inne panele lub podstawowe elementy interfejsu użytkownika. Scrollbary pokazywane są w celu pokazania potrzeby przesuwania zawartości w poziomie lub pionie lub w obu kierunkach. Zakłada się, że w przypadku, gdy zawartość nie przekracza rozmiarów panelu to scrollbary są zablokowane albo nie wyświetlane (zależnie od wykorzystywanych narzędzi lub innych decyzji projektowych).
+
+Panele mogą mieć wyświetlaną nazwę (na powyższym rysunku `Scrollable panel`, `A hidden horizontal and vertial scrollbar`).

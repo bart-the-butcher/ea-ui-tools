@@ -1,5 +1,13 @@
 # Description of Relationships Used for Modeling Dependencies Between User Interface Elements
 
+## Introduction
+
+Relationships connect two elements present on the diagram, represented by:
+
+* [component](./component.md#component)
+* [panel](./panel.md#panel)
+* [basic elements](./basic-elements.md)
+
 ## Detailing Relationship
 
 Described by the `UI Details` stereotype. It specifies the detailing of the source element by the target element. It facilitates:
@@ -15,8 +23,8 @@ The following diagram shows examples of detailing:
 
 The examples should be interpreted as follows:
 
-* the user has access to `source`
-* the description and its decomposition are provided by `source details`.
+* the user interacts with the element identified as `source`,
+* the detailed description with decomposition is shown as the element identified as `Source details`.
 
 ## Extension Relationship
 
@@ -75,6 +83,6 @@ The following diagram shows examples of using the call relationship:
 
 ![Call](../../img/ui-call.png)
 
-This relationship can be used to connect an API operation described in the backend team’s documentation, allowing for a knowledge base of dependencies within the functioning system to be built and more informed decisions to be made when changes are required.
+This relationship can be used to link an API operation described in the backend team's documentation. It allows for building a knowledge base of dependencies between elements of the functioning system and making more informed decisions when changes are required.
 
-The API operation call may occur automatically before, during, or after displaying a component or panel.
+The API operation call may occur automatically before, during, or after displaying a component or panel. The handling of the call can be detailed using a [rule element](./rule-elements.md#rule) or [data processing rule element](./rule-elements.md#data-processing-rule).
