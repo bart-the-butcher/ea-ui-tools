@@ -21,7 +21,7 @@ Formularz składa się z następujących elementów:
 
 Oba mają uszczegółowienie powiązane relacją `UI Details`.
 
-Panel edycji definiuje formularz który będzie widoczny użytkownikowi i będzie stanowić narzędzie do zmiany danych. Panel wizualizuje odczytane ze stanu komponentu dane i umożliwia ich zmianę.
+Panel edycji definiuje formularz który będzie pokazywany użytkownikowi i będzie stanowić narzędzie do zmiany danych. Panel wizualizuje odczytane ze stanu komponentu dane i umożliwia ich zmianę.
 
 W panelu operacji wyświetlane są dwa przyciski:
 

@@ -19,17 +19,15 @@ The component consists of two elements:
 
 The two elements listed above have details shown as panels connected by the `UI Details` relationship.
 
-The search data is a simple form that includes:
+Search criteria data is a simple form including:
 
 * a field for entering text data,
-* a button that refreshes the list data based on the entered search criteria.
+* a button that supports reading and refreshing the tabular summary of the data.
 
-Pressing the `Search` button triggers the `getSomething` operation, which reads the data and refreshes the list. The handling rules for this operation are described in `Search rules`.
+Pressing the `Search` button results in calling the `getSomething` operation, which reads the data. After reading, the tabular list is refreshed. The rules for handling the operation call are described in `Search rules`. The `getSomething` operation is associated to the button by the `UI Call` relationship.
 
-The `getSomething` operation is linked to the button by the `UI Call` relationship.
+In the diagram, the tabular list is presented as two rows (panels were used for this). The first row is the header. The next row represents the data shown in the table. The header shows the labels of the data fields displayed in the data rows. The data line shows the field names of the list items returned by the `getSomething` operation. A detailed description of the data mapping rules is included in the, associated with the panel, requirement `Table display rules`.
 
-The data list is presented in two rows. The first row defines the header visible to the user, listing the names of the displayed data. The second row provides information for implementers, showing the data from the retrieved list to be displayed to the user. Execution details are included in the requirement `Table display rules` associated with the panel.
-
-In the first column of the list, a context menu is displayed. This element has a detail showing that handling it should be done as an element containing one active option, `View`, and the ability for the user to expand other options by pressing a button. The expanded view is displayed as a panel containing buttons arranged vertically. Display and handling rules are included in the requirement `Options display rules`.
+Each row in the first column of the list item displays a context menu. In the diagram, this element is detailed in the form of a panel containing a menu navigation list item. The user sees the `View` option by default. When the user clicks on the expand button, a list of available options is displayed. The panel is positioned underneath the menu (in the diagram this is represented as a `UI Show` relationship with a `Position` attribute equal to `Below`). The rules for displaying and handling menu options are contained in the `Options display rules` requirement.
 
 Selecting the `Modify` option launches the `modify-form` component. The modification component has its design in the diagram `UI Design: Modify-form`.

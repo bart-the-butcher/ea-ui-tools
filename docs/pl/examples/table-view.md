@@ -14,22 +14,20 @@ Zasady przechowywania i obsługi danych wewnątrz komponentu zostały opisane w 
 
 Komponent składa się z dwóch elementów:
 
-* zestawu pól umożliwiających wprowadzenie kryterium wyszukiwania,
-* tabeli zestawiającej wyszukiwane dane.
+* zestawu pól umożliwiających wprowadzenie kryteriów wyszukiwania,
+* tabeli zestawiającej wyszukane dane.
 
 Oba wymienione wyżej elementy mają uszczegółowienia przedstawione w postaci paneli powiązanych relacją `UI Details`.
 
-Dane wyszukiwania to prosty formularz obejmujący:
+Dane kryteriów wyszukiwania to prosty formularz obejmujący:
 
-* pole do wprowadzania danych tekstowych
-* przycisk obsługujący odświeżanie danych zestawienia przy wykorzystaniu wprowadzonego kryterium wyszukiwania
+* pole do wprowadzania danych tekstowych,
+* przycisk obsługujący odczyt i odświeżenie zestawienia tabelarycznego danych.
 
-Naciśnięcie przycisku `Search` skutkuje wywołanie operacji `getSomething`, która czyta dane i odświeża zestawienie. Zasady obsługi wywołania operacji opisane zostały w `Search rules`.
+Naciśnięcie przycisku `Search` skutkuje wywołaniem operacji `getSomething`, która czyta dane. Po odczycie następuje odświeżenie zestawienia tabelarycznego. Zasady obsługi wywołania operacji opisane zostały w `Search rules`. Operacja `getSomething` jest powiązany z przyciskiem relacją `UI Call`.
 
-Operacja `getSomething` jest powiązany z przyciskiem relacją `UI Call`.
+Na diagramie tabelaryczne zestawienie danych przedstawione zostało w postaci dwóch wierszy (wykorzystane do tego zostały panele). Pierwszy wiersz to nagłówek. Kolejny wiersz reprezentuje dane pokazywane w tabeli. Nagłówek prezentuje etykiety pól danych wyświetlanych w wierszach danych. W wierszu danych pokazane zostały nazwy pól pozycji listy zwróconej przez operację `getSomething`. Szczegółowy opis zasad mapowania danych został zawarty w, powiązanym z panelem, wymaganiu `Table display rules`.
 
-Zestawienie danych przedstawione zostało w postaci dwóch wierszy. Pierwszy wiersz definiuje nagłówek widoczny dla użytkownika i zestawiający nazwy pokazywanych danych. Drugi wiersz jest informacją dla wykonawców pokazującą dane odczytanego zestawienia które mają być pokazane użytkownikowi. Opis szczegółów dla wykonania został zawarty powiązanym z panelem wymaganiem `Table display rules`.
-
-W pierwszej kolumnie zestawienia wyświetlana menu kontekstowe. Element ten ma uszczegółowienie pokazujące że obsługa tego ma być zrobiona w postaci elementu zawierającej jedną aktywną opcję `View` i możliwość rozwinięcia pozostałych opcji przez użytkownika po naciśnięciu przycisku. Rozwinięcie wyświetlane jest w postaci panelu zawierającego w układzie pionowym przyciski. Zasady wyświetlania i obsługi zawarta została w wymaganiu `Options display rules`.
+W każdym wierszu w pierwszej kolumnie pozycji zestawienia wyświetlane jest menu kontekstowe. Na diagramie element ten ma uszczegółowienie w postaci panelu zawierającego element listy nawigacyjnej menu. Użytkownik widzi domyślnie opcję `View`. Po kliknięciu w przycisk rozwinięcia wyświetlana jest lista dostępnych opcji. Panel jest pozycjonowany pod menu (na diagramie przedstawione to jest w postaci relacji `UI Show` z atrybutem `Position` równym `Below`). Zasady wyświetlania i obsługi opcji menu zawarte zostały w wymaganiu `Options display rules`.
 
 Wybranie opcji `Modify` skutkuje uruchomieniem komponentu `modify-form`. Komponent modyfikacji ma swój projekt na diagramie `UI Design: Modify-form`.
