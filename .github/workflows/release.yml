@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,5 +26,6 @@ jobs:
         with:
           tag: ${{ github.ref_name }}
           name: Release ${{ github.ref_name }}
-          replacesArtifacts: true
           artifacts: "ea-ui-tools-${{ github.ref_name }}.zip"
+          allowUpdates: true
+          replacesArtifacts: true
