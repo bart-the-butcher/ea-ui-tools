@@ -1,0 +1,26 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'  # Uruchamia workflow, gdy tworzysz tagi zaczynające się od "v"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Archive `distr` directory
+        run: |
+          zip -r ea-ui-tools-${{ github.ref_name }}.zip distr/
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}  # Tag, który uruchomił workflow
+          name: Release ${{ github.ref_name }}
+          body: "Automatycznie wygenerowany release z katalogiem 'distr'."
+          artifacts: ea-ui-tools-${{ github.ref_name }}.zip
