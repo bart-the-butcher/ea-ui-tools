@@ -45,7 +45,6 @@ or:
 
 A scrollable panel should be used for building various types of lists (e.g., tabular lists or standard lists). Its use indicates that the panel’s content will be scrollable when it exceeds the panel’s dimensions.
 
-A panel can contain other panels or basic user interface elements. 
+A panel can contain other panels or basic user interface elements.
 
 Scrollbars are displayed to indicate the need to scroll content horizontally, vertically, or in both directions. It is assumed that if the content does not exceed the panel’s dimensions, the scrollbars are either disabled or not displayed (depending on the tools used or other design decisions).
-
