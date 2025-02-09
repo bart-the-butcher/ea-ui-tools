@@ -65,7 +65,14 @@ shape label {
 					print("[#NAME#]");
 				}			
 			} 
-		}
+		} else {
+			if (HasTag("Label")) {
+				print("#tag:Label#");
+			} else {
+				print("#NAME#");
+			}						
+		}		
+
 		
 		// The label is suffixed with a colon when the `Label Suffix` feature is set to `Visible` or when this feature is not defined
 		if (HasTag("Label Suffix")) {

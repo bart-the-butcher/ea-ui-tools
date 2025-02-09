@@ -1,8 +1,8 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <MDG.Technology version="1.0"><Documentation id="ui-20241015" name="User Interface Modeling Tools" version="1.8" notes="Tools supporting user interface design." infoURI="https://github.com/bart-the-butcher/ea-ui-tools" supportURI="githubb@balcer.info"/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KwAAAAAAAAIoAAAB8AAAAgAAAAIAAAAABABgAAAAAAADAAADXDQAA1w0A
-AAAAAAAAAAAAZQAgAHAAcgBvAGYAaQBsAGUAdAB5AHAAZQA9ACIAdQBtAGwA
-MgAiAD4ACgAJADwARABvAGMAdQBtAGUAbgB0AGEAdABpAG8AbgAgAGkAZAA9
-ACIA////////////////////////////////////////////Y2NjZGRkZGRk
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA////////////////////////////////////////////Y2NjZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
 ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk
@@ -1109,9 +1109,9 @@ ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZWVlY2Nj////////////////////////
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwBvAGIAagBlAGMAdAAuAE8AYgBqAGUAYwB0AF8ASQBEACwA
-IAB0AF8AbwBiAGoAZQBjAHQALgBOAGEAbQBlACwAIAB0AF8AYwBvAG4AbgBl
-AGMAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -1170,9 +1170,9 @@ AQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Checkbox"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAdOEm
-9n8AAGD9Pyv2fwAAAAAIvvgBAACA/Xsr9n8AAPBHfSv2fwAACQAAAAAAAABw
-XDUqtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAdABfAG8AYgBq
+AGUAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+5ubms7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
@@ -1191,26 +1191,26 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJmSVqlLrHJ0wIAAHIMAAAHABEAc3RyLmRhdFVUDQAHMaSo
-ZzGkqGcxpKhnrVZraxNBFL1fI/gflvSLhYi2pD4qfhCpKFgVGvWDCE2yJllM
-E8mjjUr/u+fcu5OZfWaDZZnH7txzZubcO3d2KRPpyy/5IZFcoZfITP7Kfbmn
-pYW3uSzVJkbvRl5KW1aykDUQbXmRWlkd49tILsDxB70HciRd6Wh9uLVcYmQF
-q0SmeIbgnKIsYH0sJ3g6udYjF0AOge1jTWOgOMNj2LEcofatwxguwWwRbN8C
-uZQe6jHe2vIauyLjT9Qx3juwCvd2iCdKtWhtV06lZsHM+VXW7bAOw30tlL+P
-egLrcPwKDNfKO1elyBGOT9Vvbvy5PGtkwbrahrPkLbj3uGKNbsf0T6w7WoCH
-6hbtyzXdFQF12lZjXXTurzJ5ToJ4KmrE0Y48za0ya8NRW0+djcVF3Vxd9dmT
-zGnK2xyrTTdnc7deu9X2Nn233GD5gywD9KZ6bpzuVledwvcB5hwzM4e4s/gF
-qCXKQHjaiyfStU24PwnzWIIdJejNtnOQeYSvnt3zunj7CE0ScFJp8n5N0Q/h
-DbbmNY8zhe5idTbvZM/1naX4utU5/fZZZU9+q6eznvCreYQnQv7nKeNONnhb
-wX6DOowOj9hvVtPE8w911PiL0dGMvxzXwozUdAZm2h/onGM5DZAHivUnybSN
-dIx+2c35QV4h5s8qmKz138hdpneold3AlhFivA+gXYTxSD7LO9TXwvyXKIKR
-H2n2JI6K0o5ocsX/6SWb782WrVzn3czluLyW3yo89L1U2eY+Iq/3UjmbtUU/
-Wd/1XGs+6+m/RzZjMtdFKGtoQi9sUh/eCPPCRMyP7s6b6QhZ2OM4+S5rs8pl
-MAvzBnFzRbksSAu7Cao4L4L10XqE74ydtfD/rIo/m8mJs7jL7sCw5Yz8DyVj
-NsKdF5y6u+OpqEqzm6AJc6hNedzuz2Jr23UT2pON3VNFFuM1jFTfrzoRVZw2
-GnIVbxj3zd+HLP8AUEsBAhcLFAAAAAgAAmZJWqUuscnTAgAAcgwAAAcACQAA
-AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABzGkqGdQSwUGAAAAAAEAAQA+AAAA
-CQMAAAAA
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADR1SVqVxBba6AIAAFgNAAAHABEAc3RyLmRhdFVUDQAHpr6o
+Z6a+qGemvqhnrVZbaxNBFD6vEfwPS/piIaItqZeKDyIVBW/QqA8iNMmaZDFN
+JJu0Uel/9/vOyWRmr9loWXYuO+f75lxnNpWJ9OWnfJdILjFKZCZ/5K7c0beF
+2VxSlYkxupbn0palLGQFRFuebaSsjfFtJOfg+I3RPTmSrnS0PdxKplhZQiqR
+KZ4hOKd4F5A+lhM8nVzvkQsgh8D2odMYKO7wEHJ8j9D63mEMl2C3CLKvgUyl
+h3aMWVtewioy/kAbY96BVGjbIZ5o44vWVnN6ahbsnNeyzsI6DO1aKH8f7QTS
+4folGK6Ud66eIke4PtW4ufWn8qSRBNtqGe6Sl6DtcYWOzmLGJ1aLFuChd4vy
+5T7dlQF1vq3Guuzc38vkOQnyqegjrnbkcU7LrAxXTZ86GcuLur26GrNHmWrK
+yxyrTDcnc7tRu9H+ZjO3s8HOD7IMMJpq3Ti/W1tVhW8DzDvszDPE1eJnoFK8
+A2G1FyvS9U24PwrPsQQWJRjNtnuQeYSvnt3zunz7AJ8k4KSnyftlg76PaLC3
+qHmceeg2tLN9J3vqd7bB12nn/LePlj35pZHORsJr8wBPhPOfVUZL1pgtIb9G
+G2aHR+y3q/nE8w911fiL2dGMvxzXwo706QzMlD/QPcdyGiAPFOsryXwb6Rrj
+spvzvbxAzp9VMFnvv5G7zN+hr+wGthMhxnwA30VYj+STvEF7JTz/EkUw8yM9
+PYmjRylHNLni/4yS7fdqy1bu593M5bi8L79WROhbqWebx4i8PkrlbNYX41S/
+179ans+hMqvzWlZrUeSrzklnqT3ewnDmesvMnv5hZe8FnugR3hXsZ66txTL1
+Wnj6TcSy1d3sM10hC0dcJ99F7dl5EezC05G4uaLcWU8Ju++qOM8D/Sg9wndW
+yEr4F1rFn72viLPqylpg2HJG/m2TMVvHeZ/vzp2iV5rdd02YQ9+U5+j+LKbb
+rvvenmzGniqyWJVh3vpxsyrwnLaarQGf+TZy3/ytz/cvUEsBAhcLFAAAAAgA
+NHVJWpXEFtroAgAAWA0AAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B6a+qGdQSwUGAAAAAAEAAQA+AAAAHgMAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -1371,25 +1371,25 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAA5nSVqdJwrasQIAALIKAAAHABEAc3RyLmRhdFVUDQAHF6ao
-ZxemqGcXpqhnpVZNb9NAEJ2rkfgPq+SSSkFAJFAp4sABBBKUQwscEFKaxgmR
-UhPVDg2g/Hfem93tru113QhZ9o49M29m52tdyg+5kI3kYuQK1EoK+SsP5YFk
-oH5Kqfw5qBt5JQOp5Fq2kB7ISye1Bv83+FvwzkERi5JrrAuVX8kSKFWkY59z
-lTgD/w+okTyVJ7jGWI/lyMlayRL8CrIroK7lEtbWuK+hM5FnuMaN1WtnkMkh
-X8HHAl7Qp5HasHa8Pa7UyfQKdrnzOaxvZeYiwd2NsJON4zFeS7yPEb+JPgNa
-Hwb3k8OnuZzi65VGdSwv5HkCx8chZKvugbnNWgYOY15g17QyiHzZd2AFT95D
-b4HYxngrfDHAegf5Ejm+gD0iv73VMvIROsynjcRAvoBX4p5pzOnDUQ3zPqgp
-rebuvslQs7uUk0hzKN9r++a1BxK5rKV+zMJlJI3kaU/59a7I+hzTtpfs7p4K
-3zZi+66Q0DlBs7uuUrXpa53UpLafbpx2VRArIB27Pg1e7R21F1tlcSS405ni
-2QiEaLG3P7k5QZ9p+6vz+5HrBt+f1LF6XfXzIbJzSFX6eNwH12cqjZDJY1wG
-k42VWQFxh7cK8js840gEjcOs2t0E/EvlWvx01/Tjp/WavRG6LWgOVTfukLu7
-rY15Kq+RqzcdSHYN34idinccK3u20Eau82mG2BnwjXxGNRv5BZo+UIO1YPQ8
-oR4jSrlQ/f+XJWuvb6r1I6f1mrGM52GcofYUOyxHxA1ZSqPZtZ0nS3vKrzZn
-55gQzenAHjU6kRaahZ3L4Q3oCvI2j/4voFAOUUiRT7xpLSdnEdZUmNtc87zV
-/4NgkZOIGDz/po1pQT1bI3VrVjeNyD8oItar0UegP+d1z1MVcDhG/yRMV8CJ
-6vWdhJnabFdUF5blBpR4wofTxH/j/Q9QSwECFwsUAAAACAAOZ0lanScK2rEC
-AACyCgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHF6aoZ1BLBQYA
-AAAAAQABAD4AAADnAgAAAAA=
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGp1SVqq2nlgzAIAAJwLAAAHABEAc3RyLmRhdFVUDQAHGb+o
+Zxm/qGcZv6hnpVZNb9NAEH1XI/EfrOSSSkFAJFAp4sABBBKUQwscEFKaxgmR
+UhM1Dg2g/Pe+t+vtru113ICseMeemTff46zxAxdYIUOKK1IL5PiLh3iAhNRP
+rA1/SuoGr9BDgWtsKN3Dy1JqSf5v8jfknZMSliSXPGdGfoE5UYpAx96nRuKM
+/D+kBniKJ7yGPI9xVMpayTX5BWUXRF3iktaW/F1TZ4RnvIa102knlMkoX9DH
+nF7Ip4GxYe04ezqlk5jL21XkU1rfYFJmQtENGMmq5Clfcz4Pmb+RuXu0LgzF
+k9GnKU759spkdYgXeB7BcXnw1ap6kN5VLSFHOc8Ztaz0Al92LVjek/fUmzG3
+Id6Cb1JivaP8mjW+oD0hv73TSvGROqqnzUQPX8hb8zcxOZcPRxXM+6DGtOrR
+fUPfVHeOk0Czj++VuHXtiCSueqkbMy8rEkdytKPcuS+zrsay7STbp6fguxXs
+3OXwk+M12/sq1puu10WNKvG04zS7Qlge6bicU+/VrqR2sF0WZkKRTgyezYDP
+lmb7U7kn5LNsfy39flROg5tP6Vi9tv75ENg5pCtdPu6D6yoVR0jwmFfKzabO
+LIi45VNB+S3vYSa8xmFWbTQe/9JwLX58arrx43r12fDT5jX7RjeckP3T1sQ8
+xWvW6k0Lkj39O2HH8h3myn5bZCMz+2nC3KXkp/jMbk7xi7R8kIZ6ITXfE+kp
+o5Lz3f9/VbL2urZaN3Jcr57LcB+GFWpuscNqJFxfpTiaPZt12m/rXyOv91As
+6rqX7V408dp70kVqLx+he3Jv3Gm785y7sL4HtY1SaPfOTL9tYbv1hnRBedux
+7v9ObjhCESW+8MaV7jsLsMZQF2dQR2/MPyFvUTtXGPrSj2t7UXp2GqrWrG4c
+Uf8VhVidO5eB7hpXPY9V/HCM7p3valit/YnRq9fc19lR8U5qw7LcsFt8r/jv
+pnun3y1QSwECFwsUAAAACABqdUlaqtp5YMwCAACcCwAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAHGb+oZ1BLBQYAAAAAAQABAD4AAAACAwAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -1437,29 +1437,29 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAG5kSVpT/bJ6YQMAALgOAAAHABEAc3RyLmRhdFVUDQAH+6Co
-Z/ugqGf7oKhnpVZNbxNBDPU1SPyHUXpJpSAg0JIWceBQBBKUQwscEFK+Q6Qk
-jfLRBlD+O++NZzKzm9lsAlptxlnbz55ne3YX8lPaMpO+GJlAGslU/shjeSQV
-SHeysPoepAd5I1VZylxWsK7Ka2c1hv4X9CvobiERi5ZjrANrP5IhUJZbH/Xr
-Wf0NtL8h1eS5PMNVx9qU0y16xa3MoYdsVtJxOTFODZjMeGajV+FtIhyuHklR
-gqeJ/Mx2x/++G2L38XQA/RhXFxhj3HPk2JAzXPXcGu9xDt8uvNvIaWhj1ewe
-wj7i/dDD8+IRivmZOR33O3QcNSKm4jyKUbivPjLryTWeTmwH1OVCzhNIirYp
-4D2bT8z9zLI7BQ+MWI0yK8IKWX2A3wB8x3gjPDHAeg/7BarZRjwiv9t6GfkE
-H3ai8lKVr9AtcHdsFZjDaQbzENSUV353J7baQ7mM/E4ye+a1AQp17K39eD2g
-ETFUJ4/kZS+Vc+qxGDl0WtGELPFsJnpSTCU/HcWdlepP3/OUGkd3qO8FYgWk
-pjtXiJJnIEi8Yza4247FVRa8r077Z3ceMHfm8M3l/8TNhZ/XwERR93yM4hzT
-k56XQ3B9tdIIFXmKy+BEZh8tgbjGvyXs18IzMjARPI6LqrsJ+F2rVfz0zJTj
-p/3y0xGmLXjuTtv+edvFvJa3qNVVAZKu4RmxU3zHXOk7kTH69nTqgDsDvZEv
-6Goj95CZAz3YC8a+Yein0x9P7/9VSeOVnWnlyGm/PJffCyr0I8ns4TUibqhS
-Gk3X3Tqp7CW/as1ucULkTwfOqLEn08BWYe1q+AB5CXuto/8umFoNUShRT7xW
-piY3EVZLWNu+rfPKfi+EiDyJiMG3Xyt3WtBPeyQbTX3TiPzuI2K2Gz0D5TXP
-Zp7qgOMxyk/CdAdcWr+yd2HFxtztqCIs1QaU+IT3/8I7hTyy7nPL9chVv4t/
-3MXUTi8r5CPTknPHuMGD79grCd/d+qv9yMz5HtUI2plaN7WaAOFe2Cd34r8s
-AyfeNmhT33MaaTdr9UzFeWGxGntiqUVzj8XFgRblUbIWxfm+3IOksWKLYpzz
-UpysRQrpLJF5FkktYn5SOK9KcdQiy7P+su6UjLtY9S48yIJ2iu6kHu1bYylT
-+bjeX+3Un3G9v8rqH7CyWW3kL1BLAQIXCxQAAAAIAG5kSVpT/bJ6YQMAALgO
-AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf7oKhnUEsFBgAAAAAB
-AAEAPgAAAJcDAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJh1SVrNHZlNewMAAJ4PAAAHABEAc3RyLmRhdFVUDQAHPL+o
+Zzy/qGc8v6hnpVdbT1NBEJ5XTPwPm/ICSY1aBQHjgw8YTRQfQH0wJtCrTUpp
+ekHU8N/9vp2z3Ut3e1rMpuycMzPfXHfOMpOfciUT6YmRa1BDGctfeSyPZAfU
+jcwsvwvql7yRhsxlKgtIN+R1JTUC/zf4C/AuQBGLkiPsfSs/lAFQ5ksd1eta
+/jm4f0DtyXN5htXEfiT7S/SdaqcPXXizkHblE+3sAZMeT6z1BrRNgMPdISmK
+1zSBnllG/PBoiN3D2z74I6wOMEb4TeFjSw6wmskexjiFbgfaV/BpYG3t2Rh8
+HGE81HB5cQjl/EwqHuMdVDlqBZkK/SijMK4ePOvKGd5e2w5oyrEcZpAU7b6Q
+99ifMPcTm90x8kCLjcCzEpb36gP0+sh3iDfEGwOs95CfoZpXsEfkd0stI5+g
+w07UvDTkK3gz/Nq2CvRhP8LcBDWnlUa3a6s9kJNAbzeKmeseKOSxt9bjdYFG
+RF+dFMnRjqrPqcOiZd9ppRMyx7uJ6KQYS3o6yp2V60/X86RaW3eo6wVieaSj
+aq4QJc2Ap/gLs8Fo2xZXs+B09bR/ruYBfacP3yr/n1Tnwp1Xn4lS93wM7GzT
+ky4vm+C6auURduQplsFEZh/NgXiHpznk74Qz0mfCa2xnVaPx+B3LVfz8manH
+z+ulp8OfNq+5etrWn7dVzDN5i1qdFpB09++Inct3mCv9JtJGz06nNnJnwDfy
+BV1t5BY0faAGe8HYLwz19PSHp/f/qqT26mZaPXJeL83l90KFfmQzu3mNiOur
+lEfTfbVO6209NPK0h3JRp16WvVjFK/eki1SXjzB8crt25gXmYDoDOYmMcP72
+ba/diXbqL9BzyGu3utvP2HKIQop84l1GnXceYF0KO7gn7OaFvRV5i5y3xOA3
+/jKZidTTkxBbU908Im+3RIzPnMtAfX1jz3PV3h6jft67+sV1P7F6ab19jR2V
+76ISlnLDTiGtz+7JfzmZR9Z9anM9rKrfwROjGNsZxQo5y5TkdKFdr8GbxKn4
+/y70r/YjPedtQS1oZ2rdVOoaCLfCPrkRd3/2OXGynpu7taqlVa9VM2fnhcVq
+rbGlEkdrJI43lKi3EkuU/X25BklthRJlnMNanFgih3SQ8TxGUokwPzmcV7U4
+KhHnWf+y7qRMtVj1DjSYBe0UjaQZxK22NFOpXaevcqpPu05fadX3WLFX9/IP
+UEsBAhcLFAAAAAgAmHVJWs0dmU17AwAAng8AAAcACQAAAAAAAAAAAACAAAAA
+AHN0ci5kYXRVVAUABzy/qGdQSwUGAAAAAAEAAQA+AAAAsQMAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -1694,9 +1694,9 @@ BQYAAAAAAQABAD4AAAAoAQAAAAA=
 			</Stereotype>
 			<Stereotype name="UI Radio" notes="Pole wyboru typu radio" cx="14" cy="14" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="UI Checkbox" baseStereotypes="UI%20Checkbox">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAdOEm
-9n8AAGD9Pyv2fwAAAAAIvvgBAACA/Xsr9n8AAPBHfSv2fwAACQAAAAAAAABw
-XDUq////////////////////f39/sLCwsrKysrKysLCwqqqq////////////
+AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
+ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
+AGoA////////////////////f39/sLCwsrKysrKysLCwqqqq////////////
 ////////////////////r6+vs7OzsrKyt7e3wb28w76+uLi4srKysrKyr6+v
 ////////////////////sLCwsrKyzbe17oaD7FtW6UU/6UZA7F5Z8I2K0sHA
 srKysLCw////////////s7Ozs7Oz56qo6k5J6UU/6UU/6UU/6UU/6UU/6UU/
@@ -1715,24 +1715,25 @@ sbGx4Kqp6lFM6UU/6UU/6UU/6UU/6UU/6UU/61ZQ47a1srKytLS0////////
 ////////////////////////////qqqqtLS0tLS0sbGx////////////////
 ////////
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACJmSVraeGnflAIAAKoKAAAHABEAc3RyLmRhdFVUDQAHXaSo
-Z12kqGddpKhnrVZdT9tAENzXVOp/sMJLkUAt/QAJxAOqqFqpLZVIy0OFRMgH
-sUpNFSclFOW/d2bXlzvjc+IIZPnu7NuZ3ZvbWzuXkXTljwwkkd8YpZLJvTyX
-Z3q38HQjudr0MbqVQ2nLRMYyBaItB4WVtX28G8opOP5h9EJ25K1sabtZWJpd
-CqsE8x/BmksH7RWe2vIefgbSk19o+3jeglXobRNXUkTXwpXj7URjz4B/BXve
-r+UdLufR2w3h9xpXD+u4xj1egZkgrrHyd9GOYB3OD5QrxSzZPdMOWt8vQ7xR
-O2v3Fm0ZkUGHuH+3mq7aMNox1kTlyvZJgZhjxAjou6phTBvTxGkT0+jhiuo1
-oLWLw0bzIhsstyz/uJpLZWWEDrE8Zz4HmC+InDnoMucHUDnuS8zG8sf1Tbi/
-6TlIoVWKUbbwQeYh3np2z+vUPYGeKTh5tsh7VqC3ZVd7p5HDzXX0FNGZ39Ga
-8R0X+GXROf3WibIjd7rT5Z3w0bzElaB+8ORxJTM8TWA/Qxtmh0es59U08fw9
-nTX+anY044/jWvBITTMw035DfV7JfoDcUKw/TaZt/JTGOb/KEXL+uIbJev+O
-3DG9Q62sgtMHK3CC93dou7i/yye0f4U1MVUEMz/RWkEcFaUd0eTqP3KXzN+H
-BVtc59XMcdxDLX/W7NB5VNnme0Rev0txNuur+2RjN3K97VlHv5Tlislal+Ce
-QhPuwqzYw1thXRiJ7aOr8JnOkIUjzpPvYmlVuQi8sG4Qd6MoVwVpYV+kOs7T
-ID5aD/GeuTOFbrSO85crOXGWd+UVGDbOyP8YMpYz3O2CU3d1PlVVafYlaMIc
-ahPP2/VZLLZVX0K7yrm7r8hqvoaZ6sd1J6KO02ZDruoXxv8rsP0PUEsBAhcL
-FAAAAAgAImZJWtp4ad+UAgAAqgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
-YXRVVAUAB12kqGdQSwUGAAAAAAEAAQA+AAAAygIAAAAA
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEx1SVroG2maqgIAAJALAAAHABEAc3RyLmRhdFVUDQAHvr6o
+Z76+qGe+vqhnrVZdb9MwFL2vReI/RN0Lk4ZgfEpDPCA0BBIMpBV4QEjr+rFG
+jAw1LetA/e+cc29cO4mTpoCs2E58z7nXx9d2cpnJUH7IRBL5jl4qmfyW23JL
+nx7eriRXmzF61/Jc+rKQuSyB6MuzwsrqMb5N5RQcv9C7I4fySA603i8szS6F
+VYLx12DNZYD6Am99eQk/ExnJN9RjvB/AKvS2j5IU0fVQcnxdaOwZ8Pdhz+eB
+PEZxHr3dFH4vUUaYxyWe+RbMAnHNlX+IegbrcHyiXClGye6ZDlH7tg3xUO2s
+frqpy4gMOsT9u9kM1YbRzjEnKle2TwrEGj1GQN91DWPamCZOm5hG1Rk1a0Br
+F4f11kU2WG5Z/nE258rKCB2iPWfeBph3iJw56DLnE1A5nnOMxvLHtV24P+g+
+SKFVil628UHmKb56ds/r1H0PPVNwcm+R93OBvitPtHUaOdxae/8jOvM72zG+
+4wLfFp3Tb5coB3KjK11eCR/NPZQE5wd3HmeywtsC9ivUYXZ4xG5eTRPPP9JR
+469nRzf+OK4Hj9Q0AzPt99TnhRwFyD3F+t1k2sZ3aZzzRF4g548bmKz138gd
+0zvUyk5w+uAJnOD7Deohno/yBvVP4ZmYKoKZn+hZQRwVpR3R5Br/4yqZv1cb
+trjO25njuKqWXxpW6GtU2e5rRF6/SnE2a+vr1O7rb2dezaHYrKtRNkdR52vO
+STdTK36G4ZtrLTMH+j9Qvhd4oid4lpg/c20llqnXwtNvJpat7h7LdIQs7HGc
+fGetZ+dZ4IWnI3FXinJnPS3s3m3iPA3io/UU37lDllCL1nH+8n1FnO2u8gwM
+G2fk3xoZy/u4qvn23Kmr0u2+68IcahPP0d1ZLLZt972VcsYeKbK+K8O89f1u
+u8Bz2mh5D/jMt57/I2L9B1BLAQIXCxQAAAAIAEx1SVroG2maqgIAAJALAAAH
+AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe+vqhnUEsFBgAAAAABAAEA
+PgAAAOACAAAAAA==
 </Image>
 			</Stereotype>
 			<Stereotype name="UI Scrollable Panel" notes="" cx="100" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="UI Panel" baseStereotypes="UI%20Panel">
@@ -1804,28 +1805,29 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAD5lSVoOws5kPwMAAGANAAAHABEAc3RyLmRhdFVUDQAHe6Ko
-Z3uiqGd7oqhnpVdNbxMxEJ1rkPgPVnpJpSAggkKLOHAoAgnKoQUOCCnfISJJ
-o3y0BdT/znsz69i78WYT0Cqxs+N5M/NmxnaW8kM6MpeBOJliNpaZ/JGH8kBq
-mF3LUuV9zG7ltdRlJQtZY3VdXmWrJpD/gnwN2RVmxOLKCcahrh/LCCirjY7p
-9VV+CelvzBryVJ7gaWJ8Kccb9Fo20oc+vFlLN/OJdhrApMdztV6HtotwOHok
-QwmaLtJzm4j/PRpiD/B2CPkETw8YE3wW8LElz/E0C2Mc4wK6PWh34NNIbTU0
-hhBHHA81PC8eoZyfeSZjvKOMo1bEVOxHOQrjGsCzvlzg7VQroCmncpJAMrT7
-Et7z/sTcz5XdGXigxXrkWRlW8Oo99IbgO8Yb440D1jusXyKbHdgj8tuNlpOP
-0GElGi91+QLZEp+uZoE+HOcw90FNaRWjO9Jsj+Qs0jvKxcznHiiUsbZ24/WB
-RsSQnSKSn/tZNacei5ZDpZV1yArv5mI7xUyK3VFeWan69DXvUF+H1qevBCIF
-nNOod4rxhxk/MReMtau4xoHXtV7/lO0G9Jw+fM28f5R1hbcYeCirnQ+RnUMq
-0vOyD67PVRqhJo/xOOzHrKIVEO/wa4X1d8IdMjARNA6zatEE/J5KDT/dMdX4
-ab1ib4ReC5rbvba727YxL+QNcnVegmRjeEfsFN8xV3Yi0sZA96YuuHOQO/mM
-qnZygzl9oAZrwen5Qj3r/bh3/y9LZq9qR6tGTusVufxWkqHvSWb3zxFxQ5bS
-aDZu58nmfuZHy9kVdoji7sAedbozDTULd1kObzFfYb3l0d8KZiohCmeUE6+d
-y8llhNUW5nageV7rbSFY5E5EDJ597cJuQT2rkbw1000j8tZHxHw1egaqc573
-PFUBh2NU74TpCjhTvaqTsKY2tyuqDMukASXe4f2vcKaQR+Z9oVyPs+zTGqPg
-rc8y5C3zF/uOdoMGT9hzCbdu+7Z6JBZPUbNglWl5s1VTINwI6+Ra/L0ycOLX
-BmnqNrdUbxb4piXWUCPHa95GS3FahdM7b8mfzbtXneiaF/Jsx5qUNfLXT/jq
-sqf8tu7v3flbutfzGryp8ybCfwTX8jPLQLDlq+AvUEsBAhcLFAAAAAgAPmVJ
-Wg7CzmQ/AwAAYA0AAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3ui
-qGdQSwUGAAAAAAEAAQA+AAAAdQMAAAAA
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKh1SVoXG5IpWwMAAEoOAAAHABEAc3RyLmRhdFVUDQAHoL+o
+Z6C/qGegv6hnpVfbbhMxEJ3XIvEPVvqSSkVABIUW8cBDEUhQHlrgASG1aS5E
+pGmUSy+g/jvneHZir2MnTdEqsXfHc+Z2POudyi85k7F0xckFZgMZyV95LI9k
+C7NLmXp5B7NreSsNmclE5ljdkDfVqiHkt5DPITvBjFhcOcTY8+sH0gfKbKGj
+eh0vP4b0D2ZNeS7PcO1ifC07C/StaqQPHXgzl3blE+00gUmPx956A9ouwuFo
+SIoSNF2k5xYRPzwaYnfxtAf5ENc5MIb4TeBjS17i2k3GOMYJdM+hfQaf+t5W
+08cQ4ojjoYblxRDK+RlXMsbbr3LUijIV+1FGYVxdeNaRIzy98AzYlX3ZyyAp
+2l0h73V/4tyPfXZHyAMtNiLPSljBq4/Q6yHfMd4ATxywPmD9FNU8gz0iv19o
+OfkMHTJR89KQb5BN8Wv7KtCHnRrmfVBzWml0277afTmI9LZrMfO6Awpl5NZq
+vA7QiBiqkyLZ3Gbrc2pYtByYVtohMzwbi3aKkaS7o8ysHD+N8w782pSfxgQi
+BZz9aO+k8YcZf3EuGGvb42oOTFf3+peqG9Bz+vC98v5JtSvMYshDiTufIjub
+MNLych9cq1UeYUue4nLox2TRDIg3uJth/Y2wQ4ZMBI3NrGo0Af/cSxU/v2PW
+4+f10r0R9lrQXN5rq3fbMuaRvEOtDgtIOoZnxM7lO86VvhFpo+t7Uxu5c5A7
++QpWO7nCnD5Qg1xw/v1CPd378d79vyqpvXUdbT1yXi/N5Y9ChX5mM3v/GhE3
+VCmPpuNynVbbemjkKYdyUadelr1Yxitz0iLVK0Rod/bERmXnCXph2gfZjZyw
+B/c8325E2XqN+QzrlbF2/hl5CVE4o5x4pzX2HUdYp0IWd4WMnvtzUbDInksM
+vuVPk75IPd0NdWuqm0fk+ZaI9X1nGVhf47rnuYpvjrG+51sN67U/8HppzUOd
+bZZnUglLpTFbAlfsLrw9mUfWfeJzPaiqT2uMgudbrZBZ5h07DO0GDZ4lDiV8
+X+i/8pFYPC+oBWWm1k1XXQDhSsiTS7ETdMiJrQ3S3Ll16r2Z4J+WyKFmLa91
+Gy2P00rOKXVLdgpZvWrPr3klL1asyVlj/joZX111lb9L7Auj/j1ieqbBbxKe
+ufjtcym/qwoEW8aCf1BLAQIXCxQAAAAIAKh1SVoXG5IpWwMAAEoOAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAegv6hnUEsFBgAAAAABAAEAPgAA
+AJEDAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -2027,27 +2029,27 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5kSVpMZ8lgAQMAAGAMAAAHABEAc3RyLmRhdFVUDQAHi6Go
-Z4uhqGeLoahnpVZNb9NAEJ1rkPgPK/eSSkVApFaliAMHEEhQDilwQEj5DpGS
-NEqcNoDy3/ve7G527azrBGQ5nnhm3nzPeiW/pCsLGYqRGaiJzOWvPJUnejfw
-71ZWKjMAdS9vJJNclrKGRiavndQU/N/gr8G7AUU8Sk7xHKn8RMZAyXc6Vm+g
-/Da4f0A15aW8wHUm5/g93aE33JM+DODNWnrOJ9ppApNeL9R6Bm2zw/HUPlbQ
-N5G2cbFT7l9jIvYQb0fgT3H1gTHFvYSnLUR2Dr+Kz9i7JXT70O7Cp7Haamok
-vH1UISZq+Ig8QnWWFo7HeMcuU62KLFWjMK4hPBvINd7OtA/O5JVcJJAs2jai
-47wX/Ylzv9DszpEHWswiz6qwglcfoTdCvmO8Cd4YYH2A/ArV7MIekd/vtIx8
-hg770eYlk2/grXD3tAr04bSAeQhqSqsc3YlWeyxXkd5JIWZeW6CQx956HG8A
-NCKG6pSRPO2p+px6LFoOnVY1ITneLcTui7mUp6O6s1L9GU9y6+gO9b1ArIB0
-ictPT5wB+2/rfI0zwUh7imkzELYIJ/2L2wX0m/a/O9+fuZnwsxqyUNU5nyI7
-x/Sjz8khuL5SaYSGPMdlsJPZQzkQN/iXQ34j3I8hE0HjOKs2moDfV67FT89L
-PX5arzwZYdKC5v6kPT5r+5jX8ha1eleBZJ/hHbFT+Y5zZU9F2hjqZuohdwZ8
-I1/R0UbuQNMHarAXjJ4u1LOTH0/u/1XJ2qvbZ/XIab1yLn9UVOhnMrOH14i4
-oUppNPvcr5OlPeWftmY32BDl7cAZNbqVRlqFjavhPegc8raO/ptgrhyikCKf
-eJ1CTdoRVkdY26HWea3fCsEiNxExePJ1StuCerZHitasbhqRX35ELHajz0B9
-zYuepzrgeIz6TZjugCvVqzsHG2pzv6OqsCw3oMQb3v8LZytv5pK1X2q+J64D
-GAu/f1kfb5cynDpaDbI8Xdvo4vDlbX9n4N5pB9zCx8vSV6KVmboaWhl/GlI2
-yBRxLo7AoWyQCZE/AFBLAQIXCxQAAAAIAL5kSVpMZ8lgAQMAAGAMAAAHAAkA
-AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeLoahnUEsFBgAAAAABAAEAPgAA
-ADcDAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJZ1SVpZkB6MHQMAAEoNAAAHABEAc3RyLmRhdFVUDQAHa7+o
+Z2u/qGdrv6hnpVfJbhNBEK2rkfiHlnNxpCAgUqIQxIEDCCQIBwc4ICTvxpLt
+WF4SA/K/814vrp5xt8cOGo27Z6rq1V7TXsgvactM+mJkgt1IpvJXnsoTe9fw
+dCcLy9PD7kHeSF2WMpcVJOry2nONQf8N+gq0W+yIR84x1oHlH8kQKMutjJPr
+WXoT1D/YNeSlvMB1Jhf4Pd2i1/xKG3qwZiUdbxP1NIBJq2dWex3SZosTdrtY
+Km8iaeN9J99jfSJ2H28HoI9xdYExxj2Hpefw7AJ2FdfYujlku5Buw6ah1dWw
+nvAOXqlPlAgeBYR8lGaeRn+HPlLnmSjlUehXH5b15AZvJ7YOzuSVXCaQHNom
+2sdxL9oTx35moztFHKixHlmWw1KrPkJugHjHeCO8McD6AP4FstmGPiK/30oZ
++QwZ1qOLS12+gbbA3bFZoA2nBcxDUFNSZe9ObLaHch3JnRR85rUBCmmsrf14
+PaARUbNTRgr7sKuOacCiZq20XIcs8W4mbl5Mpdwd+cpK1WfcyedHV2ioBWIp
+0hWu0D1xBNzTxtsaR4Kediymi4BOEXb6Fz8LaDf1f/e2P/M9EXpVo5CrnE+R
+nmPqMcTkENyQqTRCTZ7jMpjJrKElENd4WoJ/LZyPGgmVOE6r80bxu5bq8NP9
+Uo2flit3hnaaSu522v5e28W8kbfI1bsMklv1HbFT8Y5j5b6K1NG3k6mD2BnQ
+jXxFRRu5x542UIK1YOzXhXKu8+PO/b8sOX1V86waOS1XjuWPTIZ+JiN7eI6I
+q1lKo7l1N0/7dT3W83INpbwuW5m3YhcvX5PBU3eph+EpvAmrq85bzMLyHOQ0
+MsL5O7D1thZXrQ/YL8HvKjacfqaWQhTuSCdeq1B9zQirJazivrCiV/ZUpBo5
+c4nBb3yrNBcp57qhqM3JphF5xiVise9CBKpzXLQ8lfHjMapnfshhMffXVq6c
+c81z2KUrKYflqHG1aK2EJz1F8GYsmfu5jffIVwB94Umf+Ql6ycP5Qq3Ky3NE
+ExWs/zHc7wTUe1sBd7DxqnQedjxjn0PHE7775FWeIs7lETjkVR71/B9QSwEC
+FwsUAAAACACWdUlaWZAejB0DAABKDQAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHa7+oZ1BLBQYAAAAAAQABAD4AAABTAwAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
@@ -7512,13 +7514,13 @@ AAAAFAAAAAAAAAAQAAAAFAAAAA==
 					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
 					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
 					<Tag name="User Interface Modeling Tools::UI Select(UML::Class)" type="" description="" unit="" values="" default="Select"/>
-					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
 					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
-					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
 					<Tag name="User Interface Modeling Tools::UI Labelled Data(UML::Class)" type="" description="" unit="" values="" default="Labelled Data"/>
-					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
+					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
+					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar Select Button(UML::Class)" type="" description="" unit="" values="" default="Navbar Button"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar(UML::Class)" type="" description="" unit="" values="" default="Navbar"/>
+					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
 					<Tag name="User Interface Modeling Tools::UI Image(UML::Class)" type="" description="" unit="" values="" default="Image"/>
 					<Tag name="User Interface Modeling Tools::UI Tab(UML::Class)" type="" description="" unit="" values="" default="Tab"/>
 				</TaggedValues>

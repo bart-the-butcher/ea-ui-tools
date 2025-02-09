@@ -3,33 +3,19 @@ shape main{
 	noshadow="true";
 	
 	defSize(14,14);
-	setfillcolor(255,255,255);
-	rectangle(0,0,100,100);
 
 	if (HasTag("Checked", "true")) {
 		setpen(0,0,255);
 		setfillcolor(0,0,255);
 		startpath();
-		moveto(2,2);
-		lineto(98,2);
-		lineto(98,98);
-		lineto(2,98);
+		ellipse(0,0,100,100);
+		ellipse(30,30,70,70);
 		endpath();
-		fillandstrokepath();
-
-		setpen(255,255,255);
-		setfillcolor(255,255,255);	
-		startpath();
-		moveto(25,50);
-		lineto(50,75);
-		lineto(75,25);
-		lineto(70,20);
-		lineto(48,64);
-		lineto(28,44);
-		endpath();
-		fillandstrokepath();
-
-	}
+		fillandstrokepath(); 
+	} else {
+		setfillcolor(255,255,255);
+		ellipse(0,0,100,100);		
+	}	
 }
 
 shape label {	
@@ -64,7 +50,13 @@ shape label {
 					print("[#NAME#]");
 				}			
 			} 
-		}
+		} else {
+			if (HasTag("Label")) {
+				print("#tag:Label#");
+			} else {
+				print("#NAME#");
+			}						
+		}		
 		
 		// The label is suffixed with a colon when the `Label Position` is set to `left` and the `Label Suffix` feature is set to `Visible` or when this feature is not defined				
 		if (HasTag("Label Position", "left")) {	
@@ -79,5 +71,3 @@ shape label {
 		}
 	}	
 }
-
-
