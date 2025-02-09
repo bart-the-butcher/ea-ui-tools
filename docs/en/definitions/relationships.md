@@ -63,9 +63,9 @@ The following diagram shows examples of using the display relationship:
 
 The example shows displaying a component below the button, adjacent to it.
 
-### UI Show In Modal
+### UI Show As
 
-`UI Show In Modal` represents a display form where the target component is shown in a modal. This means displaying the element indicated by the arrowhead in a layer that overlays the source element, blocking interaction with it. The `Position` attribute on the relationship specifies the location on the user’s screen where the element is displayed. The example shows the value `Center` for centering both vertically and horizontally.
+The `UI Show As` represents the form of display in which the target component is shown depending on the setting of the relationship attributes. This means displaying the component indicated by the arrowhead, in the layer covering the source component, in the form specified by the `type` attribute and the location indicated by the `position` attribute.
 
 ### UI Navigate
 

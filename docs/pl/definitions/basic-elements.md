@@ -15,6 +15,7 @@ Zaliczamy do nich:
 * pole statycznego tekstu (`static text`)
 * pole edycyjne do wprowadzania tekstu (`textarea`)
 * zakładka (`tab`)
+* pole podglądu wartości danej (`labelled data`)
 
 Stanowią atomowe elementy konstrukcji modeli. Układane powinny być jako części składowe komponentów lub paneli.
 

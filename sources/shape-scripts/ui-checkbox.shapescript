@@ -44,15 +44,46 @@ shape label {
 			setOrigin("E", 6, 0);	
 		}
 		
-	
-		if (HasTag("Label")) {
-			print("#tag:Label#");
+
+		if (HasTag("Label Type")) {
+
+			// Statix text label
+			if (HasTag("Label Type", "Static Text")) {
+				if (HasTag("Label")) {
+					print("#tag:Label#");
+				} else {
+					print("#NAME#");
+				}			
+			} 
+
+			// Label defined by a UI variable or data field
+			if (HasTag("Label Type", "UI Field")) {
+				if (HasTag("Label")) {
+					print("[#tag:Label#]");
+				} else {
+					print("[#NAME#]");
+				}			
+			} 
 		} else {
-			print("#name#");
-		}
+			if (HasTag("Label")) {
+				print("#tag:Label#");
+			} else {
+				print("#NAME#");
+			}						
+		}		
 		
+		// The label is suffixed with a colon when the `Label Position` is set to `left` and the `Label Suffix` feature is set to `Visible` or when this feature is not defined				
 		if (HasTag("Label Position", "left")) {	
-			print(": ");
+			if (HasTag("Label Suffix")) {
+				if (HasTag("Label Suffix", "Visible")) {
+					print(": ");
+				}
+			}
+			else {
+				print(": ");			
+			}	
 		}
 	}	
 }
+
+

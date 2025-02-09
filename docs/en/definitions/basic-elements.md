@@ -15,6 +15,7 @@ These include:
 * static text field
 * tab
 * textarea (multi-line text field)
+* labelled data (preview of data value in the form field layout)
 
 These are atomic elements for constructing models. They should be arranged as components or panel parts.
 
