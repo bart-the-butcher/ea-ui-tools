@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.6" notes="User Interface Modeling Tools"/>
+	<Documentation id="043918FEA3" name="User Interface Modeling Tools" version="1.8" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Button" notes="" cx="70" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -13,9 +13,9 @@
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show In Left Panel" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAFDoPKfKAQAAwGf5o8oBAAABAAwg
-AggBAP////8BAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAYPY8p8oBAADA
-Z/mjtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAAXwBvAGIAagBlAGMAdAAuAE8AYgBqAGUAYwB0AF8ASQBEACwA
+IAB0AF8AbwBiAGoAZQBjAHQALgBOAGEAbQBlACwAIAB0AF8AYwBvAG4AbgBl
+AGMAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB
 wcHBurq6srKys7Oz0tLS/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+2dnZsrKys7Oz0tLS5OTktbW1ra2tra2tra2tra2tra2tra2tra2t
@@ -74,9 +74,9 @@ AQAAAAA=
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Checkbox"/>
 				</stereotypedrelationships>
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+AAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAdOEm
+9n8AAGD9Pyv2fwAAAAAIvvgBAACA/Xsr9n8AAPBHfSv2fwAACQAAAAAAAABw
+XDUqtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
 srKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
 w8PDu7u7s7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
 /v7+/v7+5ubms7Ozs7Oz39/f/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
@@ -95,24 +95,30 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHSFTFmoANeRyQEAAFYHAAAHABEAc3RyLmRhdFVUDQAHHqcK
-Zx6nCmcepwpnvVRbSwJBGD2vBv0H0ZeEDVK0i9FTBD0UBUk9q5u6tK6xawXF
-/vfON7PjrLvupCCxzG3nnPPdZibBDEO84xV1zDkLEOEHhzhQrcbVAonC+Jx9
-4QoNLBHjg4wGLjOU7n3+m+CJGt+cHaGNLjzVt1bIhDtLogKE/MbUDNliojvo
-8fMKo2XGZI7JHdKnKVli4YQ4aW32djQczQtorU7sLZkJBuynXDVwzahE8Y29
-z7VHVD62Fr96lovaynPJVJSzXPTSFaGLI3HFSn/IfkZ0fn9OhU+lu1CZEo38
-fqjqZvYvcL4VQvpqjFgpIiR2v8JHE7HUx1cRxdSR7Jbxm3P61wlw5baaa07n
-7lkWnV7uPJVzJLsezgpermNkV/vjwuhz4bLVVTU7XbtNRUxHYboFzH6rlqox
-zdb6bdDvh6iMOAvVvTF5133VLbzLce5pWd4QcxefyUrYRpDbXr6RZtxG+xHy
-jgWMKOAsWtkQ5Qn/WnWra87bA3MSUFMyLbovGfuY1ZBRV83ydIb24Z22O9vR
-v5uM7/LO5m97P8sVqLHyYjuiF4JtQm7YFP0cq6l49sSlVJD/4rtbK6LGnKiy
-wv+dgHWf+oqxyZc0Y+n1L1BLAQIXCxQAAAAIAHSFTFmoANeRyQEAAFYHAAAH
-AAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcepwpnUEsFBgAAAAABAAEA
-PgAAAP8BAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAJmSVqlLrHJ0wIAAHIMAAAHABEAc3RyLmRhdFVUDQAHMaSo
+ZzGkqGcxpKhnrVZraxNBFL1fI/gflvSLhYi2pD4qfhCpKFgVGvWDCE2yJllM
+E8mjjUr/u+fcu5OZfWaDZZnH7txzZubcO3d2KRPpyy/5IZFcoZfITP7Kfbmn
+pYW3uSzVJkbvRl5KW1aykDUQbXmRWlkd49tILsDxB70HciRd6Wh9uLVcYmQF
+q0SmeIbgnKIsYH0sJ3g6udYjF0AOge1jTWOgOMNj2LEcofatwxguwWwRbN8C
+uZQe6jHe2vIauyLjT9Qx3juwCvd2iCdKtWhtV06lZsHM+VXW7bAOw30tlL+P
+egLrcPwKDNfKO1elyBGOT9Vvbvy5PGtkwbrahrPkLbj3uGKNbsf0T6w7WoCH
+6hbtyzXdFQF12lZjXXTurzJ5ToJ4KmrE0Y48za0ya8NRW0+djcVF3Vxd9dmT
+zGnK2xyrTTdnc7deu9X2Nn233GD5gywD9KZ6bpzuVledwvcB5hwzM4e4s/gF
+qCXKQHjaiyfStU24PwnzWIIdJejNtnOQeYSvnt3zunj7CE0ScFJp8n5N0Q/h
+DbbmNY8zhe5idTbvZM/1naX4utU5/fZZZU9+q6eznvCreYQnQv7nKeNONnhb
+wX6DOowOj9hvVtPE8w911PiL0dGMvxzXwozUdAZm2h/onGM5DZAHivUnybSN
+dIx+2c35QV4h5s8qmKz138hdpneold3AlhFivA+gXYTxSD7LO9TXwvyXKIKR
+H2n2JI6K0o5ocsX/6SWb782WrVzn3czluLyW3yo89L1U2eY+Iq/3UjmbtUU/
+Wd/1XGs+6+m/RzZjMtdFKGtoQi9sUh/eCPPCRMyP7s6b6QhZ2OM4+S5rs8pl
+MAvzBnFzRbksSAu7Cao4L4L10XqE74ydtfD/rIo/m8mJs7jL7sCw5Yz8DyVj
+NsKdF5y6u+OpqEqzm6AJc6hNedzuz2Jr23UT2pON3VNFFuM1jFTfrzoRVZw2
+GnIVbxj3zd+HLP8AUEsBAhcLFAAAAAgAAmZJWqUuscnTAgAAcgwAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABzGkqGdQSwUGAAAAAAEAAQA+AAAA
+CQMAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Label Position=Control Properties;Checked=Control Properties;"/>
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Label Position=Control Properties;Checked=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;"/>
 						<Property name="_tagGroups" value="Input Args,Control Properties"/>
 						<Property name="isActive" value=""/>
 					</Apply>
@@ -123,6 +129,8 @@ PgAAAP8BAAAAAA==
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Label Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
 					<Tag name="Label Position" type="enumeration" description="" unit="" values="Left,Right" default="Right"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Component" notes="Komponent. Definiuje interfejs u&#x17C;ytkownika uruchamiany w aplikacji" cx="200" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -241,7 +249,7 @@ AEgBAAAAAA==
 					<Tag name="Showing Name Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="UI Input" notes="Pole edycyjne do do wprowadzania danych" cx="200" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Input" notes="Pole edycyjne do do wprowadzania danych" cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Input"/>
 				</stereotypedrelationships>
@@ -267,24 +275,29 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACB/S1lgQgENwAEAAPYFAAAHABEAc3RyLmRhdFVUDQAHzEoJ
-Z8xKCWfMSglnlVTLSsNAFD3bCP5DSDctRNCCYituRcHHQtF1a9oaSGNpUkSl
-/+658+hMpk1VhmRuc+859zFnWuENIywwQYw5rRwlvnGIA0S03lEpf0brA5dI
-UGOJFaMTXJiogv5P+lf0PdESLoksuE9VfI4ZWWoPo9+Zinik/4tWF30cc6U4
-wTl6JlZHVvTXjM3JWuCV2Qo+S4U55UqD3aIjxkwYX7PGklVITV2VQ+ex+WQX
-TKSWyyudZ8y+wthMQrrrspOF8cm8Zvydcn599XZsv3FIPxPWlOGeX+dqqikG
-ONvBY+fgTqtZQbw5tYgemXnJriVL4tWybuFyldwQN+Vsfb6cX2JyXTO+4hmP
-mE+YrzaoGHfEyHnqSSR4pq/iM1Yzlxp6Dc6/sO5Chd111NnOMPRwnUbPstZk
-EZ/oaD9fRjZhdCcSMlnbWnbfN1XLJrltZPvNqfltAX3nSrhb45DtmtqlS6vz
-mMryu2ln2daDMDmegXdf7BS0tYbWlz8H6XOs+HT/blZyqx/MP4RULLlfTNVH
-5h7YTILRuDbl3Hp5/qdHO5HfmUPktoKcIh0qVGS7HkOuElo52wyhJprIoera
-v/n2fOT9A1BLAQIXCxQAAAAIACB/S1lgQgENwAEAAPYFAAAHAAkAAAAAAAAA
-AAAAgAAAAABzdHIuZGF0VVQFAAfMSglnUEsFBgAAAAABAAEAPgAAAPYBAAAA
-AA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAA5nSVqdJwrasQIAALIKAAAHABEAc3RyLmRhdFVUDQAHF6ao
+ZxemqGcXpqhnpVZNb9NAEJ2rkfgPq+SSSkFAJFAp4sABBBKUQwscEFKaxgmR
+UhPVDg2g/Hfem93tru113QhZ9o49M29m52tdyg+5kI3kYuQK1EoK+SsP5YFk
+oH5Kqfw5qBt5JQOp5Fq2kB7ISye1Bv83+FvwzkERi5JrrAuVX8kSKFWkY59z
+lTgD/w+okTyVJ7jGWI/lyMlayRL8CrIroK7lEtbWuK+hM5FnuMaN1WtnkMkh
+X8HHAl7Qp5HasHa8Pa7UyfQKdrnzOaxvZeYiwd2NsJON4zFeS7yPEb+JPgNa
+Hwb3k8OnuZzi65VGdSwv5HkCx8chZKvugbnNWgYOY15g17QyiHzZd2AFT95D
+b4HYxngrfDHAegf5Ejm+gD0iv73VMvIROsynjcRAvoBX4p5pzOnDUQ3zPqgp
+rebuvslQs7uUk0hzKN9r++a1BxK5rKV+zMJlJI3kaU/59a7I+hzTtpfs7p4K
+3zZi+66Q0DlBs7uuUrXpa53UpLafbpx2VRArIB27Pg1e7R21F1tlcSS405ni
+2QiEaLG3P7k5QZ9p+6vz+5HrBt+f1LF6XfXzIbJzSFX6eNwH12cqjZDJY1wG
+k42VWQFxh7cK8js840gEjcOs2t0E/EvlWvx01/Tjp/WavRG6LWgOVTfukLu7
+rY15Kq+RqzcdSHYN34idinccK3u20Eau82mG2BnwjXxGNRv5BZo+UIO1YPQ8
+oR4jSrlQ/f+XJWuvb6r1I6f1mrGM52GcofYUOyxHxA1ZSqPZtZ0nS3vKrzZn
+55gQzenAHjU6kRaahZ3L4Q3oCvI2j/4voFAOUUiRT7xpLSdnEdZUmNtc87zV
+/4NgkZOIGDz/po1pQT1bI3VrVjeNyD8oItar0UegP+d1z1MVcDhG/yRMV8CJ
+6vWdhJnabFdUF5blBpR4wofTxH/j/Q9QSwECFwsUAAAACAAOZ0lanScK2rEC
+AACyCgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHF6aoZ1BLBQYA
+AAAAAQABAD4AAADnAgAAAAA=
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Type=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Required=Validation Properites;Method=Validation Properites;Method Description Location=Validation Properites;"/>
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Type=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;Required=Validation Properites;Method=Validation Properites;Method Description Location=Validation Properites;"/>
 						<Property name="_tagGroups" value="Input Args,Control Properties,Validation Properites"/>
 						<Property name="isActive" value=""/>
 					</Apply>
@@ -294,6 +307,8 @@ AA==
 					<Tag name="Field Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Label Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 					<Tag name="Method" type="enumeration" description="" unit="" values="Length,Range,RegExp,Other" default="Other"/>
 					<Tag name="Method Description Location" type="enumeration" description="" unit="" values="Element note,External note,Requirement,Other" default="Requirement"/>
 					<Tag name="Required" type="enumeration" description="" unit="" values="true,false" default="false"/>
@@ -326,28 +341,33 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGiWTFkUWQP3egIAAAIKAAAHABEAc3RyLmRhdFVUDQAHOMUK
-ZzjFCmc4xQpnnVVNb9NAEJ1rkfgPlntJpSAg9LvqEQQSlAOonJM4CZES13IS
-EKD8d97b2c2uN964rVaOp555bz727XYlP2UolUwkkyWsuZTyT17KCzmC9SAr
-4y9g/ZZbyWUttWwQncuNjVrA/wf+DXzfYZGLkQu8pyZ+LjOwrHcYxRXG/w3e
-v7B68lbeYPXxvpSTHfuRfbOGAtVsZGRrYp4eOFlxZbLnQGcBD9+OSVk8Mgtw
-2a7j53dD7gm+TuFfYI3BscBTo8aBnGH1o3fYYw3sGOghapqZXD3Tg+8j7IcI
-NxfHkJ5PZX3sd2ZnNAgmFdaRZmFfE1RWyB2+Lo0C+nIl5y1MyrZNzL1ZTzj7
-yky3xByYMQ8qS3H5qj4BN8W8Q745vmTg+oj4FXZziHxk/rBDZfIFGCpR55LL
-PXwrPCOzC6zhpMH5GNY2VNzdsdntmVwHuONGz1xbsNBHbR3mK8BGRr87MZOz
-ndU9U8fFzF5pqROyxrdK9KYoJT4daWW16dNpPoO+nqpPpwQyeZ6r4OzE/XuL
-TzgL9joyvDoDh9Wz/tXeBqycNfyw1b+yp8Jl9HNIaedzkOepiuzm3MfE6vFq
-9KhYjWktxlylqG72GfwkYtS16TU88X5uHse58GathWqfwyqBG+MvzqY0p6AO
-qmMkdcEsHkG1vhf/H0x/X2NlpjsqUjOoBljlxEYtwfDL7P6DuDvaV+1ivbft
-ZtRM+1Ursi3PO8M1OJBLIy4PRPAEPCaiO0szIl3v6QEmzRVGpHnOO3maEW1M
-Zy2VN5k0IpxPG89FJ49GNOesv9x3Wpld3PUxEJyCKkU76Qd9ay6dVJzX4TVO
-8czr8Gor3nM1q9rKf1BLAQIXCxQAAAAIAGiWTFkUWQP3egIAAAIKAAAHAAkA
-AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAc4xQpnUEsFBgAAAAABAAEAPgAA
-ALACAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAG5kSVpT/bJ6YQMAALgOAAAHABEAc3RyLmRhdFVUDQAH+6Co
+Z/ugqGf7oKhnpVZNbxNBDPU1SPyHUXpJpSAg0JIWceBQBBKUQwscEFK+Q6Qk
+jfLRBlD+O++NZzKzm9lsAlptxlnbz55ne3YX8lPaMpO+GJlAGslU/shjeSQV
+SHeysPoepAd5I1VZylxWsK7Ka2c1hv4X9CvobiERi5ZjrANrP5IhUJZbH/Xr
+Wf0NtL8h1eS5PMNVx9qU0y16xa3MoYdsVtJxOTFODZjMeGajV+FtIhyuHklR
+gqeJ/Mx2x/++G2L38XQA/RhXFxhj3HPk2JAzXPXcGu9xDt8uvNvIaWhj1ewe
+wj7i/dDD8+IRivmZOR33O3QcNSKm4jyKUbivPjLryTWeTmwH1OVCzhNIirYp
+4D2bT8z9zLI7BQ+MWI0yK8IKWX2A3wB8x3gjPDHAeg/7BarZRjwiv9t6GfkE
+H3ai8lKVr9AtcHdsFZjDaQbzENSUV353J7baQ7mM/E4ye+a1AQp17K39eD2g
+ETFUJ4/kZS+Vc+qxGDl0WtGELPFsJnpSTCU/HcWdlepP3/OUGkd3qO8FYgWk
+pjtXiJJnIEi8Yza4247FVRa8r077Z3ceMHfm8M3l/8TNhZ/XwERR93yM4hzT
+k56XQ3B9tdIIFXmKy+BEZh8tgbjGvyXs18IzMjARPI6LqrsJ+F2rVfz0zJTj
+p/3y0xGmLXjuTtv+edvFvJa3qNVVAZKu4RmxU3zHXOk7kTH69nTqgDsDvZEv
+6Goj95CZAz3YC8a+Yein0x9P7/9VSeOVnWnlyGm/PJffCyr0I8ns4TUibqhS
+Gk3X3Tqp7CW/as1ucULkTwfOqLEn08BWYe1q+AB5CXuto/8umFoNUShRT7xW
+piY3EVZLWNu+rfPKfi+EiDyJiMG3Xyt3WtBPeyQbTX3TiPzuI2K2Gz0D5TXP
+Zp7qgOMxyk/CdAdcWr+yd2HFxtztqCIs1QaU+IT3/8I7hTyy7nPL9chVv4t/
+3MXUTi8r5CPTknPHuMGD79grCd/d+qv9yMz5HtUI2plaN7WaAOFe2Cd34r8s
+AyfeNmhT33MaaTdr9UzFeWGxGntiqUVzj8XFgRblUbIWxfm+3IOksWKLYpzz
+UpysRQrpLJF5FkktYn5SOK9KcdQiy7P+su6UjLtY9S48yIJ2iu6kHu1bYylT
++bjeX+3Un3G9v8rqH7CyWW3kL1BLAQIXCxQAAAAIAG5kSVpT/bJ6YQMAALgO
+AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf7oKhnUEsFBgAAAAAB
+AAEAPgAAAJcDAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Required=Validation Properties;"/>
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;Required=Validation Properties;"/>
 						<Property name="_tagGroups" value="Input Args,Control Properties,Validation Properties"/>
 						<Property name="isActive" value=""/>
 					</Apply>
@@ -357,7 +377,69 @@ ALACAAAAAA==
 					<Tag name="Field Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Label Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 					<Tag name="Required" type="enumeration" description="" unit="" values="true,false" default="false"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="UI Labelled Data" notes="Pole do wizualizacji danej sformatowane jak pole formularza." cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Labelled Data"/>
+				</stereotypedrelationships>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
+AAAAAAAAAAAAtLS0srKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKy
+srKysrKysrKysLCws7OzuLi4w8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PD
+w8PDw8PDw8PDu7u7s7Ozs7Oz39/f/v7+8/Pz5eXl5eXl5eXl5eXl5eXl6enp
+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uLAAAAAAAAAAAAAAAAAAAA
+JiYm/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uLEhIS7+/v7+/v7+/v
+7+/v8vLy/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uLExMT/v7+/v7+
+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uLExMT/v7+
+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uLExMT
+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+i4uL
+ExMT/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f/v7+
+i4uLExMT/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz39/f
+/v7+i4uLExMT/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Ozs7Oz
+39/f/v7+i4uLExMT/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubms7Oz
+s7Oz39/f/v7+i4uLExMT/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+5ubm
+s7Ozs7Oz39/f/v7++vr69vb2/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
+5ubms7Ozs7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5
+ubm5tra2s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
+sLCwsLCwsLCwtbW1
+</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACBiSVpuW3pqkQIAAIgKAAAHABEAc3RyLmRhdFVUDQAHvJyo
+Z7ycqGe8nKhntVZNb9NAEJ1rK/EfVsmllVIBPaBSxKGHIpCgHBrgUFVK0zht
+pNREtUMDqP+d93Z22bW9W7dCyLJ34pl58z1OJddyISspxMgNqIWU8lu25Jls
+41nKd6msxAzUnbyVgdRyK2vID+SNk1qC/xP8NXhjUESj5BLn3Mov5AoodaSj
+z5mVOAX/F6gdeSkvcI1wHsiuk1VJejCDL2uZOo9oZQeIK8ej51f4PUIk+/ap
+aB7nIYw5tAv4O5MTvL2x0Y3ktbxK4ChW0DctDwzypzJb4DD2EpHTyiDy5T6D
+FTz5AL05shrjLfDGAOs95Cvk+gL2iPzur5aRT9BhXjUTA/kKXoV7autBH3Yb
+mI9BTWm1ozuTISjqHkaaQzlvxM3rHkjkVjbiPswTOUJMxxkkT+cxc9GNIbmx
+PdkfW4jMaw0TvuQ86KKFmLooeoa44n7x79Md43uX1gNCbjprvFuJznUpYTKD
+Zn5eUjPnZ5fUfiOqPE6324kVkA7cHgheaX5IhwmKs8FopxZTs6CyPmsFov7s
+9hF9pw/fnP97btp10mO9XAd9jGz5zHa7yZ/PcRnsOnZSDcwNftWum2K/vfzT
+rOqsB/RLy813eD96SqvbyX4ugl6qp//PZJhMjuMM6ReGFgq7HafImAHfyBf0
+nJEfoOkBNbgfDXrw1uoxj5QLPfovlVFrD2/UftyUVjuH8R6Oq5Lano+tS/8e
+1rNbG3KU0qdWaIyJbU8rv1LGbom5zfnGVewOdA15rdol6rPEXVoOUUiRT7xJ
+owanEdZEWMnCVnWN2CjtLXIrEIPf2knre0k97YimNdVNI/JfExGbvafx99e4
+6Xe34k9H0A7s/x/QrPmh1Yrr3P4WpXonhxH3h+8J3oq1LX8AUEsBAhcLFAAA
+AAgAIGJJWm5bemqRAgAAiAoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRV
+VAUAB7ycqGdQSwUGAAAAAAEAAQA+AAAAxwIAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Text=Input Args;Field Mode=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;ID=Development Details;"/>
+						<Property name="_tagGroups" value="Input Args,Control Properties,Development Details"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Field" type="" description="" unit="" values="" default="Field"/>
+					<Tag name="Field Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
+					<Tag name="ID" type="" description="" unit="" values="" default=""/>
+					<Tag name="Label" type="" description="" unit="" values="" default="Enter the label name"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
+					<Tag name="Text" type="" description="" unit="" values="" default="Static Text"/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="UI Navbar" notes="" cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -466,7 +548,7 @@ LmRhdFVUBQAHlLcLZ1BLBQYAAAAAAQABAD4AAAAKAQAAAAA=
 			<Stereotype name="UI Panel" notes="Definiuje element komponentu grupuj&#x105;cy r&amp;#243;&#x17C;ne elementy. Panel mo&#x17C;e by&#x107; wykorzystany do definiowania w&#x142;asnych element&amp;#243;w interfejsu u&#x17C;ytkownika. " cx="100" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Call" constraint="Activity"/>
-					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Panel"/>
+					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Details" constraint="User Interface Modeling Tools::UI Component;User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Panel"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Navigate" constraint="User Interface Modeling Tools::UI Component"/>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Show" constraint="User Interface Modeling Tools::UI Panel"/>
@@ -516,9 +598,9 @@ BQYAAAAAAQABAD4AAAAoAQAAAAA=
 			</Stereotype>
 			<Stereotype name="UI Radio" notes="Pole wyboru typu radio" cx="14" cy="14" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="UI Checkbox" baseStereotypes="UI%20Checkbox">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2KAwAAAAAAAIoAAAB8AAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0A
-AAAAAAAAAAAAXwB4AHIAZQBmAC4AKgAgAGYAcgBvAG0AIAB0AF8AeAByAGUA
-ZgAsACAAdABfAG8AYgBqAGUAYwB0ACAAdwBoAGUAcgBlACAAIAB0AF8AbwBi
-AGoA////////////////////f39/sLCwsrKysrKysLCwqqqq////////////
+AAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAdOEm
+9n8AAGD9Pyv2fwAAAAAIvvgBAACA/Xsr9n8AAPBHfSv2fwAACQAAAAAAAABw
+XDUq////////////////////f39/sLCwsrKysrKysLCwqqqq////////////
 ////////////////////r6+vs7OzsrKyt7e3wb28w76+uLi4srKysrKyr6+v
 ////////////////////sLCwsrKyzbe17oaD7FtW6UU/6UZA7F5Z8I2K0sHA
 srKysLCw////////////s7Ozs7Oz56qo6k5J6UU/6UU/6UU/6UU/6UU/6UU/
@@ -537,18 +619,24 @@ sbGx4Kqp6lFM6UU/6UU/6UU/6UU/6UU/6UU/61ZQ47a1srKytLS0////////
 ////////////////////////////qqqqtLS0tLS0sbGx////////////////
 ////////
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIqtS1m2TidwhwEAAJYFAAAHABEAc3RyLmRhdFVUDQAHJZwJ
-ZyWcCWclnAlnvVNdS8NAEJzXCv6HkL5YqGD9hIpPIvigKCj1uW3SNthGSSqC
-kv/u7N5dLzVprCBy3OaSm5md2+zlmGGIV8QIsOAqQYpP7GJHZ4tvL8gVE3H1
-jguEWCLDGxkhzi3KxIjfJnigxgdXe+jhGF2NHYs0uISogPvXVM3xyDjlW4hL
-5okxxjNjxPcuUeVsHY7Aumtx5Py6VO8p+QfEyzzECYfL6HET5p1zjHmOOWf2
-A2dJX5nqDxlnRJf3Y9VKuCvqXqnH6J9NjCPFmXi2iuuMlHWoz+9OM1SMuM14
-JqncOj6wjIIrcSC5qzWsq42piatNXY2+n2hzDQTtfJhVYbvB9JbpPznNSFXF
-oWM098xNiXNL59KDrnMGZOWcI+7W9Y97bqN9r/cgYa0SrtJVDlGe8KtX97qu
-unesZ0JNuVui+2TZ+zjVp6uR4xW6+gt3Ju/sl/6uLL/Jna/f9j6rf6DFPy+5
-U7oQbFtv3RT9EqutPN91mzq5qpVSY0FUVeH/OmDdU18ZdV78vZD4BVBLAQIX
-CxQAAAAIAIqtS1m2TidwhwEAAJYFAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIu
-ZGF0VVQFAAclnAlnUEsFBgAAAAABAAEAPgAAAL0BAAAAAA==
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACJmSVraeGnflAIAAKoKAAAHABEAc3RyLmRhdFVUDQAHXaSo
+Z12kqGddpKhnrVZdT9tAENzXVOp/sMJLkUAt/QAJxAOqqFqpLZVIy0OFRMgH
+sUpNFSclFOW/d2bXlzvjc+IIZPnu7NuZ3ZvbWzuXkXTljwwkkd8YpZLJvTyX
+Z3q38HQjudr0MbqVQ2nLRMYyBaItB4WVtX28G8opOP5h9EJ25K1sabtZWJpd
+CqsE8x/BmksH7RWe2vIefgbSk19o+3jeglXobRNXUkTXwpXj7URjz4B/BXve
+r+UdLufR2w3h9xpXD+u4xj1egZkgrrHyd9GOYB3OD5QrxSzZPdMOWt8vQ7xR
+O2v3Fm0ZkUGHuH+3mq7aMNox1kTlyvZJgZhjxAjou6phTBvTxGkT0+jhiuo1
+oLWLw0bzIhsstyz/uJpLZWWEDrE8Zz4HmC+InDnoMucHUDnuS8zG8sf1Tbi/
+6TlIoVWKUbbwQeYh3np2z+vUPYGeKTh5tsh7VqC3ZVd7p5HDzXX0FNGZ39Ga
+8R0X+GXROf3WibIjd7rT5Z3w0bzElaB+8ORxJTM8TWA/Qxtmh0es59U08fw9
+nTX+anY044/jWvBITTMw035DfV7JfoDcUKw/TaZt/JTGOb/KEXL+uIbJev+O
+3DG9Q62sgtMHK3CC93dou7i/yye0f4U1MVUEMz/RWkEcFaUd0eTqP3KXzN+H
+BVtc59XMcdxDLX/W7NB5VNnme0Rev0txNuur+2RjN3K97VlHv5Tlislal+Ce
+QhPuwqzYw1thXRiJ7aOr8JnOkIUjzpPvYmlVuQi8sG4Qd6MoVwVpYV+kOs7T
+ID5aD/GeuTOFbrSO85crOXGWd+UVGDbOyP8YMpYz3O2CU3d1PlVVafYlaMIc
+ahPP2/VZLLZVX0K7yrm7r8hqvoaZ6sd1J6KO02ZDruoXxv8rsP0PUEsBAhcL
+FAAAAAgAImZJWtp4ad+UAgAAqgoAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
+YXRVVAUAB12kqGdQSwUGAAAAAAEAAQA+AAAAygIAAAAA
 </Image>
 			</Stereotype>
 			<Stereotype name="UI Scrollable Panel" notes="" cx="100" cy="50" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="UI Panel" baseStereotypes="UI%20Panel">
@@ -594,7 +682,7 @@ KAIAAAAA
 					<Tag name="Vertical Scroll Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="UI Select" notes="&lt;b&gt;&lt;u&gt;Og&amp;#243;lny opis&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;Lista z pojedy&#x144;czym wyborem.&#xA;&#xA;Lista jest uzupe&#x142;niana opcj&#x105; `Wybierz` w sytuacjach gdy:&#xA;&#xA;&lt;b&gt;&lt;u&gt;Dane wej&#x15B;ciowe&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field&lt;/i&gt; - nazwa danych stanu kt&amp;#243;ra przekazuje identyfikator wybranej pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label&lt;/i&gt; - etykieta wy&#x15B;wietlana przy polu&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;List Mode&lt;/i&gt; - okre&#x15B;la tryb obs&#x142;ugi listy pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Require Mode&lt;/i&gt; - tryb wymagalno&#x15B;ci&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciwo&#x15B;ci kontroli&lt;/u&gt;&lt;/b&gt;&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach nazwy pola&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach na diagramie etykiety dla pola&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciewo&#x15B;ci walidacji&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Required&lt;/i&gt; - okre&#x15B;la wymagalno&#x15B;&#x107; pola&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+			<Stereotype name="UI Select" notes="&lt;b&gt;&lt;u&gt;Og&amp;#243;lny opis&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;Lista z pojedy&#x144;czym wyborem.&#xA;&#xA;Lista jest uzupe&#x142;niana opcj&#x105; `Wybierz` w sytuacjach gdy:&#xA;&#xA;&lt;b&gt;&lt;u&gt;Dane wej&#x15B;ciowe&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field&lt;/i&gt; - nazwa danych stanu kt&amp;#243;ra przekazuje identyfikator wybranej pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label&lt;/i&gt; - etykieta wy&#x15B;wietlana przy polu&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;List Mode&lt;/i&gt; - okre&#x15B;la tryb obs&#x142;ugi listy pozycji&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Require Mode&lt;/i&gt; - tryb wymagalno&#x15B;ci&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciwo&#x15B;ci kontroli&lt;/u&gt;&lt;/b&gt;&#xA;&amp;nbsp;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Field Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach nazwy pola&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label Mode&lt;/i&gt; - steruje wy&#x15B;wietlaniem w modelach na diagramie etykiety dla pola&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label Type&lt;/i&gt; - steruje wy&#x15B;wietlaniem etykiety; pozwala wskaza&#x107; zmienn&#x105; w miejsce ekiety&lt;/li&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Label Suffix&lt;/i&gt; - steruje wy&#x15B;wietleniem suffixu labela (dwukropek)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;&lt;u&gt;W&#x142;a&#x15B;ciewo&#x15B;ci walidacji&lt;/u&gt;&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;&#x9;&lt;li&gt;&lt;i&gt;Required&lt;/i&gt; - okre&#x15B;la wymagalno&#x15B;&#x107; pola&lt;/li&gt;&#xA;&lt;/ul&gt;" cx="100" cy="18" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
 				<stereotypedrelationships>
 					<stereotypedrelationship stereotype="User Interface Modeling Tools::UI Extend" constraint="User Interface Modeling Tools::UI Select"/>
 				</stereotypedrelationships>
@@ -620,27 +708,32 @@ srKytbW1uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4tbW1
 srKytbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACZRTVnjPRzuWAIAAKwIAAAHABEAc3RyLmRhdFVUDQAHT5wL
-Z0+cC2dPnAtnnVXbbtNAFJzXIvEPlvuSSqmACApt1ccikLg8gOhzUichInEs
-OwEByr8zs5fsemunLVo53vicmXPZ2d0G3zFGhSkyrDhboMRfPMUTHHG2RmPs
-BWe/cIUcG9TY0jvHpfNa0v6b9i1tXzkTlzyXfM+M/wJzsmz2GIsrjP0LrX84
-G+AFnnMM+X6Dkz37kXsrh4LZbDFxOSnOgJzKuDLRc6KziEdvz2RZAjKLcNm+
-4v+vRtxTfp3RvuS4JceST80cR3jFMUzecY01sbdEj5nT3MQamBpCHXE9Qvi+
-eIb+/lTOpnrnrkejqFNxHv0sqmvKzAp84teVUcAQ5zjrYLJsu56+t/OJe1+Z
-7pbsgyLmUWZ9XCGr98TN2O+Yb8EvGbne0b/hao4ZT8xv96gMH4mREm1fcnyj
-reEzMaugHE5anA9h7UKl1R2b1Z7jIsIdt2rW2JFFNmnrMF9BNjGG1UmZ/NzP
-7u+p51LkoLS+HbLhtwr2pCiR7o5+ZXXp02s+o74eq0+vBDEFnvNo76T1h5me
-uBeqdWJ4bQ881u71z+40UObK4cZlf+p2hY8Y+tCnnQ9RnMcq8n7Ou5hUPUGN
-AZWqsV+LKVcJq5u7DKETKerC1Brv+NC3gFNfdLLWkNoXnJXEKSP1RieobCE7
-/ZMuFCUgpNZrhBvM/j7jsFxSpI1gNaAsp85rRYafZvXX8Gd0yNr7BmvXydiY
-bGr+KtKGehu0+tSOMTI8o2QntCN5nR/2OjM+r/HygE9XNPWv6Mg1c6P/5vN3
-WPvG8ziP0K2nXa3bdY0fbgVCLLtCO/wDUEsBAhcLFAAAAAgAJlFNWeM9HO5Y
-AgAArAgAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB0+cC2dQSwUG
-AAAAAAEAAQA+AAAAjgIAAAAA
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAD5lSVoOws5kPwMAAGANAAAHABEAc3RyLmRhdFVUDQAHe6Ko
+Z3uiqGd7oqhnpVdNbxMxEJ1rkPgPVnpJpSAggkKLOHAoAgnKoQUOCCnfISJJ
+o3y0BdT/znsz69i78WYT0Cqxs+N5M/NmxnaW8kM6MpeBOJliNpaZ/JGH8kBq
+mF3LUuV9zG7ltdRlJQtZY3VdXmWrJpD/gnwN2RVmxOLKCcahrh/LCCirjY7p
+9VV+CelvzBryVJ7gaWJ8Kccb9Fo20oc+vFlLN/OJdhrApMdztV6HtotwOHok
+QwmaLtJzm4j/PRpiD/B2CPkETw8YE3wW8LElz/E0C2Mc4wK6PWh34NNIbTU0
+hhBHHA81PC8eoZyfeSZjvKOMo1bEVOxHOQrjGsCzvlzg7VQroCmncpJAMrT7
+Et7z/sTcz5XdGXigxXrkWRlW8Oo99IbgO8Yb440D1jusXyKbHdgj8tuNlpOP
+0GElGi91+QLZEp+uZoE+HOcw90FNaRWjO9Jsj+Qs0jvKxcznHiiUsbZ24/WB
+RsSQnSKSn/tZNacei5ZDpZV1yArv5mI7xUyK3VFeWan69DXvUF+H1qevBCIF
+nNOod4rxhxk/MReMtau4xoHXtV7/lO0G9Jw+fM28f5R1hbcYeCirnQ+RnUMq
+0vOyD67PVRqhJo/xOOzHrKIVEO/wa4X1d8IdMjARNA6zatEE/J5KDT/dMdX4
+ab1ib4ReC5rbvba727YxL+QNcnVegmRjeEfsFN8xV3Yi0sZA96YuuHOQO/mM
+qnZygzl9oAZrwen5Qj3r/bh3/y9LZq9qR6tGTusVufxWkqHvSWb3zxFxQ5bS
+aDZu58nmfuZHy9kVdoji7sAedbozDTULd1kObzFfYb3l0d8KZiohCmeUE6+d
+y8llhNUW5nageV7rbSFY5E5EDJ597cJuQT2rkbw1000j8tZHxHw1egaqc573
+PFUBh2NU74TpCjhTvaqTsKY2tyuqDMukASXe4f2vcKaQR+Z9oVyPs+zTGqPg
+rc8y5C3zF/uOdoMGT9hzCbdu+7Z6JBZPUbNglWl5s1VTINwI6+Ra/L0ycOLX
+BmnqNrdUbxb4piXWUCPHa95GS3FahdM7b8mfzbtXneiaF/Jsx5qUNfLXT/jq
+sqf8tu7v3flbutfzGryp8ybCfwTX8jPLQLDlq+AvUEsBAhcLFAAAAAgAPmVJ
+Wg7CzmQ/AwAAYA0AAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB3ui
+qGdQSwUGAAAAAAEAAQA+AAAAdQMAAAAA
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;List Mode=Input Args;Require Mode=Input Args;Field Mode=Control Properties;Label Mode=Control Properties;"/>
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;List Mode=Input Args;Require Mode=Input Args;Field Mode=Control Properties;Label Mode=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;"/>
 						<Property name="_tagGroups" value="Input Args,Control Properties,Validation Properties"/>
 						<Property name="isActive" value=""/>
 					</Apply>
@@ -650,6 +743,8 @@ AAAAAAEAAQA+AAAAjgIAAAAA
 					<Tag name="Field Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Label Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 					<Tag name="List Mode" type="enumeration" description="" unit="" values="List,List depend config" default="List"/>
 					<Tag name="Require Mode" type="enumeration" description="Ogólny opis&#xA;&#xA;Tryb wymagalno&#x15B;ci.&#xA;&#xA;Optional&#xA;&#xA;Dok&#x142;adana jest opcja `Wybierz` okre&#x15B;laj&#x105;ca brak wyboru. Nie ma wymagalno&#x15B;ci wyboru pozycji z listy.&#xA;&#xA;Required&#xA;&#xA;Lista nie zawiera opcji `Wybierz`.  Wybrana jest pierwsza opcja z listy. &#xA;&#xA;Depend on the description&#xA;&#xA;Obs&#x142;uga wymagalno&#x15B;ci jest opisana opisem w polu. Wymgalno&#x15B;&#x107; mo&#x17C;e by&#x107; ustawiona w zale&#x17C;no&#x15B;ci od danych stanu interfejsu u&#x17C;ytkownika.&#xA;&#xA;Depend on the requirement&#xA;&#xA;Obs&#x142;uga wymagalno&#x15B;ci jest opisana opisem w wymaganiu dowi&#x105;zanym do modelu. Wymgalno&#x15B;&#x107; mo&#x17C;e by&#x107; ustawiona w zale&#x17C;no&#x15B;ci od danych stanu interfejsu u&#x17C;ytkownika." unit="" values="Optional,Required,Depending on the description,Depending on the requirement" default="Optional"/>
 				</TaggedValues>
@@ -836,26 +931,31 @@ s7OztbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5tra2
 s7OztbW1sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCw
 sLCwtbW1
 </Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEirTFkfncl0HgIAALQHAAAHABEAc3RyLmRhdFVUDQAHbOkK
-Z2zpCmds6QpnnVVda9tAEJzXFPIfhPLiQApNwCZO6WNLAknz4JI825HtGmRZ
-yHZDW/zfM3MfvpNs1XUQJ620u3Oze3OnJX5iiBJjJJjTmqHAX5zigxknfFtg
-aWIyWq/4ghQrVFgzI8VnF5XT/5v+NX0/aAlPkTmfExM/w5Qoq22OzcuMf0Dv
-H1odXOITrwt0eT/fop+4pzhkZLPGyHHSPB1iinVpZk+ZnWxxvLWLFfKTKDtx
-tSvuvTUJe8yvE/pzXi/EyDkqMr1iZV3yqj9jdhVzX5g9JKepmatjKtHwVYWa
-lOEr8gjtXSqdT/VOXaeuWrrUjqK6xmSW4Tu/zo0OLtBHbw+SRdtEdtz3Op+4
-96XpbsE+aMY0YtaGFVjdMW/Cfsd4M35JiHXL+CVXc8j5hPxtm5XggTnSo+1L
-iif6lhwjswricF7D/B/UfVnN6s7Mak9xE+Wd1WrWtSGKfNLWv/EyogkxrE4T
-ydveOtxTj6WZg9LadsiK30rY86JAc3e0K2ufPsNO7h2tT68EIQWcfrR34vrt
-28Yx1Yh7oVpHBtf2IJwj2uuP7jQQc3F4duw/ul3hZwx9aNPOfTTPcYr0nTmM
-3Mzc1VDQZMhqarJdkU2sAlY9uwje8s965o2pOt77fo18HzXUIZ2xFaT7Ga2C
-eeqT/ilVxE0x0obwQ6wUO8BXhL+Zvc/p/WVWd0E2142T18bkhq2P8RpTbIip
-4/SOwFFsiAmVvwFQSwECFwsUAAAACABIq0xZH53JdB4CAAC0BwAABwAJAAAA
-AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHbOkKZ1BLBQYAAAAAAQABAD4AAABU
-AgAAAAA=
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5kSVpMZ8lgAQMAAGAMAAAHABEAc3RyLmRhdFVUDQAHi6Go
+Z4uhqGeLoahnpVZNb9NAEJ1rkPgPK/eSSkVApFaliAMHEEhQDilwQEj5DpGS
+NEqcNoDy3/ve7G527azrBGQ5nnhm3nzPeiW/pCsLGYqRGaiJzOWvPJUnejfw
+71ZWKjMAdS9vJJNclrKGRiavndQU/N/gr8G7AUU8Sk7xHKn8RMZAyXc6Vm+g
+/Da4f0A15aW8wHUm5/g93aE33JM+DODNWnrOJ9ppApNeL9R6Bm2zw/HUPlbQ
+N5G2cbFT7l9jIvYQb0fgT3H1gTHFvYSnLUR2Dr+Kz9i7JXT70O7Cp7Haamok
+vH1UISZq+Ig8QnWWFo7HeMcuU62KLFWjMK4hPBvINd7OtA/O5JVcJJAs2jai
+47wX/Ylzv9DszpEHWswiz6qwglcfoTdCvmO8Cd4YYH2A/ArV7MIekd/vtIx8
+hg770eYlk2/grXD3tAr04bSAeQhqSqsc3YlWeyxXkd5JIWZeW6CQx956HG8A
+NCKG6pSRPO2p+px6LFoOnVY1ITneLcTui7mUp6O6s1L9GU9y6+gO9b1ArIB0
+ictPT5wB+2/rfI0zwUh7imkzELYIJ/2L2wX0m/a/O9+fuZnwsxqyUNU5nyI7
+x/Sjz8khuL5SaYSGPMdlsJPZQzkQN/iXQ34j3I8hE0HjOKs2moDfV67FT89L
+PX5arzwZYdKC5v6kPT5r+5jX8ha1eleBZJ/hHbFT+Y5zZU9F2hjqZuohdwZ8
+I1/R0UbuQNMHarAXjJ4u1LOTH0/u/1XJ2qvbZ/XIab1yLn9UVOhnMrOH14i4
+oUppNPvcr5OlPeWftmY32BDl7cAZNbqVRlqFjavhPegc8raO/ptgrhyikCKf
+eJ1CTdoRVkdY26HWea3fCsEiNxExePJ1StuCerZHitasbhqRX35ELHajz0B9
+zYuepzrgeIz6TZjugCvVqzsHG2pzv6OqsCw3oMQb3v8LZytv5pK1X2q+J64D
+GAu/f1kfb5cynDpaDbI8Xdvo4vDlbX9n4N5pB9zCx8vSV6KVmboaWhl/GlI2
+yBRxLo7AoWyQCZE/AFBLAQIXCxQAAAAIAL5kSVpMZ8lgAQMAAGAMAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeLoahnUEsFBgAAAAABAAEAPgAA
+ADcDAAAAAA==
 </Image>
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Required=Validation Properties;Method Description Location=Validation Properties;Method=Validation Properties;"/>
+						<Property name="_tagGroupings" value="Label=Input Args;Field=Input Args;Label Mode=Control Properties;Field Mode=Control Properties;Label Type=Control Properties;Label Suffix=Control Properties;Required=Validation Properties;Method Description Location=Validation Properties;Method=Validation Properties;"/>
 						<Property name="_tagGroups" value="Input Args,Control Properties,Validation Properties"/>
 						<Property name="isActive" value=""/>
 					</Apply>
@@ -865,6 +965,8 @@ AgAAAAA=
 					<Tag name="Field Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Hidden"/>
 					<Tag name="Label" type="" description="" unit="" values="" default="Label"/>
 					<Tag name="Label Mode" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Suffix" type="enumeration" description="" unit="" values="Hidden,Visible" default="Visible"/>
+					<Tag name="Label Type" type="enumeration" description="" unit="" values="Static Text,UI Field" default="Static Text"/>
 					<Tag name="Method" type="enumeration" description="" unit="" values="Length,RegExp,Other" default="Other"/>
 					<Tag name="Method Description Location" type="enumeration" description="" unit="" values="Element note,External note,Requirement,Other" default="Requirement"/>
 					<Tag name="Required" type="enumeration" description="" unit="" values="true,false" default="false"/>

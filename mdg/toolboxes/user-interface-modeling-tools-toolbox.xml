@@ -1,6 +1,6 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
 <UMLProfile profiletype="uml2">
-	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.6" notes="User Interface Modeling Tools"/>
+	<Documentation id="D6D7F9DB36" name="User Interface Modeling Tools" version="1.8" notes="User Interface Modeling Tools"/>
 	<Content>
 		<Stereotypes>
 			<Stereotype name="UI Items" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
@@ -15,9 +15,10 @@
 					<Tag name="User Interface Modeling Tools::UI Input(UML::Class)" type="" description="" unit="" values="" default="Input"/>
 					<Tag name="User Interface Modeling Tools::UI Input Date Picker(UML::Class)" type="" description="" unit="" values="" default="Input Date Picker"/>
 					<Tag name="User Interface Modeling Tools::UI Select(UML::Class)" type="" description="" unit="" values="" default="Select"/>
-					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 					<Tag name="User Interface Modeling Tools::UI Button(UML::Class)" type="" description="" unit="" values="" default="Button"/>
+					<Tag name="User Interface Modeling Tools::UI Textarea(UML::Class)" type="" description="" unit="" values="" default="Textarea"/>
 					<Tag name="User Interface Modeling Tools::UI Checkbox(UML::Class)" type="" description="" unit="" values="" default="Checkbox"/>
+					<Tag name="User Interface Modeling Tools::UI Labelled Data(UML::Class)" type="" description="" unit="" values="" default="Labelled Data"/>
 					<Tag name="User Interface Modeling Tools::UI Radio(UML::Class)" type="" description="" unit="" values="" default="Radio"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar Select Button(UML::Class)" type="" description="" unit="" values="" default="Navbar Button"/>
 					<Tag name="User Interface Modeling Tools::UI Navbar(UML::Class)" type="" description="" unit="" values="" default="Navbar"/>
