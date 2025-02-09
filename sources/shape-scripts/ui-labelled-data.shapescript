@@ -1,11 +1,8 @@
-shape main{
+shape main{	
 	noshadow="true";
 	layoutType="leftright";
 	
 	defSize(100,18);
-
-	setfillcolor(255,255,255);
-	rectangle(0,0,100,100);			
 
 	addsubshape("padding", 2, 100);
 	addsubshape("fieldName",96, 100);
@@ -19,8 +16,14 @@ shape main{
 			if (HasTag("Field")) {
 				print("[#tag:Field#]");
 			} else {
-				print("[#name#]");
+				print("[#NAME#]");
 			}
+		} else {
+			if (HasTag("Text")) {
+				print("#tag:Text#");
+			} else {
+				print("#NAME#");
+			}			
 		}
 	}
 	
@@ -29,34 +32,32 @@ shape main{
 		
 		addsubshape("padding", 100, 12);
 		addsubshape("fieldInfo",100, 88);		
-	}	
-}
+	}		
+}
 
 shape label {		
+
 	setOrigin("W", -6, 0);	
 
-	if (HasTag("Label Mode", "Visible")) {
-
-		if (HasTag("Label Type")) {
-
-			// Statix text label
-			if (HasTag("Label Type", "Static Text")) {
-				if (HasTag("Label")) {
-					print("#tag:Label#");
-				} else {
-					print("#NAME#");
-				}			
-			} 
-
-			// Label defined by a UI variable or data field
-			if (HasTag("Label Type", "UI Field")) {
-				if (HasTag("Label")) {
-					print("[#tag:Label#]");
-				} else {
-					print("[#NAME#]");
-				}			
-			} 
-		}
+	if (HasTag("Label Type")) {
+		
+		// Statix text label
+		if (HasTag("Label Type", "Static Text")) {
+			if (HasTag("Label")) {
+				print("#tag:Label#");
+			} else {
+				print("#NAME#");
+			}			
+		} 
+		
+		// Label defined by a UI variable or data field
+		if (HasTag("Label Type", "UI Field")) {
+			if (HasTag("Label")) {
+				print("[#tag:Label#]");
+			} else {
+				print("[#NAME#]");
+			}			
+		} 
 		
 		// The label is suffixed with a colon when the `Label Suffix` feature is set to `Visible` or when this feature is not defined
 		if (HasTag("Label Suffix")) {
@@ -67,8 +68,6 @@ shape label {
 		else {
 			print(": ");			
 		}	
-
-	}	
+	}
 }
-
-
+
