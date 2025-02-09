@@ -35,25 +35,48 @@ shape main{
 	shape fieldName {	
 		layoutType="topdown";
 
-		addsubshape("padding", 100, 6);
-		addsubshape("fieldInfo",100, 90);		
+		addsubshape("padding", 100, 12);
+		addsubshape("fieldInfo",100, 88);		
 	}
 	
 }
-
 
 shape label {		
 	setOrigin("W", -6, 0);	
 
 	if (HasTag("Label Mode", "Visible")) {
-	
-		if (HasTag("Label")) {
-			print("#tag:Label#");
-		} else {
-			print("#name#");
+
+		if (HasTag("Label Type")) {
+
+			// Statix text label
+			if (HasTag("Label Type", "Static Text")) {
+				if (HasTag("Label")) {
+					print("#tag:Label#");
+				} else {
+					print("#NAME#");
+				}			
+			} 
+
+			// Label defined by a UI variable or data field
+			if (HasTag("Label Type", "UI Field")) {
+				if (HasTag("Label")) {
+					print("[#tag:Label#]");
+				} else {
+					print("[#NAME#]");
+				}			
+			} 
 		}
 		
-		print(": ");
+		// The label is suffixed with a colon when the `Label Suffix` feature is set to `Visible` or when this feature is not defined
+		if (HasTag("Label Suffix")) {
+			if (HasTag("Label Suffix", "Visible")) {
+				print(": ");
+			}
+		}
+		else {
+			print(": ");			
+		}	
+
 	}	
 }
 
