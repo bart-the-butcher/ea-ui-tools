@@ -47,7 +47,7 @@ Przykłady rozszerzenia przedstawione zostały na poniższym rysunku:
 Reprezentowana jest przez stereotypy:
 
 * `UI Show`,
-* `UI Show In Modal`,
+* `UI Show As`,
 * `UI Show In Left Panel`,
 * `UI Navigate`.
 
@@ -63,9 +63,9 @@ Na poniższym schemacie pokazane zostały przykłady wykorzystania relacji:
 
 Powyższy przykład pokazuje wyświetlenie komponentu po kliknięciu w przycisk w pozycji przylegającej do przycisku pod nim.
 
-### UI Show In Modal
+### UI Show As
 
-`UI Show In Modal` reprezentuje formę wyświetlenia w której komponent docelowy pokazywany jest w tzw. modalu. Oznacza to wyświetlenie wskazanego grotem strzałki elementu w warstwie przykrywającej element źródłowy i zablokowanie możliwości korzystania z elementu źródłowego. Atrybut `Position` relacji wskazuje miejsce na ekranie widocznym przez użytkownika wyświetlania elementu. Podana w przykładzie wartość `Center` wycentrowanie zarówno w pionie, jak i w poziomie.
+`UI Show As` reprezentuje formę wyświetlenia w której komponent docelowy jest  pokazywany zależnie od ustawienia cech relacji. Oznacza to wyświetlenie wskazanego grotem strzałki elementu w warstwie przykrywającej element źródłowy, w formie określanej atrybutem `type` i miejscu wskazywanym atrybutem `position`.
 
 ### UI Navigate
 
